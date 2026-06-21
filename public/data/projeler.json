@@ -1,0 +1,3973 @@
+[
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23149 ",
+    "proje_adi": "Democratization at stake? Comparing Anti-Gender Politics in CEE and NME countries (Antigender-Politics)",
+    "arastirmaci": "Dr Gokten DOGANGUN ",
+    "universite": "Abdullah Gül Üni *(proje başladığında ODTÜ)",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T6",
+      "T14"
+    ],
+    "region_codes": [
+      "R4",
+      "R5",
+      "R8",
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22162 ",
+    "proje_adi": "FutureMed: A TRANSDISCIPLINARY NETWORK TO BRIDGE CLIMATE SCIENCE AND IMPACTS ON SOCIETY (FutureMed)",
+    "arastirmaci": "Dr Şuay Nilhan AÇIKALIN ",
+    "universite": "Ankara Hacı Bayram Veli Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T4"
+    ],
+    "region_codes": [
+      "R5",
+      "R8",
+      "R9",
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20112",
+    "proje_adi": "PlatfoRm OF policy Evaluation community for improvED EU policies and Better ACKnowledgement (PROFEEDBACK)",
+    "arastirmaci": "Prof Husna TAS YETIM ",
+    "universite": "Ankara MedipoL Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T14",
+      "T17"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20123 ",
+    "proje_adi": "Intergovernmental Coordination from Local to European Governance (IGCOORD)",
+    "arastirmaci": "Prof Husna TAS YETIM ",
+    "universite": "Ankara Medipol Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T12",
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20134 ",
+    "proje_adi": "Traces as Research Agenda for Climate Change, Technology Studies, and Social Justice (TRACTS)",
+    "arastirmaci": "Dr Seher BULUT ",
+    "universite": "Ankara Medipol Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T4",
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20134 ",
+    "proje_adi": "Traces as Research Agenda for Climate Change, Technology Studies, and Social Justice (TRACTS)",
+    "arastirmaci": "Prof Husna TAS YETIM ",
+    "universite": "Ankara Medipol Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T4",
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20137",
+    "proje_adi": "Making Young Researchers' Voices Heard for Gender Equality (VOICES)",
+    "arastirmaci": "Dr Seher BULUT ",
+    "universite": "Ankara Medipol Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T6"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20137",
+    "proje_adi": "Making Young Researchers' Voices Heard for Gender Equality (VOICES)",
+    "arastirmaci": "Prof Husna TAS YETIM ",
+    "universite": "Ankara Medipol Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T6"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21133",
+    "proje_adi": "Globalization, Illicit Trade, Sustainability and Security (GLITSS)",
+    "arastirmaci": "Dr Seher BULUT ",
+    "universite": "Ankara Medipol Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T3",
+      "T12",
+      "T15"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22106 ",
+    "proje_adi": "Migrant Disaster Victim Identification (MDVI)",
+    "arastirmaci": "Prof Husna TAS YETIM ",
+    "universite": "Ankara Medipol Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T5"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22135 ",
+    "proje_adi": "Data Matters: Sociotechnical Challenges of European Migration and Border Control (DATAMIG)",
+    "arastirmaci": "Dr Erdem AYÇIÇEK ",
+    "universite": "Ankara Medipol Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T5"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23102",
+    "proje_adi": "Linking euroscepticism and populism: causes and consequences (EUPopLink)",
+    "arastirmaci": "Prof Husna TAS YETIM ",
+    "universite": "Ankara Medipol Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23129",
+    "proje_adi": "Peace Research Community Europe (PEACE)",
+    "arastirmaci": "Dr Seher BULUT ",
+    "universite": "Ankara Medipol Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T3",
+      "T7"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23129",
+    "proje_adi": "Peace Research Community Europe (PEACE)",
+    "arastirmaci": "Prof Husna TAS YETIM ",
+    "universite": "Ankara Medipol Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T3",
+      "T7"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23118 ",
+    "proje_adi": "Futures-oriented Governance of Outer Space: Towards Peace, Equity, and Environmental Integrity (FOGOS)",
+    "arastirmaci": "Dr Başaran AYAR ",
+    "universite": "Ankara Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T3",
+      "T4",
+      "T9"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23144 ",
+    "proje_adi": "Europe's Representations of India: Texts, Images, and Encounters (ESIND)",
+    "arastirmaci": "Dr Başaran AYAR ",
+    "universite": "Ankara Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": [
+      "R6",
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20107",
+    "proje_adi": "Connecting Theory and Practical Issues of Migration and Religious Diversity (COREnet)",
+    "arastirmaci": "Dr Asiye ŞIMŞEK ADEMI ",
+    "universite": "Atatürk Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21120",
+    "proje_adi": "History of Identity Documentation in European Nations: Citizenship, Nationality and Migration (HIDDEN)",
+    "arastirmaci": "Dr Damla AKSEL ",
+    "universite": "Bahçeşehir Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22121 ",
+    "proje_adi": "Rising nationalisms, shifting geopolitics and the future of European higher education/research openness (OPEN)",
+    "arastirmaci": "Dr Rahime SÜLEYMANOĞLU KÜRÜM ",
+    "universite": "Bahçeşehir Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T13",
+      "T17"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22149",
+    "proje_adi": "Research Network for Interdisciplinary Studies of Transhistorical Deliberative Democracy (CHANGECODE)",
+    "arastirmaci": "Dr Rahime SÜLEYMANOĞLU KÜRÜM ",
+    "universite": "Bahçeşehir Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22149",
+    "proje_adi": "Research Network for Interdisciplinary Studies of Transhistorical Deliberative Democracy (CHANGECODE)",
+    "arastirmaci": "Prof Ebru CANAN SOKULLU ",
+    "universite": "Bahçeşehir Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23129",
+    "proje_adi": "Peace Research Community Europe (PEACE)",
+    "arastirmaci": "Dr Pinar SAYAN ",
+    "universite": "Beykoz Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T3",
+      "T7"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20105 ",
+    "proje_adi": "Slow Memory: Transformative Practices for Times of Uneven and Accelerating Change (SlowMemo)",
+    "arastirmaci": "Dr Asli ILGIT ",
+    "universite": "Çukurova Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22106",
+    "proje_adi": "Migrant Disaster Victim Identification (MDVI)",
+    "arastirmaci": "Prof HARUN ARIKAN ",
+    "universite": "Çukurova Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22165 ",
+    "proje_adi": "Redressing Radical Polarisation: Strengthening European Civil Spheres facing Illiberal Digital Media (DepolarisingEU)",
+    "arastirmaci": "Dr Yüksel Alper ECEVIT ",
+    "universite": "Çukurova Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T11",
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20107",
+    "proje_adi": "Connecting Theory and Practical Issues of Migration and Religious Diversity (COREnet)",
+    "arastirmaci": "Dr Sinem ABKA ",
+    "universite": "Dokuz Eylül Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20107",
+    "proje_adi": "Connecting Theory and Practical Issues of Migration and Religious Diversity (COREnet)",
+    "arastirmaci": "Dr Zühal ÜNALP ÇEPEL ",
+    "universite": "Dokuz Eylül Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20107",
+    "proje_adi": "Connecting Theory and Practical Issues of Migration and Religious Diversity (COREnet)",
+    "arastirmaci": "Prof Gül KURTOGLU ESKİSAR ",
+    "universite": "Dokuz Eylül Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20112",
+    "proje_adi": "PlatfoRm OF policy Evaluation community for improvED EU policies and Better ACKnowledgement (PROFEEDBACK)",
+    "arastirmaci": "Dr Zühal ÜNALP ÇEPEL ",
+    "universite": "Dokuz Eylül Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14",
+      "T17"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20137 ",
+    "proje_adi": "Making Young Researchers' Voices Heard for Gender Equality (VOICES)",
+    "arastirmaci": "Prof Gül KURTOGLU ESKİSAR ",
+    "universite": "Dokuz Eylül Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T6"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23102",
+    "proje_adi": "Linking euroscepticism and populism: causes and consequences (EUPopLink)",
+    "arastirmaci": "Dr Zühal ÜNALP ÇEPEL ",
+    "universite": "Dokuz Eylül Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23102 ",
+    "proje_adi": "Linking euroscepticism and populism: causes and consequences (EUPopLink)",
+    "arastirmaci": "Dr Sinem ABKA ",
+    "universite": "Dokuz Eylül Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23129",
+    "proje_adi": "Peace Research Community Europe (PEACE)",
+    "arastirmaci": "Dr Sinem ABKA ",
+    "universite": "Dokuz Eylül Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T3",
+      "T7"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23149 ",
+    "proje_adi": "Democratization at stake? Comparing Anti-Gender Politics in CEE and NME countries (Antigender-Politics)",
+    "arastirmaci": "Dr İrem ASKAR-KARAKIR ",
+    "universite": "Dokuz Eylül Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T6",
+      "T14"
+    ],
+    "region_codes": [
+      "R4",
+      "R5",
+      "R8",
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21120",
+    "proje_adi": "History of Identity Documentation in European Nations: Citizenship, Nationality and Migration (HIDDEN)",
+    "arastirmaci": "Prof Zafer AKBAŞ ",
+    "universite": "Düzce Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21133",
+    "proje_adi": "Globalization, Illicit Trade, Sustainability and Security (GLITSS)",
+    "arastirmaci": "Prof Zafer AKBAŞ ",
+    "universite": "Düzce Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T3",
+      "T12",
+      "T15"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20107",
+    "proje_adi": "Connecting Theory and Practical Issues of Migration and Religious Diversity (COREnet)",
+    "arastirmaci": "Prof Rabia KARAKAYA POLAT ",
+    "universite": "Işık Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22135",
+    "proje_adi": "Data Matters: Sociotechnical Challenges of European Migration and Border Control (DATAMIG)",
+    "arastirmaci": "Prof Rabia KARAKAYA POLAT ",
+    "universite": "Işık Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T5"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23129 ",
+    "proje_adi": "Peace Research Community Europe (PEACE)",
+    "arastirmaci": "Dr Sumeyye KAYA UYAR ",
+    "universite": "İbn Haldun Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T3",
+      "T7"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20107",
+    "proje_adi": "Connecting Theory and Practical Issues of Migration and Religious Diversity (COREnet)",
+    "arastirmaci": "Dr Filiz KATMAN ",
+    "universite": "İstanbul Aydın Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21133",
+    "proje_adi": "Globalization, Illicit Trade, Sustainability and Security (GLITSS)",
+    "arastirmaci": "Dr MEHMET CEM OĞULTÜRK ",
+    "universite": "İstanbul Aydın Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T3",
+      "T12",
+      "T15"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20107",
+    "proje_adi": "Connecting Theory and Practical Issues of Migration and Religious Diversity (COREnet)",
+    "arastirmaci": "Dr Gulay Ugur GOKSEL ",
+    "universite": "İstanbul Bilgi Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22121 ",
+    "proje_adi": "Rising nationalisms, shifting geopolitics and the future of European higher education/research openness (OPEN)",
+    "arastirmaci": "Dr Özge ONURSAL-BEŞGÜL",
+    "universite": "İstanbul Bilgi Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T13",
+      "T17"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22165 ",
+    "proje_adi": "Redressing Radical Polarisation: Strengthening European Civil Spheres facing Illiberal Digital Media (DepolarisingEU)",
+    "arastirmaci": "Dr Gulay Ugur GOKSEL ",
+    "universite": "İstanbul Bilgi Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T11",
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22165 ",
+    "proje_adi": "Redressing Radical Polarisation: Strengthening European Civil Spheres facing Illiberal Digital Media (DepolarisingEU)",
+    "arastirmaci": "Prof Emre ERDOĞAN ",
+    "universite": "İstanbul Bilgi Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T11",
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23118 ",
+    "proje_adi": "Futures-oriented Governance of Outer Space: Towards Peace, Equity, and Environmental Integrity (FOGOS)",
+    "arastirmaci": "Dr Dikran M. ZENGINKUZUCU ",
+    "universite": "İstanbul Esenyurt Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T3",
+      "T4",
+      "T9"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22121 ",
+    "proje_adi": "Rising nationalisms, shifting geopolitics and the future of European higher education/research openness (OPEN)",
+    "arastirmaci": "Dr Elif GENÇKAL EROLER ",
+    "universite": "İstanbul Topkapı Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T13",
+      "T17"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21120",
+    "proje_adi": "History of Identity Documentation in European Nations: Citizenship, Nationality and Migration (HIDDEN)",
+    "arastirmaci": "Prof Ayselin YILDIZ ",
+    "universite": "İstinye Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23129",
+    "proje_adi": "Peace Research Community Europe (PEACE)",
+    "arastirmaci": "Prof Ayselin YILDIZ ",
+    "universite": "İstinye Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T3",
+      "T7"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20112",
+    "proje_adi": "PlatfoRm OF policy Evaluation community for improvED EU policies and Better ACKnowledgement (PROFEEDBACK)",
+    "arastirmaci": "Prof Sedef EYLEMER ",
+    "universite": "İzmir Katip Çelebi Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14",
+      "T17"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20115 ",
+    "proje_adi": "European Network on International Student Mobility: Connecting Research and Practice (ENIS)",
+    "arastirmaci": "Prof Sedef EYLEMER ",
+    "universite": "İzmir Katip Çelebi Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20123",
+    "proje_adi": "Intergovernmental Coordination from Local to European Governance (IGCOORD)",
+    "arastirmaci": "Prof Sedef EYLEMER ",
+    "universite": "İzmir Katip Çelebi Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T12",
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21133",
+    "proje_adi": "Globalization, Illicit Trade, Sustainability and Security (GLITSS)",
+    "arastirmaci": "Prof Sedef EYLEMER ",
+    "universite": "İzmir Katip Çelebi Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T3",
+      "T12",
+      "T15"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21143",
+    "proje_adi": "Transnational Family Dynamics in Europe (TraFaDy)",
+    "arastirmaci": "Dr Gizem KOLBASI MUYAN ",
+    "universite": "İzmir Katip Çelebi Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T9"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23102",
+    "proje_adi": "Linking euroscepticism and populism: causes and consequences (EUPopLink)",
+    "arastirmaci": "Prof Sedef EYLEMER ",
+    "universite": "İzmir Katip Çelebi Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23129",
+    "proje_adi": "Peace Research Community Europe (PEACE)",
+    "arastirmaci": "Dr Tugce ERSOY-CEYLAN ",
+    "universite": "İzmir Katip Çelebi Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T3",
+      "T7"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23129 ",
+    "proje_adi": "Peace Research Community Europe (PEACE)",
+    "arastirmaci": "Prof Sedef EYLEMER ",
+    "universite": "İzmir Katip Çelebi Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T3",
+      "T7"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23149 ",
+    "proje_adi": "Democratization at stake? Comparing Anti-Gender Politics in CEE and NME countries (Antigender-Politics)",
+    "arastirmaci": "Dr Tugce ERSOY-CEYLAN ",
+    "universite": "İzmir Katip Çelebi Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T6",
+      "T14"
+    ],
+    "region_codes": [
+      "R4",
+      "R5",
+      "R8",
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22135",
+    "proje_adi": "Data Matters: Sociotechnical Challenges of European Migration and Border Control (DATAMIG)",
+    "arastirmaci": "Dr Sibel KARADAG ",
+    "universite": "Kadir Has Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T5"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20107 ",
+    "proje_adi": "Connecting Theory and Practical Issues of Migration and Religious Diversity (COREnet)",
+    "arastirmaci": "Dr Fatmanur KAÇAR AŞCI ",
+    "universite": "Kahramanmaraş Sütçü İmam Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21120",
+    "proje_adi": "History of Identity Documentation in European Nations: Citizenship, Nationality and Migration (HIDDEN)",
+    "arastirmaci": "Dr Ferhat Cagri ARAS ",
+    "universite": "Karadeniz Teknik Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21133",
+    "proje_adi": "Globalization, Illicit Trade, Sustainability and Security (GLITSS)",
+    "arastirmaci": "Dr Ferhat Cagri ARAS ",
+    "universite": "Karadeniz Teknik Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T3",
+      "T12",
+      "T15"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22135",
+    "proje_adi": "Data Matters: Sociotechnical Challenges of European Migration and Border Control (DATAMIG)",
+    "arastirmaci": "Prof Ozgur TUFEKCI ",
+    "universite": "Karadeniz Teknik Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22149 ",
+    "proje_adi": "Research Network for Interdisciplinary Studies of Transhistorical Deliberative Democracy (CHANGECODE)",
+    "arastirmaci": "Prof Ozgur TUFEKCI ",
+    "universite": "Karadeniz Teknik Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22156 ",
+    "proje_adi": "Transformations international Experience and Research network for Sustainable futures (TransformERS)",
+    "arastirmaci": "Dr Göktuğ KIPRIZLI ",
+    "universite": "Karadeniz Teknik Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T4"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23102 ",
+    "proje_adi": "Linking euroscepticism and populism: causes and consequences (EUPopLink)",
+    "arastirmaci": "Dr Yusuf Vara ABUBAKAR ",
+    "universite": "Kastamonu Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21120",
+    "proje_adi": "History of Identity Documentation in European Nations: Citizenship, Nationality and Migration (HIDDEN)",
+    "arastirmaci": "Dr Neriman HOCAOĞLU BAHADIR ",
+    "universite": "Kırklareli Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21143",
+    "proje_adi": "Transnational Family Dynamics in Europe (TraFaDy)",
+    "arastirmaci": "Dr Neriman HOCAOĞLU BAHADIR ",
+    "universite": "Kırklareli Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T9"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21166 ",
+    "proje_adi": "Social Sciences and Humanities for Transformation and Climate Resilience (SHiFT)",
+    "arastirmaci": "Dr Neriman HOCAOĞLU BAHADIR ",
+    "universite": "Kırklareli Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T4"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22106",
+    "proje_adi": "Migrant Disaster Victim Identification (MDVI)",
+    "arastirmaci": "Dr Neriman HOCAOĞLU BAHADIR ",
+    "universite": "Kırklareli Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22135",
+    "proje_adi": "Data Matters: Sociotechnical Challenges of European Migration and Border Control (DATAMIG)",
+    "arastirmaci": "Dr Neriman HOCAOĞLU BAHADIR ",
+    "universite": "Kırklareli Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22162 ",
+    "proje_adi": "FutureMed: A TRANSDISCIPLINARY NETWORK TO BRIDGE CLIMATE SCIENCE AND IMPACTS ON SOCIETY (FutureMed)",
+    "arastirmaci": "Dr Neriman HOCAOĞLU BAHADIR ",
+    "universite": "Kırklareli Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T4"
+    ],
+    "region_codes": [
+      "R5",
+      "R8",
+      "R9",
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23103",
+    "proje_adi": "Life, liberty and health: ensuring universal protection of human rights at sea (BlueRights)",
+    "arastirmaci": "Dr Betul GULTEKIN ALBAYRAK",
+    "universite": "Kırklareli Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T9"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20105 ",
+    "proje_adi": "Slow Memory: Transformative Practices for Times of Uneven and Accelerating Change (SlowMemo)",
+    "arastirmaci": "Dr Faika CELIK ",
+    "universite": "Manisa Celal Bayar Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20112",
+    "proje_adi": "PlatfoRm OF policy Evaluation community for improvED EU policies and Better ACKnowledgement (PROFEEDBACK)",
+    "arastirmaci": "Dr Sühal ŞEMŞIT ",
+    "universite": "Manisa Celal Bayar Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14",
+      "T17"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20115",
+    "proje_adi": "European Network on International Student Mobility: Connecting Research and Practice (ENIS)",
+    "arastirmaci": "Dr Sühal ŞEMŞIT ",
+    "universite": "Manisa Celal Bayar Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20123",
+    "proje_adi": "Intergovernmental Coordination from Local to European Governance (IGCOORD)",
+    "arastirmaci": "Dr Sühal ŞEMŞIT ",
+    "universite": "Manisa Celal Bayar Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T12",
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20137 ",
+    "proje_adi": "Making Young Researchers' Voices Heard for Gender Equality (VOICES)",
+    "arastirmaci": "Dr Faika CELIK ",
+    "universite": "Manisa Celal Bayar Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T6"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21120",
+    "proje_adi": "History of Identity Documentation in European Nations: Citizenship, Nationality and Migration (HIDDEN)",
+    "arastirmaci": "Dr Sühal ŞEMŞIT ",
+    "universite": "Manisa Celal Bayar Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21133",
+    "proje_adi": "Globalization, Illicit Trade, Sustainability and Security (GLITSS)",
+    "arastirmaci": "Dr Sühal ŞEMŞIT ",
+    "universite": "Manisa Celal Bayar Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T3",
+      "T12",
+      "T15"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21166 ",
+    "proje_adi": "Social Sciences and Humanities for Transformation and Climate Resilience (SHiFT)",
+    "arastirmaci": "Dr Sühal ŞEMŞIT ",
+    "universite": "Manisa Celal Bayar Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T4"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22106",
+    "proje_adi": "Migrant Disaster Victim Identification (MDVI)",
+    "arastirmaci": "Dr Sühal ŞEMŞIT ",
+    "universite": "Manisa Celal Bayar Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22135",
+    "proje_adi": "Data Matters: Sociotechnical Challenges of European Migration and Border Control (DATAMIG)",
+    "arastirmaci": "Dr Sühal ŞEMŞIT ",
+    "universite": "Manisa Celal Bayar Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22156 ",
+    "proje_adi": "Transformations international Experience and Research network for Sustainable futures (TransformERS)",
+    "arastirmaci": "Dr Sühal ŞEMŞIT ",
+    "universite": "Manisa Celal Bayar Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T4"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22162 ",
+    "proje_adi": "FutureMed: A TRANSDISCIPLINARY NETWORK TO BRIDGE CLIMATE SCIENCE AND IMPACTS ON SOCIETY (FutureMed)",
+    "arastirmaci": "Dr Sühal ŞEMŞIT ",
+    "universite": "Manisa Celal Bayar Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T4"
+    ],
+    "region_codes": [
+      "R5",
+      "R8",
+      "R9",
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23102",
+    "proje_adi": "Linking euroscepticism and populism: causes and consequences (EUPopLink)",
+    "arastirmaci": "Dr Sühal ŞEMŞIT ",
+    "universite": "Manisa Celal Bayar Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23129 ",
+    "proje_adi": "Peace Research Community Europe (PEACE)",
+    "arastirmaci": "Dr Sühal ŞEMŞIT ",
+    "universite": "Manisa Celal Bayar Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T3",
+      "T7"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23129",
+    "proje_adi": "Peace Research Community Europe (PEACE)",
+    "arastirmaci": "Dr Hakan MEHMETCIK ",
+    "universite": "Marmara Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T3",
+      "T7"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23144 ",
+    "proje_adi": "Europe's Representations of India: Texts, Images, and Encounters (ESIND)",
+    "arastirmaci": "Dr Samarjit GHOSH ",
+    "universite": "Özyeğin Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": [
+      "R6",
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20115 ",
+    "proje_adi": "European Network on International Student Mobility: Connecting Research and Practice (ENIS)",
+    "arastirmaci": "Dr Yasemin TUTAR ",
+    "universite": "Recep Tayyip Erdoğan Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22149",
+    "proje_adi": "Research Network for Interdisciplinary Studies of Transhistorical Deliberative Democracy (CHANGECODE)",
+    "arastirmaci": "Dr Zeynep Gulru GOKER ",
+    "universite": "Sabancı Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20105 ",
+    "proje_adi": "Slow Memory: Transformative Practices for Times of Uneven and Accelerating Change (SlowMemo)",
+    "arastirmaci": "Dr Ahmet ÜÇAĞAÇ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20107",
+    "proje_adi": "Connecting Theory and Practical Issues of Migration and Religious Diversity (COREnet)",
+    "arastirmaci": "Prof Tuncay KARDAŞ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20107 ",
+    "proje_adi": "Connecting Theory and Practical Issues of Migration and Religious Diversity (COREnet)",
+    "arastirmaci": "Dr Berkan ÖZGÜR ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20107 ",
+    "proje_adi": "Connecting Theory and Practical Issues of Migration and Religious Diversity (COREnet)",
+    "arastirmaci": "Dr I. Aytac KADIOGLU ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20112",
+    "proje_adi": "PlatfoRm OF policy Evaluation community for improvED EU policies and Better ACKnowledgement (PROFEEDBACK)",
+    "arastirmaci": "Prof Tuncay KARDAŞ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14",
+      "T17"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20112 ",
+    "proje_adi": "PlatfoRm OF policy Evaluation community for improvED EU policies and Better ACKnowledgement (PROFEEDBACK)",
+    "arastirmaci": "Dr Ahmet ÜÇAĞAÇ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14",
+      "T17"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20112 ",
+    "proje_adi": "PlatfoRm OF policy Evaluation community for improvED EU policies and Better ACKnowledgement (PROFEEDBACK)",
+    "arastirmaci": "Dr I. Aytac KADIOGLU ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14",
+      "T17"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20115",
+    "proje_adi": "European Network on International Student Mobility: Connecting Research and Practice (ENIS)",
+    "arastirmaci": "Dr Ahmet ÜÇAĞAÇ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20115",
+    "proje_adi": "European Network on International Student Mobility: Connecting Research and Practice (ENIS)",
+    "arastirmaci": "Dr Berkan ÖZGÜR ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20115",
+    "proje_adi": "European Network on International Student Mobility: Connecting Research and Practice (ENIS)",
+    "arastirmaci": "Dr I. Aytac KADIOGLU ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20123",
+    "proje_adi": "Intergovernmental Coordination from Local to European Governance (IGCOORD)",
+    "arastirmaci": "Dr Ahmet ÜÇAĞAÇ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T12",
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20123",
+    "proje_adi": "Intergovernmental Coordination from Local to European Governance (IGCOORD)",
+    "arastirmaci": "Dr I. Aytac KADIOGLU ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T12",
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20123",
+    "proje_adi": "Intergovernmental Coordination from Local to European Governance (IGCOORD)",
+    "arastirmaci": "Prof Tuncay KARDAŞ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T12",
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20123 ",
+    "proje_adi": "Intergovernmental Coordination from Local to European Governance (IGCOORD)",
+    "arastirmaci": "Dr Berkan ÖZGÜR ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T12",
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20134 ",
+    "proje_adi": "Traces as Research Agenda for Climate Change, Technology Studies, and Social Justice (TRACTS)",
+    "arastirmaci": "Dr Berkan ÖZGÜR ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T4",
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20134 ",
+    "proje_adi": "Traces as Research Agenda for Climate Change, Technology Studies, and Social Justice (TRACTS)",
+    "arastirmaci": "Dr I. Aytac KADIOGLU ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T4",
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20134 ",
+    "proje_adi": "Traces as Research Agenda for Climate Change, Technology Studies, and Social Justice (TRACTS)",
+    "arastirmaci": "Prof Tuncay KARDAŞ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T4",
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20137",
+    "proje_adi": "Making Young Researchers' Voices Heard for Gender Equality (VOICES)",
+    "arastirmaci": "Dr Berkan ÖZGÜR ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T6"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20137",
+    "proje_adi": "Making Young Researchers' Voices Heard for Gender Equality (VOICES)",
+    "arastirmaci": "Dr Mustafa CANER ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T6"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21103 ",
+    "proje_adi": "Implementation of Circular Economy in the Built Environment (CircularB)",
+    "arastirmaci": "Dr Berkan ÖZGÜR ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T12"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21133",
+    "proje_adi": "Globalization, Illicit Trade, Sustainability and Security (GLITSS)",
+    "arastirmaci": "Dr I. Aytac KADIOGLU ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T3",
+      "T12",
+      "T15"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21143",
+    "proje_adi": "Transnational Family Dynamics in Europe (TraFaDy)",
+    "arastirmaci": "Dr Ahmet ÜÇAĞAÇ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T9"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21143",
+    "proje_adi": "Transnational Family Dynamics in Europe (TraFaDy)",
+    "arastirmaci": "Dr Berkan ÖZGÜR ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T9"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21143",
+    "proje_adi": "Transnational Family Dynamics in Europe (TraFaDy)",
+    "arastirmaci": "Dr I. Aytac KADIOGLU ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T9"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22106",
+    "proje_adi": "Migrant Disaster Victim Identification (MDVI)",
+    "arastirmaci": "Dr Berkan ÖZGÜR ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22106",
+    "proje_adi": "Migrant Disaster Victim Identification (MDVI)",
+    "arastirmaci": "Dr I. Aytac KADIOGLU ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22106 ",
+    "proje_adi": "Migrant Disaster Victim Identification (MDVI)",
+    "arastirmaci": "Prof Tuncay KARDAŞ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22135",
+    "proje_adi": "Data Matters: Sociotechnical Challenges of European Migration and Border Control (DATAMIG)",
+    "arastirmaci": "Dr Berkan ÖZGÜR ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22135 ",
+    "proje_adi": "Data Matters: Sociotechnical Challenges of European Migration and Border Control (DATAMIG)",
+    "arastirmaci": "Dr I. Aytac KADIOGLU ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22149",
+    "proje_adi": "Research Network for Interdisciplinary Studies of Transhistorical Deliberative Democracy (CHANGECODE)",
+    "arastirmaci": "Prof Tuncay KARDAŞ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22149 ",
+    "proje_adi": "Research Network for Interdisciplinary Studies of Transhistorical Deliberative Democracy (CHANGECODE)",
+    "arastirmaci": "Dr Ahmet ÜÇAĞAÇ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22156 ",
+    "proje_adi": "Transformations international Experience and Research network for Sustainable futures (TransformERS)",
+    "arastirmaci": "Dr Berkan ÖZGÜR ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T4"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22162 ",
+    "proje_adi": "FutureMed: A TRANSDISCIPLINARY NETWORK TO BRIDGE CLIMATE SCIENCE AND IMPACTS ON SOCIETY (FutureMed)",
+    "arastirmaci": "Dr Berkan ÖZGÜR ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T4"
+    ],
+    "region_codes": [
+      "R5",
+      "R8",
+      "R9",
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22162 ",
+    "proje_adi": "FutureMed: A TRANSDISCIPLINARY NETWORK TO BRIDGE CLIMATE SCIENCE AND IMPACTS ON SOCIETY (FutureMed)",
+    "arastirmaci": "Dr Rumeysa KOKTAS ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T4"
+    ],
+    "region_codes": [
+      "R5",
+      "R8",
+      "R9",
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23102",
+    "proje_adi": "Linking euroscepticism and populism: causes and consequences (EUPopLink)",
+    "arastirmaci": "Dr I. Aytac KADIOGLU ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23114 ",
+    "proje_adi": "Regaining linkage? Digital technologies improving civic engagement, political organisations and democracy (RELINK²)",
+    "arastirmaci": "Dr Ahmet ÜÇAĞAÇ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T11",
+      "T14"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23118 ",
+    "proje_adi": "Futures-oriented Governance of Outer Space: Towards Peace, Equity, and Environmental Integrity (FOGOS)",
+    "arastirmaci": "Dr Ahmet ÜÇAĞAÇ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T3",
+      "T4",
+      "T9"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23118 ",
+    "proje_adi": "Futures-oriented Governance of Outer Space: Towards Peace, Equity, and Environmental Integrity (FOGOS)",
+    "arastirmaci": "Prof Tuncay KARDAŞ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T3",
+      "T4",
+      "T9"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23129",
+    "proje_adi": "Peace Research Community Europe (PEACE)",
+    "arastirmaci": "Dr Ahmet ÜÇAĞAÇ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T3",
+      "T7"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23129",
+    "proje_adi": "Peace Research Community Europe (PEACE)",
+    "arastirmaci": "Dr Berkan ÖZGÜR ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T3",
+      "T7"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23129",
+    "proje_adi": "Peace Research Community Europe (PEACE)",
+    "arastirmaci": "Prof Tuncay KARDAŞ ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T3",
+      "T7"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23149 ",
+    "proje_adi": "Democratization at stake? Comparing Anti-Gender Politics in CEE and NME countries (Antigender-Politics)",
+    "arastirmaci": "Dr Berkan ÖZGÜR ",
+    "universite": "Sakarya Üni",
+    "bolum": "Ortadoğu Enstitüsü ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T6",
+      "T14"
+    ],
+    "region_codes": [
+      "R4",
+      "R5",
+      "R8",
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20131 ",
+    "proje_adi": "Efficient Justice for All: Improving Court Efficiency through EU Benchmarking (EfficientJustice)",
+    "arastirmaci": "Prof Zerrin SAVAŞAN ",
+    "universite": "Selçuk Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21166 ",
+    "proje_adi": "Social Sciences and Humanities for Transformation and Climate Resilience (SHiFT)",
+    "arastirmaci": "Prof Zerrin SAVAŞAN ",
+    "universite": "Selçuk Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T4"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22156 ",
+    "proje_adi": "Transformations international Experience and Research network for Sustainable futures (TransformERS)",
+    "arastirmaci": "Prof Zerrin SAVAŞAN ",
+    "universite": "Selçuk Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T4"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23114 ",
+    "proje_adi": "Regaining linkage? Digital technologies improving civic engagement, political organisations and democracy (RELINK²)",
+    "arastirmaci": "Prof Zerrin SAVAŞAN ",
+    "universite": "Selçuk Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T11",
+      "T14"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20107",
+    "proje_adi": "Connecting Theory and Practical Issues of Migration and Religious Diversity (COREnet)",
+    "arastirmaci": "Dr Pinar CAGLAYAN ",
+    "universite": "Uşak Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23149 ",
+    "proje_adi": "Democratization at stake? Comparing Anti-Gender Politics in CEE and NME countries (Antigender-Politics)",
+    "arastirmaci": "Dr Emine Sezin DOST ",
+    "universite": "Yalova Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T6",
+      "T14"
+    ],
+    "region_codes": [
+      "R4",
+      "R5",
+      "R8",
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22122 ",
+    "proje_adi": "Rethinking the Blue Economy: Socio-Ecological Impacts and Opportunities (RethinkBlue)",
+    "arastirmaci": "Prof EMRE ISERI ",
+    "universite": "Yaşar Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T4",
+      "T9",
+      "T12"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22151 ",
+    "proje_adi": "Cyber-Physical systems and digital twins for the decarbonisation of energy-intensive industries (CYPHER)",
+    "arastirmaci": "Prof EMRE ISERI ",
+    "universite": "Yaşar Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T4",
+      "T11"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23129",
+    "proje_adi": "Peace Research Community Europe (PEACE)",
+    "arastirmaci": "Dr Dilaver Arikan ACAR ",
+    "universite": "Yaşar Üni",
+    "bolum": "Uİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T3",
+      "T7"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA20107",
+    "proje_adi": "Connecting Theory and Practical Issues of Migration and Religious Diversity (COREnet)",
+    "arastirmaci": "Prof Cengiz ERISEN ",
+    "universite": "Yeditepe Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T5",
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21120",
+    "proje_adi": "History of Identity Documentation in European Nations: Citizenship, Nationality and Migration (HIDDEN)",
+    "arastirmaci": "Dr Ilkim Duriye OKYAR ",
+    "universite": "Yeditepe Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21120",
+    "proje_adi": "History of Identity Documentation in European Nations: Citizenship, Nationality and Migration (HIDDEN)",
+    "arastirmaci": "Dr Selin TURKES KILIC ",
+    "universite": "Yeditepe Üni",
+    "bolum": "SBui",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T13"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA21166 ",
+    "proje_adi": "Social Sciences and Humanities for Transformation and Climate Resilience (SHiFT)",
+    "arastirmaci": "Dr Gizem ALIOGLU CAKMAK ",
+    "universite": "Yeditepe Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T4"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22121 ",
+    "proje_adi": "Rising nationalisms, shifting geopolitics and the future of European higher education/research openness (OPEN)",
+    "arastirmaci": "Dr Ilkim Duriye OKYAR ",
+    "universite": "Yeditepe Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T13",
+      "T17"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22149",
+    "proje_adi": "Research Network for Interdisciplinary Studies of Transhistorical Deliberative Democracy (CHANGECODE)",
+    "arastirmaci": "Dr Ilkim Duriye OKYAR ",
+    "universite": "Yeditepe Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA22149",
+    "proje_adi": "Research Network for Interdisciplinary Studies of Transhistorical Deliberative Democracy (CHANGECODE)",
+    "arastirmaci": "Dr Selin TURKES KILIC ",
+    "universite": "Yeditepe Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T14"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "COST",
+    "proje_kodu": "CA23129",
+    "proje_adi": "Peace Research Community Europe (PEACE)",
+    "arastirmaci": "Dr Ilkim Duriye OKYAR ",
+    "universite": "Yeditepe Üni",
+    "bolum": "SBUİ",
+    "year": null,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T3",
+      "T7"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5"
+    ]
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "121K198 ",
+    "proje_adi": "100. Yılında Dışişleri Bakanlığı Tarihi: Kurumsal Dönüşümü ve Türk Dış Politikasıyla Etkileşim Sürecinin İncelenmesi (1920 - 2020) ",
+    "arastirmaci": "Özge Özkoç",
+    "universite": "Ankara Ü. ",
+    "bolum": "Uİ",
+    "year": 2021,
+    "konum": "merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "121K184 ",
+    "proje_adi": "Siyasal Temsilde Göçmen Kökenli Milletvekilleri: Hollanda Örneğinde Bir İçerik Analizi ",
+    "arastirmaci": "Nermin Aydemir Çavuş",
+    "universite": "Antalya Bilim Ü.",
+    "bolum": "SBUİ",
+    "year": 2021,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "221K029 ",
+    "proje_adi": "Dış Politikanın Kültürel Temelleri: Özgün Bir Veri Seti ile Ülkeler Arası Nicel Bir Araştırma ",
+    "arastirmaci": "Işıl Cerem Cenker Özek",
+    "universite": "Antalya Bilim Ü.",
+    "bolum": "SBUİ",
+    "year": 2021,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "221K028 ",
+    "proje_adi": "Türkiye'nin Diaspora Politikalarının Karşılaştırmalı Analizi: Almanya, Hollanda ve İngiltere Örneği ",
+    "arastirmaci": "Mustafa Tayfun Üstün",
+    "universite": "Atatürk Ü.",
+    "bolum": "Uİ",
+    "year": 2021,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "221K032 ",
+    "proje_adi": "G20 Ülkelerinin Yurtdışı Burs Programları ve Dış Politika Dinamikleri: Amerika Birleşik Devletleri, Birleşik Krallık, Rusya, Çin, Avustralya ve Türkiye Örnekleri ",
+    "arastirmaci": "Selver Buldanlıoğlu Şahin",
+    "universite": "Bilkent Ü.",
+    "bolum": "Uİ",
+    "year": 2021,
+    "konum": "merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "124K420 ",
+    "proje_adi": "Sağ-Popülist Hükümetlerin Uluslararası Sözleşme Rejimlerine Riayetinin İncelenmesi ",
+    "arastirmaci": "Tuğba Bayar",
+    "universite": "Bilkent Ü.",
+    "bolum": "Uİ",
+    "year": 2023,
+    "konum": "merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "323K288 ",
+    "proje_adi": "Türkiye'nin Askeri Deniz Gücü ve Büyük Stratejisinin Dönüşümünde Savunma Sanayi Şirketlerinin Rolü ",
+    "arastirmaci": "Özlem Kayhan Pusane",
+    "universite": "Işık Ü.",
+    "bolum": "Uİ",
+    "year": 2023,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "124K412 ",
+    "proje_adi": "100. Yılında Nüfus Mübadelesi: Uluslararası İlişkiler Disiplini Mübadillerden Ne Öğrenebilir? ",
+    "arastirmaci": "Burcu Sunar Cankurtaran",
+    "universite": "İstanbul Ü.",
+    "bolum": "SBUİ",
+    "year": 2023,
+    "konum": "merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "121K206 ",
+    "proje_adi": "Türkiye'de Konu Temelli Oy Verme Davranışı ve Kutuplaşma Araştırması ",
+    "arastirmaci": "Ali Çarkoğlu",
+    "universite": "Koç Ü.",
+    "bolum": "Uİ",
+    "year": 2021,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "121K197 ",
+    "proje_adi": "Türkiye'de Vatandaşların, Siyasi Parti Liderlerinin ve Köşe Yazarlarının Demokrasi Anlayışları ",
+    "arastirmaci": "Selim Erdem Aytaç",
+    "universite": "Koç Ü.",
+    "bolum": "Uİ",
+    "year": 2021,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "323K384 ",
+    "proje_adi": "İstikrarlı Barış ve Barış Andlaşmaları ",
+    "arastirmaci": "Reşat Bayer",
+    "universite": "Koç Ü.",
+    "bolum": "Uİ",
+    "year": 2023,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "124K818 ",
+    "proje_adi": "Yurt Dışında Üretim Yapan Türk Çok Ulusu Şirketlerinin Politik Davranışları, 2000-2024",
+    "arastirmaci": "Caner Bakır",
+    "universite": "Koç Ü.",
+    "bolum": "Uİ",
+    "year": 2024,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "124K417 ",
+    "proje_adi": "Türkiye'nin Göç Yönetişiminin Gönüllü Geri Dönüş Politikaları Kapsamında \"Suriye Güvenli Bölge\" Deneyimi Üzerinden Analizi ",
+    "arastirmaci": "Mehmet İhsan Özdemir",
+    "universite": "Mardin Artuklu Ü.",
+    "bolum": "SBUİ",
+    "year": 2023,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "123K466 ",
+    "proje_adi": "Sürdürülebilir Kalkınmada Toplumsal Cinsiyet Eşitliği İndeksinin Geliştirilmesi Ve G20 Ülkeleri Analizi ",
+    "arastirmaci": "Gonca Oğuz Gök",
+    "universite": "Marmara Ü.",
+    "bolum": "Uİ",
+    "year": 2023,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "122K882 ",
+    "proje_adi": "Türkiye'de Yerlicilik ve Göçmen Karşitliği ",
+    "arastirmaci": "Ezgi Elçi",
+    "universite": "Özyeğin Ü.",
+    "bolum": "Uİ",
+    "year": 2022,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "323K389 ",
+    "proje_adi": "Türkiye'de Birleşmiş Milletler Zararlı Geleneksel Uygulamalar Çerçevesi'ni Tartışmak - \"Zarar Verme\"nin Normatif Anlamı Üzerine Nitel Bir Analiz ",
+    "arastirmaci": "Hüsrev Tabak",
+    "universite": "Recep Tayyip Erdoğan Ü.",
+    "bolum": "Uİ",
+    "year": 2023,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "121K292 ",
+    "proje_adi": "Türkiye'de Akıllı Kent Uygulamaları ve Gençlik: Kurumlar, Söylemler ve Deneyimler ",
+    "arastirmaci": "Zeynep Gülrü Göker",
+    "universite": "Sabancı Ü.",
+    "bolum": "SBUİ",
+    "year": 2021,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "221K031 ",
+    "proje_adi": "Seçmen Beklentilerinin Güncellenmesinde Bilginin Rolü ",
+    "arastirmaci": "Özge Kemahlıoğlu Bayer",
+    "universite": "Sabancı Ü.",
+    "bolum": "SBUİ",
+    "year": 2021,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "122K369 ",
+    "proje_adi": "Türkiye'de Duygusal Ve Coğrafi Kutuplaşma İle Seçmen Davranışı İlişkisi ",
+    "arastirmaci": "Mert Moral",
+    "universite": "Sabancı Ü.",
+    "bolum": "SBUİ",
+    "year": 2022,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "124K418 ",
+    "proje_adi": "Türkiye'de Uluslararası İlişkiler Disiplini: Taşra, Yarı Merkez de Merkez Kavramsallaştırması Üzerinden Disiplini İzlemek ve Yol Haritası Oluşturmak ",
+    "arastirmaci": "Zühal Yeşilyurt Gündüz",
+    "universite": "Ted Ü.",
+    "bolum": "SBUİ",
+    "year": 2023,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "323K383 ",
+    "proje_adi": "Türkiye'de Liderler ve Dış Politika: Operasyonel Kod Analizi Yaklaşımı ",
+    "arastirmaci": "Gizem Çakmak",
+    "universite": "Yeditepe Ü.",
+    "bolum": "SBUİ",
+    "year": 2023,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "TÜBİTAK 1001",
+    "proje_kodu": "124K887 ",
+    "proje_adi": "Türk Toplumunun Ve Geçici Koruma Kapsamından Türkiye Cumhuriyeti Vatandaşlığına Geçen/ Kabul Edilen Suriyelilerin Vatandaşlık Algılarının Ontolojik Güvenlik/ Güvensizlik Ve Toplumsal Kabule Etkileri Bağlamında İncelenmesi ",
+    "arastirmaci": "Mehmet Akif Okur",
+    "universite": "Yıldız Teknik Ü.",
+    "bolum": "SBUİ",
+    "year": 2024,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Erasmus+",
+    "proje_kodu": null,
+    "proje_adi": "Digital Diplomacy: Building the Common Future with Technology (DD-Tech) - Erasmus + KA220 - HED",
+    "arastirmaci": "Prof. Dr. Özgün Erler Bayır (Yürütücü)",
+    "universite": "İstanbul Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2022,
+    "konum": "merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T11"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Erasmus+",
+    "proje_kodu": null,
+    "proje_adi": "Promoting Inclusive Campuses for Equity and Diversity (Inclusive-Edu",
+    "arastirmaci": "Dr. Öğr. Üyesi Şeyma Akın",
+    "universite": "Necmettin Erbakan Üniversitesi",
+    "bolum": "SBUİ",
+    "year": 2024,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T6",
+      "T11"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Erasmus+",
+    "proje_kodu": null,
+    "proje_adi": "DEVELOPING AND STRENGTHENING THE OPERATIONAL AND PERSONAL CAPACITIES OF PUBLIC AND NON-PUBLIC ORGANISATIONS IN PROVISION OF SUPPORTING SERVICES FOR REFUGEES, MIGRANTS, AND IMMIGRANTS THROUGH INNOVATIVE APPROACHES",
+    "arastirmaci": "Öğr. Görevlisi Mehmet Ercan Baltalı",
+    "universite": "Adıyaman Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2022,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T5",
+      "T6",
+      "T11",
+      "T13"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Erasmus+",
+    "proje_kodu": null,
+    "proje_adi": "EUPeace - European University for Peace, Justice, and Inclusive Societies",
+    "arastirmaci": "Prof. Dr. Aslı Ilgıt",
+    "universite": "Çukurova Üniversitesi",
+    "bolum": "SBUİ",
+    "year": 2023,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T7"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R5",
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Erasmus+",
+    "proje_kodu": null,
+    "proje_adi": "Digital Diplomacy: Building the Common Future with Technology",
+    "arastirmaci": "Doç. Dr. Uğur Yasin Asal (Yürütücü)",
+    "universite": "İstanbul Ticaret Üniversitesi",
+    "bolum": "SBUİ",
+    "year": 2022,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T11"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Erasmus+",
+    "proje_kodu": null,
+    "proje_adi": "Digital Diplomacy: Building the Common Future with Technology",
+    "arastirmaci": "Arş. Gör. Ayşe Nur Kanlı",
+    "universite": "İstanbul Ticaret Üniversitesi",
+    "bolum": "SBUİ",
+    "year": 2022,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T11"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Erasmus+",
+    "proje_kodu": null,
+    "proje_adi": "Digital Diplomacy: Building the Common Future with Technology",
+    "arastirmaci": "Doç. Dr. Ayfer Genç Yılmaz",
+    "universite": "İstanbul Ticaret Üniversitesi",
+    "bolum": "SBUİ",
+    "year": 2022,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T11"
+    ],
+    "region_codes": [
+      "R3",
+      "R4",
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "Ulaşılamadı",
+    "arastirmaci": "Arş. Gör. Özge Bozkaya",
+    "universite": "Yaşar Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2024,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "EU-Türkiye Accession Negotiations on Justice and Fundamental Rights",
+    "arastirmaci": "Arş. Gör. Bilge Ece Gün",
+    "universite": "ODTÜ",
+    "bolum": "ULİ",
+    "year": 2024,
+    "konum": "merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T9",
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "Europeanization of Turkish Foreign Policy",
+    "arastirmaci": "Dr. Öğr. Üyesi Ayşegül Gökalp Kutlu",
+    "universite": "Kocaeli üniversitesi",
+    "bolum": "ULİ",
+    "year": 2024,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T1",
+      "T2",
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "BILGINormsEU - JM Chair on Norms and Turkey-EU Relations",
+    "arastirmaci": "Dr. Öğr. Üyesi Özge Onursal Beşgül (Yürütücü)",
+    "universite": "Bilgi Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2021,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T2",
+      "T10",
+      "T14",
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "BILGINormsEU - JM Chair on Norms and Turkey-EU Relations",
+    "arastirmaci": "Prof. Dr. Ayhan Kaya / Kıdemli Uzman",
+    "universite": "Bilgi Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2021,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T2",
+      "T10",
+      "T14",
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "BILGINormsEU - JM Chair on Norms and Turkey-EU Relations",
+    "arastirmaci": "Doç. Dr. Büke Boşnak (Uzman)",
+    "universite": "Bilgi Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2021,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T2",
+      "T10",
+      "T14",
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "BILGINormsEU - JM Chair on Norms and Turkey-EU Relations",
+    "arastirmaci": "Dr. Öğretim Üyesi Mehmet Ali Tuğtan (Uzman ve Danışman)",
+    "universite": "Bilgi Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2021,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T2",
+      "T10",
+      "T14",
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "IMPEUTUS - IMPACT OF EU NORMS ON POLICIES TOWARDS MIGRANTS AND WOMEN IN TÜRKİYE",
+    "arastirmaci": "Prof. Dr. Özgür Ünal-Eriş(Yürütücü)",
+    "universite": "29 Mayıs Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2023,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T5",
+      "T6",
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "CENTER OF EXCELLENCE ON DIVERSITY in EU and TURKEY - DIVEU",
+    "arastirmaci": "Prof. Dr. Gökay Özerim (Yürütücü)",
+    "universite": "Yaşar Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2022,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T5",
+      "T13",
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "IntegrEUtor - EU Integration and Turkey",
+    "arastirmaci": "Öğr. Gör. Dr. Alper Yurttaş (Yürütücü)",
+    "universite": "İTÜ",
+    "bolum": "REKTÖRLÜK",
+    "year": 2022,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "IntegrEUtor - EU Integration and Turkey",
+    "arastirmaci": "Doçent Altuğ Günar (Araştırmacı)",
+    "universite": "Bandırma On Yedi Eylül Üniversitesi",
+    "bolum": "AVRUPA BIRLIĞI SIYASETI VE ULUSLARARASI İLIŞKILER",
+    "year": 2022,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "GRADEU - Global Risk Assessment Dataset and the EU’s role in the Governance of Global Risks",
+    "arastirmaci": "Doç. Dr. İsmail Erkam Sula (Yürütücü)",
+    "universite": "Ankara Yıldırım Beyazıt Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2022,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T4",
+      "T11",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "FEJUST - Feminist Epistemic Justice in the EU and Beyond",
+    "arastirmaci": "Prof. Dr. Rahime Süleymanoğlu Kürüm (Yürütücü)",
+    "universite": "Bahçeşehir Üniversitesi",
+    "bolum": "SBUİ",
+    "year": 2022,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T1",
+      "T6",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "FEJUST - Feminist Epistemic Justice in the EU and Beyond",
+    "arastirmaci": "Ar. Gör. Atakan Yılmaz",
+    "universite": "Bahçeşehir Üniversitesi",
+    "bolum": "SBUİ",
+    "year": 2022,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T1",
+      "T6",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "FEJUST - Feminist Epistemic Justice in the EU and Beyond",
+    "arastirmaci": "Dr. Öğr. Üyesi Damla Bayraktar Aksel",
+    "universite": "Bahçeşehir Üniversitesi",
+    "bolum": "SBUİ",
+    "year": 2022,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T1",
+      "T6",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "FEJUST - Feminist Epistemic Justice in the EU and Beyond",
+    "arastirmaci": "Doç. Dr. Selin Türkeş",
+    "universite": "Yeditepe Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2022,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T1",
+      "T6",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "RESAID - Creating Societal Cognitive Resilience Against Information Disorders",
+    "arastirmaci": "Prof. Dr. Emre Erdoğan (Yürütücü)",
+    "universite": "Bilgi Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2023,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T10",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "RESAID - Creating Societal Cognitive Resilience Against Information Disorders",
+    "arastirmaci": "Dr. Öğr. Üyesi Tuğçe Erçetin",
+    "universite": "Bilgi Üniversitesi",
+    "bolum": "SİYASET BİLİMİ",
+    "year": 2023,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T10",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "RESAID - Creating Societal Cognitive Resilience Against Information Disorders",
+    "arastirmaci": "Dr. Öğr. Üyesi Mehmet Ali Tuğtan",
+    "universite": "Bilgi Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2023,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T10",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "RESAID - Creating Societal Cognitive Resilience Against Information Disorders",
+    "arastirmaci": "Öğr. Gör. Şaban Çaytaş",
+    "universite": "Bilgi Üniversitesi",
+    "bolum": "SBUİ",
+    "year": 2023,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T10",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "RESAID - Creating Societal Cognitive Resilience Against Information Disorders",
+    "arastirmaci": "Prof. Dr. Pınar Uyan Semerci",
+    "universite": "Bilgi Üniversitesi",
+    "bolum": "SBUİ",
+    "year": 2023,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T10",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "FBU.PROHREU - THE PROTECTION AND PROMOTION OF HUMAN RIGHTS IN THE EU",
+    "arastirmaci": "Dr. Öğretim Üyesi Osman Gültekin",
+    "universite": "Fenerbahçe Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2023,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T9",
+      "T14",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "FBU.PROHREU - THE PROTECTION AND PROMOTION OF HUMAN RIGHTS IN THE EU",
+    "arastirmaci": "Dr. Öğr. Üyesi Nihan Akıncılar Köseoğlu (Yürütücü)",
+    "universite": "Fenerbahçe Üniversitesi",
+    "bolum": "AVRUPA BİRLİĞİ",
+    "year": 2022,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T9",
+      "T14",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "EUITREL - The EU's Inter-regional and Trans-regional Relations",
+    "arastirmaci": "Doç. Dr. Hakan Mehmetçik (Yürütücü)",
+    "universite": "Marmara Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2021,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T2",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "COPFUTUREU - Challenges and Opportunities for the Future of Europe",
+    "arastirmaci": "Prof. Dr. Özgün Erler Bayır (Yürütücü)",
+    "universite": "İstanbul Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2023,
+    "konum": "merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T2",
+      "T5",
+      "T6",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "EUHR - International and European Protection of Human Rights",
+    "arastirmaci": "Dr Tuğba Bayar",
+    "universite": "Bilkent Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2021,
+    "konum": "merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T13",
+      "T14",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "EU-GLORDER - Rethinking the EU and the Contested Global order in A Geopolitical Age",
+    "arastirmaci": "Prof.Dr. Emel Parlar Dal (Yürütücü)",
+    "universite": "Marmara Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2023,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T2",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "VOICEU - Values of Interwoven Cultures in European Union",
+    "arastirmaci": "Prof.Dr. Erhan Akdemir (Yürütücü)",
+    "universite": "Anadolu Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2022,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "VOICEU - Values of Interwoven Cultures in European Union",
+    "arastirmaci": "Öğr. Gör. Dr. Rabia TAŞ (Araştırmacı)",
+    "universite": "Anadolu Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2022,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "VOICEU - Values of Interwoven Cultures in European Union",
+    "arastirmaci": "Dr. Öğr. Üyesi Volkan Şeyşane (Araştırmacı)",
+    "universite": "Anadolu Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2022,
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T14",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "EUTHPART - EMPOWERING YOUTH PARTICIPATION THROUGH EU VALUES",
+    "arastirmaci": "Doç. Dr. Gizem Alioglu Cakmak (Yürütücü)",
+    "universite": "Yeditepe Üniversitesi",
+    "bolum": "SBUİ",
+    "year": 2022,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T14",
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "EUTHPART - EMPOWERING YOUTH PARTICIPATION THROUGH EU VALUES",
+    "arastirmaci": "Doç. Dr. Selin Türkeş Kılıç",
+    "universite": "Yeditepe Üniversitesi",
+    "bolum": "SBUİ",
+    "year": 2022,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T14",
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "EUTHPART - EMPOWERING YOUTH PARTICIPATION THROUGH EU VALUES",
+    "arastirmaci": "Prof. Dr. Cengiz Erişen",
+    "universite": "Yeditepe Üniversitesi",
+    "bolum": "SİYASET BİLİMİ",
+    "year": 2022,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T14",
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "EU-SUSGOV - EU’s Sustainability in Global Governance",
+    "arastirmaci": "Prof. Emel Parlar Dal (Yürütücü)",
+    "universite": "Marmara Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2021,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T2",
+      "T3",
+      "T4",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "POW-EU-R - Power of the EU: Revisiting the Global Effect of the EU in terms of Economy, Politics and Law",
+    "arastirmaci": "Doç. Dr. Pelin Sönmez (Yürütücü)",
+    "universite": "Kocaeli Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2021,
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T2",
+      "T15",
+      "T17"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "MEDIATE - Mending the Gap in Turkey-European Union Relations in the Post-Pandemic Era",
+    "arastirmaci": "Prof. Dr. Özgehan Şenyuva",
+    "universite": "ODTÜ",
+    "bolum": "ULİ",
+    "year": 2021,
+    "konum": "merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "MEDIATE - Mending the Gap in Turkey-European Union Relations in the Post-Pandemic Era",
+    "arastirmaci": "Doç. Dr. Zerrin Torun",
+    "universite": "ODTÜ",
+    "bolum": "ULİ",
+    "year": 2021,
+    "konum": "merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "MEDIATE - Mending the Gap in Turkey-European Union Relations in the Post-Pandemic Era",
+    "arastirmaci": "Dr. Öğr. Üyesi Başak Kale Lack",
+    "universite": "ODTÜ",
+    "bolum": "ULİ",
+    "year": 2021,
+    "konum": "merkez",
+    "kurum_turu": "devlet",
+    "topic_codes": [
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "EUforCliC - EU Foreign Policy and the Climate Crisis",
+    "arastirmaci": "Doç. Dr. Defne Günay (Yürütücü)",
+    "universite": "Yaşar Üniversitesi",
+    "bolum": "ULİ",
+    "year": 2022,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T2",
+      "T4",
+      "T17"
+    ],
+    "region_codes": [
+      "R16"
+    ]
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "EU-VALUES - EU Research and Education Network on Foreign policy issues: Values and Democracy",
+    "arastirmaci": "Ulaşılamadı",
+    "universite": "Sabancı Üniversitesi",
+    "bolum": "*",
+    "year": 2023,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T2",
+      "T13",
+      "T14"
+    ],
+    "region_codes": []
+  },
+  {
+    "proje_turu": "Jean Monnet",
+    "proje_kodu": null,
+    "proje_adi": "ValEUs - Research & Education Network on Contestations to EU Foreign Policy",
+    "arastirmaci": "Prof. Dr. Ayhan Kaya",
+    "universite": "Bilgi Üniversitesi",
+    "bolum": "SBUİ",
+    "year": 2023,
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "topic_codes": [
+      "T2",
+      "T14"
+    ],
+    "region_codes": []
+  }
+]

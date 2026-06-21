@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --color-merkez:      #0D9488;
+  --color-yari-merkez: #D97706;
+  --color-tasra:       #DC2626;
+  --color-devlet:      #1D4ED8;
+  --color-vakif:       #7C3AED;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0F172A; /* slate-900 */
+  color: #E2E8F0;           /* slate-200 */
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Recharts global overrides */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #334155; /* slate-700 */
+}
+.recharts-text {
+  fill: #94A3B8; /* slate-400 */
+  font-size: 12px;
+}
+.recharts-legend-item-text {
+  color: #CBD5E1 !important; /* slate-300 */
+}
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background: #1E293B !important;
+  border: 1px solid #334155 !important;
+  border-radius: 8px !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #0F172A; }
+::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #475569; }

@@ -1,0 +1,1055 @@
+[
+  {
+    "universite": "Ankara Üniversitesi",
+    "konum": "merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Ankara Üniversitesi, Cumhuriyetin ilk üniversitesi olma sorumluluğu ile; - eleştirel düşünebilen ve sorun çözebilen, kişisel ve mesleki alanda kendini sürekli yenileyen, doğaya duyarlı, farklılıklara saygı gösteren, yaratıcı bireyler yetiştirmeyi, - bilime ve sanata evrensel düzeyde katkı sağlayan, etik değerleri gözeten, disiplinlerarası araştırmalar yapmayı, - sosyal sorumluluk bilinci ile ülke sorunlarına duyarlı, kamu yararını gözeten yaşadığı kentin kalkınmasına ve gelişmesine katkıda bulunan hizmetler sunmayı görev edinmiştir.",
+    "vizyon": "Nitelikli araştırmalar yapan, bilgi ve yeteneklerini insanlık ve ülke yararına kullanan ve evrensel düzeyde fark yaratarak geleceğe yön veren yenilikçi üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İstanbul Üniversitesi",
+    "konum": "merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Doğu ile Batıyı, geçmişle geleceği buluşturan İstanbul Üniversitesi; ülkemize ve insanlığa yararlı bilgi üreten ve yetkin bireyler yetiştiren öncü üniversitedir.",
+    "vizyon": "İstanbul Üniversitesi, dünyanın önde gelen üniversitelerinden biri olacaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Ortadoğu Teknik Üniversitesi",
+    "konum": "merkez",
+    "kurum_turu": "devlet",
+    "misyon": "ODTÜ’nün misyonu, toplum, insanlık ve doğa için, evrensel değerler çerçevesinde, yaratıcı ve eleştirel düşünmeyi, yenilikçiliği ve liderliği besleyerek mükemmellik düzeyinde araştırma yapmak, eğitim vermek ve topluma hizmet etmektir.",
+    "vizyon": "Uluslararası düzeyde öncü, bölgesini ve dünyayı dönüştüren bir üniversite.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Boğaziçi Üniversitesi",
+    "konum": "merkez",
+    "kurum_turu": "devlet",
+    "misyon": "\"Evrensel düzeyde araştırma yapmak, bilim ve teknoloji üretmek; yeniliğe ve değişime açık, girişimci, analitik düşünen, etik değerlere ve çevre bilincine sahip, çok yönlü ve alanında yetkin bireyler yetiştirmek\"tir.",
+    "vizyon": "\"Tarihinden ve geleneklerinden güç alarak evrensel bilgiyle milli değerleri buluşturan, eğitim ve araştırmada mükemmeliyeti hedefleyerek ülkemizin yüksek ideallerine ulaşması yolunda gerekli tüm bilimsel ve teknolojik çalışmaları yapan bir akademik kurum olmaktır.\"",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İhsan Doğramacı Bilkent Üniversitesi",
+    "konum": "merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Bilkent Üniversitesi; tüm bilimleri, teknolojiyi ve sanatı kapsayan bir öğrenme ve düşünsel ilerleme ortamı oluşturarak insanlığa hizmet etmek ve dünya barışını geliştirmek amacıyla kurulmuştur.",
+    "vizyon": "İnsanoğlunun refahına yönelik faaliyetleri oluşturan, bunlara liderlik eden, katılan ve çözümler üreten, yarının küresel vatandaşlarını yetiştirmek ve İnsanoğlunu geliştiren ve bir ulusun, bölgenin ya da dünyanın yaşam kalitesine katkıda bulunan sanat, fikir ve bilgi bütünlüğünü geliştirmek ve yaymak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Çukurova Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Araştırma üniversitesi olmanın bilinci ile hareket eden, sahip olduğu bilgiyi insanlık yararına kullanan, evrensel etik ilkelere dayalı, eleştirel ve yaratıcı düşünebilen, çağın gerektirdiği beceriler edinmiş öğrenciler yetiştiren; bilime ve teknolojiye yerel/ulusal/uluslararası düzeyde katkı vermek üzere üstün nitelikli araştırma-geliştirme çalışmaları yapan; temel değerlerine bağlı kalarak sürdürülebilir bir dünya için birey, toplum ve kamu yararına hizmet üreten ve sunan bir üniversite olmaktır.",
+    "vizyon": "Bilim, kültür, sanat ve sporun yaygınlaşmasında öncü, yeniliğe açık, sürdürülebilir bir gelecek hedefi ile eğitim-öğretim, araştırma-geliştirme ve toplumsal katkı faaliyetlerini yerine getiren uluslararası bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İnönü Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "İNÜAFAM’ın temel amacı adından da anlaşılacağı üzere özel olarak Afrika ile ilgili araştırmalar yapmak ve kıtanın akademik bilgi destekli tanıtımına katkı sağlamaktır. İNÜAFAM, gerçekleştireceği çalışmalarla Afrika kıtasını daha iyi tanımaya ve tanıtmaya imkân sağlayacak, uzak dil ve kültürlerden edinilen yanlış bilgilerin ve algıların yerine gerçek ve sağlıklı bir bilgi akışını sağlayacak, yanlış algı ve anlaşılmaları giderecek, tüm kamuoyunu ve akademik camiayı olgularla buluşturarak genelde bütün kıtayı özelde çalışma alanı seçilen ülkeleri daha yakından tanıma imkânını oluşturarak ülkeler arası iyi ilişkileri ve işbirliğini de geliştireceğini hedeflemektedir. Afrika’nın anayasal, siyasal yapısı ve kıta genelinde veya ülkeler özelinde aktif olan aktörler hakkında doğru bilginin üretilerek istifadeye sunulması, ülkelerdeki mevcut ortaklık ve farklılıkların incelenmesi, işbirliği ve çalışma alanlarının değerlendirilmesi İNÜAFAM’ın hedefleri arasında yer almaktadır. Bu hedefler doğrultusunda araştırma, inceleme, yayın ve eğitim faaliyetleri ile üretilen doğru bilginin tüm kamuoyunun, akademik camianın, ilgili kurum ve kuruluşların istifadesine sunulması amaçlanmaktadır.",
+    "vizyon": "İNÜAFAM, Afrika kıtasının genelinde çalışmayı hedeflemekle birlikte özellikle belirlenen belli başlı ülkeler konusunda derinlik çalışmalar yapmak amacıyla 2019 yılında kurulmuştur. İNÜAFAM, özellikle son yıllarda bölgede öne çıkan ve dünya siyasetini, ticaretini de yakından ilgilendiren gelişmeler doğrultusunda Afrika’nın iç ve dış politikalarını doğru analiz etme hususunda alana önemli bir katkı sunmayı amaçlamaktadır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Akdeniz Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Güçlü araştırma alt yapımız ve alanında etkin ve yetkin akademik personelimiz ile • Araştırma alanında uluslararası alanda tercih edilen, ülkede örnek, bölgede lider olmak, • Girişimcilik alanında sektörde işbirlikçi ve öncü olmak, • Eğitim alanında topluma araştırmacı, yenilikçi, yaratıcı bireyler kazandırmak, • Toplumsal katkı alanında sürdürülebilir projeler ile topluma ve insanlığa hizmet vermek, • Uluslararası işbirlikli projeler, nitelikli yayınlar, ikili anlaşmalar yaparak ülkemizi ve üniversitemizin akademik alanda tanınırlığını arttırmaktır.",
+    "vizyon": "Evrensel nitelikte araştırmalar ile geleceğe şekil veren, bilim ve teknolojide öncü, araştırma odaklı,yaratıcı, etik ilkelere duyarlı ve yaşam boyu öğrenen bireyler yetiştiren araştırma üniversitesi olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Dokuz Eylül Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Misyonumuz, öğrencilerimizi insanlığın gelişimine katkıda bulunacak nitelikte, çağdaş değerlerle yetiştirecek eğitim – öğretim sistemlerini oluşturmaktır.",
+    "vizyon": "Vizyonumuz, eğitim ve öğretimin daha kaliteli hale gelmesi için araştıran, sorgulayan ve öğrenmeyi öğrenmiş bireylerin yetişmesine zemin hazırlamaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Ege Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Türkiye' de öncü, dünyada önde gelen araştırma üniversitesi olarak; araştırma ve eğitim alanında bölgesel, ulusal ve evrensel gereksinimleri karşılamak, Ar-Ge birikimini toplumun yararına sunmak, öğrenciyi merkeze alarak temel değerlerine bağlı, mesleki ve kültürel olarak donanımlı, değişime açık, bilimsel düşünceyi yaşam biçimi olarak benimsemiş bireyler yetiştirmek.",
+    "vizyon": "Bilimsel araştırmada öncü, ulusal ve uluslararası alandaki paydaşları ile güçlü bir işbirliği ve iletişim ağı bulunan, öğrenci odaklı, yeşil, sürdürülebilir, erişilebilir ve yaşanabilir bir kampüse sahip, ekonomik, sosyal ve kültürel yaşama katkıda bulunan ve finansal yapısı güçlü bir dünya üniversitesi olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Van Yüzüncü Yıl Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Özgün araştırma ve yenilikçi eğitim /öğretim faaliyetleriyle bilim dünyasına katkıda bulunmak; araştırmacı, girişimci ve sosyal sorumluluk bilincine sahip nitelikli bireyler yetiştirmek; yerel, ulusal ve uluslararası ihtiyaçlar doğrultusunda toplumsal gelişime öncülük etmek.",
+    "vizyon": "Araştırma, eğitim ve sağlık alanında öncü, girişimcilik ve yenilikçilikte bilimsel mükemmelliği hedefleyen, kurulduğu şehrin mirasını geleceğe taşıyan, üçüncü nesil bir dünya üniversitesi olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Erzurum Atatürk Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Bölgesine ve Türkiye'ye katkı sağlayarak, teknoloji, inovasyon, bilim ve sanata evrensel düzeyde değer katan nitelikli bireyler yetiştirmektir.",
+    "vizyon": "Sürekli gelişen ve bulunduğu bölgenin gelişiminde öncü konumda olan bir dünya üniversitesi olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Karadeniz Teknik Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Sürekli iyileştirme yaklaşımı ve birlikte yönetme kültürü ile toplum refahı ve ülke ekonomisinin ihtiyaçları için araştırmalar yapmak, sorgulayıcı, girişimci ve değişimi yönetebilen bireyler yetiştirmek.",
+    "vizyon": "Mezunları ile toplumda söz sahibi, araştırmaları ve toplumsal sorunlara getirdiği çözümleri ile ulusal ve uluslararası düzeyde saygın ve öncü bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Kahramanmaraş Sütçü İmam Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "İnsana hizmet yolunda, çağın ihtiyaçlarına cevap veren eğitim, araştırma ve buluşlarıyla güçlü ve saygın üniversitelerden biri olmak.",
+    "vizyon": "Yüksek kalite düzeyini esas alarak yararlı buluşlar gerçekleştirmek, üstün, etik ve bilimsel değerlerle donanımlı bireyler yetiştirmek, Üniversite-Sanayi-Kamu işbirliğini güçlendirmek ve böylece şehrimiz, bölgemiz ve ülkemiz geleceğinde önemli bir rol üstlenmek ve bu etki alanını genişletmek; yurt dışı ilişkilerini artırarak uluslararası bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Trakya Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Köklü bir kurum kültürüne sahip ve sürekli gelişimi benimsemiş bir üniversite olarak uluslararası bilimsel ve sanatsal değerleri özümseyen, dijital gelişime açık, mesleki açıdan yetkin bireyler yetiştirmek ve geliştirmek; bilimsel araştırmalar, sağlık hizmetleri, kültürel, sanatsal ve sportif faaliyetlerle toplumsal fayda sağlamak.",
+    "vizyon": "“Geleceğe Köprü” anlayışıyla Türkiye ve Balkanlar’da eğitim, araştırma ve hizmet kalitesi ile tanınırlığı yüksek, saygın, bilim ve sanatın merkezi konumunda, topluma kaliteli sağlık hizmeti sunan, üniversite müzeciliğinde öncü, dijitalleşme ile gelişen ve dönüşen yeşil bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Antalya Bilim Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Farklılıkları zenginlik olarak algılayan yapısı ve nitelikli akademik kadrosu ile ait olduğu toplumun değerlerine sahip çıkar, bilimsel ve sosyal gelişmeleri takip eder ve katkıda bulunur. Bireyin ve toplumun gelişmesine katkı sağlayan eğitim ve araştırma hizmetleri sunar. Yenilikçi programlar ile öğrencilerin eleştirel, özgün ve bilimsel düşünmesine olanak sağlar.",
+    "vizyon": "Yenilikçi ve uygulama odaklı bilimsel araştırmaları ve eğitimi sayesinde girişimcilikte öncü, uluslararası platformda rekabet edebilen bir üniversite olabilmektir.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Hasan Kalyoncu Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Hasan Kalyoncu Üniversitesi’nin misyonu; çalışma hayatıyla tam entegrasyon sağlayarak ‘kişiselleştirilmiş eğitimle’ girişimci bireyler yetiştirmek ve sanayiye kılavuzluk eden öncü uygulamalı araştırmaları hayata geçirmektir.",
+    "vizyon": "Hasan Kalyoncu Üniversitesinin vizyonu; yenilikleriyle bireylerin, sanayinin, bölgenin ve toplumun geleceğini yeniden inşa eden bir uygulamalı araştırma üniversitesi olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Manisa Celal Bayar Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Yenilikçi, girişimci, çevreye ve insana saygılı bireyler yetiştirerek; eğitim, araştırma ve topluma hizmet alanlarındaki üretimini toplum yararına sunmaktır.",
+    "vizyon": "Üniversitemizi bilim, eğitim ve topluma katkı alanlarında uluslararası tanınır ve tercih edilen bir eğitim kurumu haline getirmektir.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Muğla Sıtkı Koçman Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Bilginin teknolojik ürüne ve toplumsal faydaya dönüşümünü önceleyen araştırma ve projeler yapmak; sunduğu nitelikli eğitim-öğretimle mesleki bilgi, beceri ve yetkinlikler ile donatılmış yenilikçi ve girişimci bireyler yetiştirmektir.",
+    "vizyon": "Uluslararası standartlarda gerçekleştirdiği eğitim-öğretim, araştırma ve uygulamalarıyla markalaşan ve toplumsal refahın artmasına öncülük eden bir dünya üniversitesi olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Aydın Adnan Menderes Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Toplumun ihtiyaçları ile ulusal ve evrensel sorunlara çözüm önerileri getirebilen, ülke ve bölge gelişimine katkı sağlayabilecek projeler üreten, eleştirel düşünebilen, milli, girişimci, rekabetçi, etik değerlere bağlı, akılcı, üretken, dünyadaki gelişmeleri izleyebilen mezun ve araştırıcı yetiştirmek ve topluma kaliteli, güvenilir bir hizmet verebilmektir.",
+    "vizyon": "Eğitim, araştırma ve hizmet alanlarında yurt içi ve yurt dışında tanınan, çağdaş, katılımcı, yenilikçi, bölge ve ülke gelişimine ışık tutan, kurumsallaşma ve kaliteyi hedeflemiş, ait olduğu değerleri ile barışık, mensubu ve mezunu olmaktan onur duyulan ve tercih edilen bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Bolu Aband İzzet Baysal Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Bolu Abant İzzet Baysal Üniversitesi; eğitim-öğretim, araştırma ve toplumsal katkı faaliyetlerini bölgenin ve insanlığın ihtiyaçları doğrultusunda; bilgiyi, sanatı, teknolojiyi ve hizmeti çevreye duyarlı, sürdürülebilir şekilde üreterek uluslararası yeterliliklere sahip bireyler yetiştirmeyi görev bilir.",
+    "vizyon": "Doğanın kalbinde evrensel ölçütlerde hizmet ve eğitim veren, insanlık yararına bilgi, sanat ve teknoloji üreten kalite odaklı öncü bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Bursa Uludağ Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Bilimsel ve mesleki açıdan donanımlı, tercih edilen bireyler yetiştirmek, nitelikli ve özgün bilgi üretmek, üretilen bilgiyi tüm paydaşlara sunarak toplumsal gelişime katkı sağlamaktır.",
+    "vizyon": "Kaliteli eğitimi, nitelikli bilimsel araştırmaları, yenilikçiliği ve girişimciliği ile geleceğe yön veren öncü bir araştırma üniversitesi olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Çanakkale 18 Mart Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Çağdaş, sürdürülebilir ve kapsayıcı eğitim yaklaşımı ile yetkin bireyler yetiştirmek; ürettiği bilimsel bilgi ve teknolojiler ile gerçekleştirdiği kültürel, sportif ve sanatsal faaliyetlerle ulusal ve uluslararası düzeyde topluma katkı sunmaktır.",
+    "vizyon": "Yetiştirdiği yenilikçi ve girişimci bireyler ile toplumun yaşam kalitesine katkıda bulunan bilim, teknoloji, sanat, spor ve kültür alanlarında öncü bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Erciyes Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Erciyes Üniversitesi; uluslararası standartlarda akredite eğitim ve öğretim hizmetleri sunan, Ar-Ge çalışmalarıyla yenilikçi bilgi ve teknoloji üreten, ürettiği bilgi ve teknolojiyi toplumsal katkıya dönüştüren, faaliyet alanlarında öncü, temel değerlerine bağlı ve çevreye duyarlı bir üniversitedir",
+    "vizyon": "Mezunlarıyla daha iyi bir geleceğin inşasına katkıda bulunan, Ar-Ge faaliyetleriyle yenilikçi bilgi ve teknoloji üretimindeki öncü olma rolünü sürdürülebilir kılan, bütün alanlarındaki bilimsel çalışmalarını topluma katkı olarak sunan, tercih edilen ve mensubu olmaktan gurur duyulan, Türkiye’de ve dünyada önde gelen üniversiteler arasında yer almaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Eskişehir Osmangazi Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Eskişehir Osmangazi Üniversitesi, eğitim-öğretimde mükemmeliyet hedefiyle ulusal ve uluslararası düzeyde tercih edilmeyi, bilimsel çalışmaların sonuçlarını toplumun talepleri doğrultusunda faydaya ve ekonomik ürüne dönüştürmeyi, etkin ve rekabetçi sağlık hizmetleri sunmayı, girişimci ve yenilikçi mezunlar ve araştırmacılar yetiştirmeyi görev edinmiştir.",
+    "vizyon": "Bilgiyi değere dönüştüren, topluma öncü, ulusal ve uluslararası ölçekte tanınır, tercih edilir ve saygın bir araştırma üniversitesi olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Kırıkkkale Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "“Eğitimi ve özgün araştırmalarıyla tanınan bir üniversite olmak.” Eğitim ve özgün araştırmalarında kaliteyi sürekli iyileştiren; dijital dünyayla uyumlu bilimsel faaliyetleri ve topluma hizmeti ile ulusal ve uluslararası düzeyde tanınan bir üniversite olmaktır.",
+    "vizyon": "Nitelikli akademik programları ile bölgenin ve ülkenin kalkınmasına hizmet etmek; bilim, teknoloji, sanat ve spor alanlarının tümünü içine alan geniş bir yelpazede araştırmalar yapmak; insani değerlere saygılı, bilgi üreten ve ürettiği bilgiyi hayata dönüştüren, toplumun yaşam boyu eğitim ve gelişme sürecine katkıda bulunan geleceğin gençlerini yetiştirmek.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Kocaeli Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Kocaeli Üniversitesi; coğrafi konumunun sağladığı stratejik avantaj ile ekonomik büyüme ve kalkınma hedeflerine destek veren AR-GE faaliyetleri gerçekleştirmeyi, nitelikli insan kaynağı yetiştirmeyi, mezunlarının istihdam oranını yükseltmeyi, sağlık, kültür, sanat ve spor faaliyetleriyle toplumun tüm kesimlerine temas etmeyi önceleyen yenilikçi, erişilebilir ve uluslararası bir üniversite olmayı görev edinmiştir.",
+    "vizyon": "Kocaeli Üniversitesi’nin vizyonu; bir sanayi şehri üniversitesi olarak sanayi ile iş birliğindeki öncü rolü ve uluslararası ölçekte saygın AR-GE çalışmalarıyla anılan, gerçekleştirdiği tüm faaliyetlerde sürdürülebilirlik bilinci ile hareket eden, toplumu, bölgesini, ülkesini ve dünyayı dönüştüren, yenilikçi ve lider bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Mersin Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Sahip olduğu yüksek nitelikli akademik programlarla evrensel değerler içinde eğitim-öğretim yaparak, bilgi ve birikimlerini tüm insanlık yararına kullanan, modern, yaratıcı, pozitif ve eleştirel düşünebilen, doğaya duyarlı, kültür değerlerinin farkında, Gazi Mustafa Kemal Atatürk ‘ün kurduğu Türkiye Cumhuriyeti'nin temel ilkelerine bağlı, katılımcı, üretken ve ülkesini tüm dünyada temsil edecek üstün nitelikli bireyler yetiştirip, bilimsel çalışma ve araştırmalarla ürettiklerini toplum yararına sunup bölgesel ve ulusal alanda gelişme ve sürdürülebilir kalkınmaya katkı sağlamaktır.",
+    "vizyon": "Ulusal ve uluslararası düzeyde vereceği eğitim-öğretim, üreteceği bilgi, teknoloji ve sanat ile öğrencilerini, mezunlarını, çalışanlarını ve toplumu yaşam boyu öğrenmeyle bütünleştiren, kalite odaklı, toplum değerlerine duyarlı, engelsiz ve uluslararası tanınırlığa sahip bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Selçuk Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Ulusal ve uluslararası standartlarda eğitim kalitesine ulaşarak, yetkinlik düzeyi yüksek topluma faydalı bireyler yetiştiren, yetiştirdiği gençleri toplumun hizmetine sunan ve paydaşlarına kattığı değeri sürekli arttıran, ulusal, saygın ve çağdaş bir eğitim kurumu haline gelmektir.",
+    "vizyon": "Çağdaş ve yenilikçi eğitim anlayışıyla sosyal bilimler alanında örnek alınan, insan değerini geliştiren, saygın bir Meslek Yüksekokulu olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Sakarya Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "İnsanlığa değer katan, hayat boyu öğrenme becerilerine sahip girişimci bireyler yetiştirmek ve evrensel nitelikte bilgi, teknoloji ve toplumsal hizmet üretmektir.",
+    "vizyon": "Evrensel nitelikte bilgi ve teknoloji üreterek paydaşlarıyla birlikte geleceğe yön veren bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Yıldız Teknik Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Uluslararası düzeyde eğitim, öğretim ve araştırma mükemmelliğine ulaşarak toplumun ihtiyaçlarına ve ulusal rekabet gücüne katkıda bulunan bireyler yetiştirmek, yenilikçi fikirleri ve uygulamaları hayata geçirmektir.",
+    "vizyon": "İnsan odaklı, bilimsel, teknolojik ve sosyal boyutuyla küresel ölçekte lider bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Galatasaray Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Toplumsal gelişime katkıda bulunmak için, uluslararası işbirliklerini ve disiplinler arası çalışmaları destekleyen köklü bir eğitim ortamında sorgulayıcı, araştırmacı, çağdaş değerlerle donanmış nitelikli bireyler yetiştirmektir.",
+    "vizyon": "Bilime katkıları ve eğitimde işbirlikleri ile öncü, mezunlarıyla toplumun geleceğinde söz sahibi, uluslararası bir araştırma üniversitesi olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Hacettepe Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Araştırma öncelikli bir üniversite olarak bilim, teknoloji, spor ve sanat alanlarında üstün nitelikli; değişimi yöneten ve etik değerleri gözeten bireyler yetiştirmek; üretilen bilgi, hizmet ve teknolojiyi toplum ve insanlık yararına sunmak.",
+    "vizyon": "Eğitim, araştırma ve diğer hizmet alanlarında ülke ihtiyaçlarını da önceleyerek mükemmele erişen, uluslararası düzeyde öncü araştırma üniversitelerinden biri olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Marmara Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Marmara Üniversitesi köklü geçmişinden gelen deneyimi ile toplumsal değerleri ön planda tutarak tüm paydaşları için bilim, kültür, sanat ve sporda değer üreten, yaşam boyu öğrenmeye verdiği önemle sürdürülebilirliği hedefleyen, çok dilli eğitimiyle öncü, uluslararası ve çağdaş bir üniversitedir.",
+    "vizyon": "Eğitim ve araştırmadaki öncülüğüyle toplumsal gelişime yön veren uluslararası bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Ankara Hacı Bayram Veli Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Ankara Hacı Bayram Veli Üniversitesi’nin misyonu bilim, kültür ve sanatın dönüştürücü gücünü kullanarak; güçlü akademik birikimi, öncü vizyonu, ulusal ve uluslararası iş birlikleri, disiplinler arası faaliyetler ve dijital teknolojilerin etkin kullanımı yoluyla bilgiye, kültüre ve sanatsal alanlara yönelik çalışmalar üretmek ve bunu toplumun hizmetine sunmaktır.",
+    "vizyon": "Ankara Hacı Bayram Veli Üniversitesi’nin vizyonu; sosyal bilimler, kültür ve sanat alanlarında toplumun gelişmesine liderlik eden bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Atılım Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Atılım Üniversitesi'nin var oluş amacı; “Toplumsal duyarlılık ve sürdürülebilirlik anlayışı içinde bilimsel bilginin üretimi ve uygulanmasında performansı yüksek alanlar yaratarak ulusal ve evrensel düzeyde donanıma sahip nitelikli bireyler yetiştirmektir.\"",
+    "vizyon": "Atılım Üniversitesi’nin ileri görüşü; “Eğitimde ve araştırmada Türkiye'de ilk 10, dünyada ilk 500 üniversite içerisinde sürekli yer almaktır.”",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Bahçeşehir Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Eğitim, araştırma ve topluma katkıda mükemmelliğe odaklanan uluslararası tanınırlığı yüksek, lider bir üniversite olmak.",
+    "vizyon": "Bahçeşehir Üniversitesi; insanlığın yaşam standartlarını yükseltecek bilgiyi üreten, koruyan, yayan, çağdaş eğitim modelleri ile küresel bireyler yetiştiren, geliştirdiği iş birlikleri ile yerel ve küresel düzeyde topluma katkı yapan seçkin bir dünya üniversitesidir.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Başkent Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Bilimin nesnelliğini benimseyen, ulusal bilince sahip, araştırıcı, sorgulayıcı, üretken, akla ve bilime saygılı, çözümleyici ve bütünleştirici düşünce yapısına sahip, insan ve çevre haklarına duyarlı, evrensel hukuka saygılı, yaratıcı ve yenilikçi, ayrıca Atatürk İlkelerine bağlı bireyler yetiştirmek; eğitim-öğretim, araştırma-geliştirme ve bilimi yayma etkinlikleri aracılığıyla Türk toplumunun teknolojik, sosyo-ekonomik ve kültürel düzeyinin yükseltilmesine, insan sağlığının iyileştirilmesine, insan ve çevresel haklarının geliştirilmesi ve korunmasına, topluma hizmetin yaygınlaşmasına katkıda bulunmaktır.",
+    "vizyon": "Başkent Üniversitesinin vizyonu uluslararası bir marka olarak ileri sağlık uygulamalarının her alanında bilimsel üretime dayalı üst düzeyde öğretim yapan ve bunu çağdaş medeniyet çizgisinin üzerinde yer alma yolunda toplumsal katma değere dönüştürerek sunan bir yuva olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Beykent Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Ülkemizin ihtiyaç duyduğu nitelikli insan gücünün yetiştirilmesinde görev almak; ulusal ve uluslararası ölçekte bilgi ve teknoloji üreten, geliştiren ve mesleki beceriye dönüştürerek toplum yararına kullanabilen ve çevreye duyarlı bir yükseköğretim kurumu olarak toplumun kültürel, sosyal ve ekonomik yönden kalkınmasına katkıda bulunmaktır.",
+    "vizyon": "Uluslararası ölçekte sürdürülebilir başarıya sahip bir yükseköğretim kurumu olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Çankaya Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Çankaya Üniversitesi, evrensel değerlere bağlı, insan haklarına saygılı ve Atatürk ilke ve inkılâplarını benimseyen bireyler yetiştirmeyi hedeflemekte, eğitim programları ile öğrencilere analitik düşünme, disiplinler arası araştırma ve uluslararası rekabet yeteneği kazandırmakta, yenilikçi ve girişimci bireyler olarak çalışma hayatına hazırlamaktadır. Ayrıca bilimsel araştırmalarda uluslararası standartları takip ederek bilgi üretimini teşvik etmekte ve bu bilginin toplumsal faydaya dönüştürmesi hedeflenmektedir. Sunulan engelsiz eğitim imkânları ile topluma, sosyal sorumluluk bilincine sahip ve etik değerlerle donanmış bireyler kazandırarak katkıda bulunuruz.",
+    "vizyon": "Çankaya Üniversitesi, insan hakları bilincini artırarak ve uluslararasılaşmaya katkıda bulunarak, bilim ve teknolojide öncü olmayı ve tüm paydaşlarıyla gurur duyulan bir üniversite olmayı sürdürecektir.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Doğuş Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Doğuş Üniversitesi’nin misyonu; Ülkesini ve dünyayı tanıyan, farklılıkları algılayan ve saygı duyan, çözüm odaklı bakış açısı gelişmiş, yenilikçi fikirler üretebilen, eleştirel aklı benimsemiş, entelektüel kimlik taşıyan, donanımlı ve çok yönlü bireyler yetiştirmek; Ülkemizin bilim, teknoloji, sanat ve kültür alanındaki gelişmelerinde öncü rol üstlenmek ve toplum yararına çalışmalar yürütmektir.",
+    "vizyon": "Doğuş Üniversitesi'nin vizyonu; Eğitim - öğretim, araştırma ve topluma hizmette her zaman mükemmeli hedefleyen bir dünya Üniversitesi olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Haliç Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Haliç Üniversitesi Öğrenci Destek Merkezi olarak öğrencilerimizin üniversitemizdeki öğrenim hayatları boyunca akademik ve idari tüm süreçlerinde destek olmak, yol göstermek ve eğitim hayatlarını daha kaliteli ve verimli şekilde tamamlamalarını sağlamaktır.",
+    "vizyon": "​Haliç Üniversitesi Öğrenci Destek Merkezi olarak öğrencilerimizin daha verimli bir eğitim hayatı geçirmesi ve öğrencilerimizden gelen talep ve öneriler doğrultusunda ''Hep Birlikte Daha İ​yiye'' anlayışı ile üniversitemiz kalitesine kalite katmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Işık Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Toplumun ihtiyaçlarını sorgulayan, bu ihtiyaçları karşılayacak şekilde analitik ve sistematik düşünebilen, ortaya çıkan problemleri tanımlayan, modelleyen ve niceleyici yöntemlere dayalı çözebilen mühendis ve araştırıcı yetiştirmek; bilim ve teknoloji araçları ile, disiplinler arası yaklaşımı benimseyip, iş dünyası ile işbirliği içerisinde gerçek hayat problemlerinin çözümüne yönelik araştırma ve geliştirme yapmak; bilgi ve teknolojinin endüstriye aktarılmasına yönelik girişimciliği destekleyerek mezunlarının ve öğrencilerinin endüstriye katılımını teşvik etmektir.",
+    "vizyon": "Işık Üniversitesi'nin vizyonu, bilim, teknoloji, mühendislik, sanat ve matematik alanlarında eğitim ve araştırmayı \"Yeni Kuşak Üniversite\" anlayışı içinde birleştirerek, yetiştireceği profesyoneller, bilim insanları ve girişimcilerin katılacakları ve kuracakları ulusal ve uluslararası değer yaratma ağları yoluyla, beş yıl içinde çok boyutlu sorunların anlaşılması ve çözüm geliştirilmesi aşamalarında Türkiye'de ilk akla gelen vakıf üniversitesi olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İstanbul Bilgi Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "İstanbul Bilgi Üniversitesi bilime, sanatsal üretime ve teknolojik gelişmelere katkı sağlamayı; özgür düşünce ışığında ve toplumsal sorumluluk bilinciyle, araştırma ve sorun çözme becerisi gelişmiş, uluslararası yetkinliklere sahip, etik ve mesleki nesnellik kurallarına saygılı olmanın yanı sıra çok disiplinli yaklaşımlara açık, geniş ufuklu bireyler yetiştirmeyi; çok boyutlu kalite standartları içinde, topluma hizmet sunmayı görev edinmiştir.",
+    "vizyon": "Bilimin ve sanatın sınırlarını genişleten, özgürlükçü, toplumsal gelişime önderlik eden, öğrencileri ile akademik kadrosunun birlikte öğrenme tutkusu etrafında buluştukları, bütün akademik ve idari bileşenlerinin bu arayışa kendilerini adadıkları uluslararası bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İstanbul Kültür Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "İstanbul Kültür Üniversitesi’nin (İKÜ) misyonu; mesleki yetkinlik ve yaratıcılığı temel alarak çok yönlü ve eleştirel düşünebilen bireyler yetiştirmek; bilimsel, sanatsal ve kültürel faaliyetleri artırarak topluma katkı sunmaktır.",
+    "vizyon": "İstanbul Kültür Üniversitesi’nin (İKÜ) vizyonu; toplumsal ilerlemeye, yaşam boyu öğrenmeye ve bilime hizmet eden yenilikçi faaliyetler ile geleceğe yön veren bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Istanbul Ticaret Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Kurumsal yönetim ve sosyal sorumluluk alanlarında üniversitemizin paydaşlarında farkındalık yaratmak, paydaşların da katılımıyla bilimsel araştırmalar ve yayınlar yapmak, panel, konferans vb. faaliyetler gerçekleştirmek, üniversitemize ve paydaşlarına değer sunmak.",
+    "vizyon": "Kurumsal Yönetim ve Sosyal Sorumluluk alanlarında Türkiye’de ve Dünya’da itibar edilen, söz sahibi kuruluş olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İzmir Ekonomi Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Üniversitemiz; yenilikçi ve dönüştürücü eğitim, nitelikli bilgi üretimi ve güçlü toplumsal katkı faaliyetleriyle toplumun refahını artırmayı; sosyal, ekonomik ve çevresel sürdürülebilirliği desteklemeyi misyon edinmiştir.",
+    "vizyon": "Sürdürülebilir yaşam için yaratıcı ve dönüştürücü çözümler üreten bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Kadir Has Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Kadir Has Üniversitesi’nin misyonu; Temel insani ve evrensel değerler ile bezenmiş, çağın gerektirdiği bireysel ve profesyonel yetkinliklerle donatılmış, insanlığın karşılaşacağı yerel, ulusal, bölgesel ve küresel sorunlara sürdürülebilir çözümler üretebilecek nitelikte öğrencileri araştırma odaklı bir yaklaşımla yetiştirmek; Akademik kadro ve öğrencilerimiz için eğitim ve araştırma altyapısını en yüksek standartlarda sağlayarak, uluslararası nitelikte yüksek etki sahibi araştırma çıktıları üretmek; Üretilen tüm bilgi ve kaynakların ülkemiz ve dünya için faydalı olmasını sağlayacak toplumsal projeleri tüm paydaşlarımızla birlikte her boyutta hayata geçirmek; Öğrencilerine, çalışanlarına ve topluma sunduğu tüm hizmetlerde sürekli iyileşmeyi esas alan bir kurumsal bir yapı geliştirmek; Stratejik hedeflerimizi besleyecek, finansal sürdürülebilirliği sağlayacak bir mali yapı oluşturmaktır.",
+    "vizyon": "Kadir Has Üniversitesi, insanlığın karşılaştığı yerel, ulusal, bölgesel ve küresel sorunlara evrensel insani değerleri temel alan bir yaklaşımla sürdürülebilir çözümler üretebilen, uzmanlık alanlarında bireysel ve profesyonel yetkinlikler ile donatılmış öğrenciler yetiştirmeyi ve yüksek etkili araştırma çıktılarına sahip, toplumsal sorunlar karşısında insan odaklı ve yenilikçi çözümler üreten, ürettiği bilgiyi topluma her boyutta aktarabilen, dünya standartlarında bir araştırma üniversitesi olmayı hedefler.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Koç Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Koç Üniversitesinin ana misyonu Türkiye’de uluslararası nitelikte, yaratıcı, bağımsız ve objektif düşünebilen, liderlik vasıflarına sahip en yetkin mezunları yetiştirmek; bilimin sınırlarını ilerletmek ve örnek bir öğretim ve araştırma kurumu olarak Türkiye ve insanlığa hizmet etmektir. Bu misyondan hareketle, Koç Üniversitesinde yürütülen araştırmalar ülkemizde ve dünyada bilimsel gelişmeleri etkileyecek; teknolojik, ekonomik ve toplumsal kalkınmaya katkıda bulunacaktır.",
+    "vizyon": "Koç Üniversitesinin hedefi, eğitim anlayışı, öğrencileri, öğretim üyeleri ve araştırma programları ile Türkiye’de örnek bir eğitim kurumu olarak dünyada saygıyla tanınmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Maltepe Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Maltepe Üniversitesi; · İnovatif eğitim kapasitesine sahip olarak üretilen bilgiyi çeşitlendirmeyi, · Disiplinler arası çalışma kültürüne sahip olarak araştırma alanında fark yaratacak öğrenciler yetiştirmeyi, · Öğrenci merkezli yaklaşımı ve güçlü akademik kadrosuyla yerel, ulusal ve uluslararası alanda bilgi üretmeyi, · Sürdürülebilir doğa kampüsü ve teknolojik imkânlarla girişimci, özgüven sahibi ve özgür genç kuşakları yetiştirmeyi görev edinir.",
+    "vizyon": "Farklılıkları yönetme kabiliyetine sahip, toplumsal sorunlara duyarlı, çözüm odaklı, eleştirel düşünebilen öğrencileri ve mezunlarıyla bilinen, bilimsel faaliyetleri ile yerel/bölgesel/ulusal ve uluslararası alanda öncü bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Okan Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Cumhuriyetin temel değerlerini özümsemiş, ulusal ve küresel sorunlara duyarlı, evrensel gelişim ve gereksinimleri eğitim sistemine yansıtan, yeni eğitim yöntemlerini kullanan ve geliştiren, Analitik düşünen, problem çözme yeteneğine sahip, sorgulayan, birden çok yabancı dil bilen, bilgiye ulaşmayı, kullanmayı ve paylaşmayı öğrenmiş, etik değerleri özümsemiş, farklı kültürlere saygılı, kendine güvenen, yenilikçi, yaratıcı ve girişimci bireyler yetiştiren, Özgün araştırmalar, çalışmalar ve yayınlarla bilime, kültüre ve sanata katkıda bulunan, Öğrenci odaklı, evrensel gelişim ve değişimleri eğitim sistemine yansıtabilen, çağdaş eğitim teknik ve yöntemlerini kullanan, problem çözmeye yönelik eğitim veren, Çalışmalarında, insanlığın yücelmesine, insan onuru, sosyal sorumluluk, toplumsal cinsiyet eşitliği ve çevre bilincini ön planda tutan ve bu alanda projeler üreten, Öğrencilerle iletişimi güçlü, toplumsal sorunlara duyarlı, ekip ruhuna sahip, çalışanların memnuniyetini gözeten, İnsana odaklı, yenilikçi, dayanışma ve ekip ruhuna sahip, kendini sürekli geliştiren bir dünya üniversite olmak.",
+    "vizyon": "Toplumun ve iş yaşamının gereksinimlerine evrensel standartlarda yanıt verebilen, yenilikçi, öncü bir 'dünya üniversitesi' olmak",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Sabancı Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "“Birlikte Yaratmak ve Geliştirmek” Sabancı Üniversitesi’nin misyonu, her alanda ve uluslararası düzeyde yetkin ve kendine güvenen bireyler yetiştirmek, yenilikçi ve disiplinler ötesi araştırmalarla doğa bilimleri ve mühendisliğin yanı sıra, insan ve toplum bilimleri ve yönetim bilimleri alanlarında bilginin üretimine ve geliştirilmesine katkıda bulunmaktır.",
+    "vizyon": "Sabancı Üniversitesi, bilimde ve toplum üzerinde dönüştürücü etkileri olan yenilikçi araştırma ve eğitim faaliyetlerindeki öncü konumunu geliştirecektir.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "TOBB Ekonomi ve Teknoloji Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Ülkemizde çalışma alanlarına göre nitelikli insan gücü ihtiyacını belirlemek, ülkenin gelişme ve kalkınma sürecinde oluşabilecek yeni iş alanlarını tespit etmek, nitelikli iş bulma imkânı sağlayıcı sertifika programları düzenlemek, kurumsal anlaşmalarla özel program ve paket eğitim imkânları hazırlamak, üniversite sonrası farklı bilgi alanlarında kendilerini geliştirmek isteyen gençlere yeni eğitim programları sunmak, gelişen ve her gün değişen iş dünyasının çalışanlarına yeni teknolojileri tanıtmak ve bu yönde bilgi ve becerilerin kazandırılmasını sağlamak, görsel, işitsel, uzaktan veya doğrudan eğitim modelleriyle daha geniş kesimlere eğitim verilmesini sağlamak, yurt içi ve yurt dışı kişi ve kuruluşlarla işbirliği yapmaktır.",
+    "vizyon": "Üniversitenin örgün lisans ve lisansüstü programları dışında, kamuda ve özel sektörde halen çalışmakta olan kişilere, hızla gelişen teknolojiyi tanıtmak ve yeni beceriler kazandırarak verimliliği arttırmak, İşverenin taleplerine uygun, çağdaş donanımlı, nitelikli elemanlar yetiştirerek istihdamı geliştirmek, Üst seviyede bilgi ve becerilere sahip ve dünyanın her yerinde istihdam imkânı bulabilecek vasıfta elemanlar yetiştirmek, Eğitim imkânı bulamamış kişilere kendini geliştirme ve yenileme ortamı sağlamak, Gönüllülük esasına uygun çalışma alanlarında görev alabilecek bireyleri yetiştirerek bu alandaki çalışmaları teşvik etmek, Engelli bireylerin hayatını kolaylaştıracak ve onları topluma kazandıracak etkinlikler düzenlemek, Lise sonrasında kabiliyetlere uygun meslekî eğitim imkânı sağlama, meslek kazandırma ve benzeri konularda bilimin ve teknolojinin gelişmesine paralel olarak eğitim programları düzenlemek ve Üniversitenin kamu ve özel sektörle, ulusal ve uluslararası kuruluşlarla iş birliğinin gelişmesine katkıda bulunarak toplumla bütünleşmesini sağlamak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Ufuk Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Misyonumuz; hâlâ yürütülmekte olan sağlık ve sosyal bilimler alanlarındaki eğitim faaliyetlerinde, bilimsel bilginin ışığında araştıran, sorgulayan ve fikirlerini özgürce ifade eden, alanında yetkin ve yeterli, farklılıklara saygılı, doğaya duyarlı, küresel gelişmeleri takip eden ve yaşam boyu öğrenmeyi benimsemiş bireyler yetiştirmek, etik değerlere uygun olarak yapılan araştırma ve geliştirme faaliyetleri ile bilime katkı sağlamak ve ülkemizin sosyal, kültürel ve ekonomik kalkınmasını desteklemek amacıyla ilgili yasal düzenlemelere uygun şekilde kamuya hizmet sunmaktır.",
+    "vizyon": "Öğrencilerinin üniversite yaşamlarını “üst düzeyde, farklı ve geliştiren bir deneyim” olarak tarif ettiği, bünyesinde yürütülen bilimsel çalışmaların niceliği ve niteliği sebebiyle işbirliğinin talep edildiği, gerçekleştirdiği hizmet sunumu ile yüksek memnuniyet yaratan, bu sebeplerle tüm paydaşları tarafından tercih edilen, dünyada tanınırlığını ve saygınlığını artırmış, değer üreten ve geleceğe yön veren seçkin bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Yaşar Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "“Nitelikli eğitim ve araştırma ile sürdürülebilir değer yaratmak ve geleceğe yön veren yenilikçi bireyler yetiştirerek topluma katkıda bulunmak”",
+    "vizyon": "“Geleceği Tasarlayan ve Dönüştüren bir Dünya Üniversitesi”",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Yeditepe Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Gençlerimizi, kendine güvenen, taklitçilikten uzak, çok boyutlu ve bağımsız düşünebilen, toplumsal sorumluluk bilincine ve mesleğinin gerektirdiği etik değerlere sahip, Atatürk ilke ve inkilaplarına tam bağlı, takım çalışmasını ve ömür boyu öğrenmeyi benimsemiş bireyler olarak yetiştirmek, bilim ve teknolojiye evrensel boyutta katkıda bulunmak, üretilen bilgilerin toplum hayatına yansımasını ve yayılmasını sağlayarak ulusumuza ve dünyaya hizmet etmektir.",
+    "vizyon": "Her alanda Türkiye’nin önde gelen seçkin ve başarılı kadrolarına ve çağdaş eğitimin gerektirdiği her türlü donanıma haiz; dünyanın her yerinde aranan mezunlar yetiştiren, uluslararası saygınlığa sahip bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Ankara Sosyal Bilimler Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Sosyal bilimler alanında eğitim, araştırma, girişimcilik ve toplumsal sorumluluk faaliyetleriyle bilimin, toplumun ve insanlığın ilerlemesine katkı sağlamaktır.",
+    "vizyon": "Bir ihtisas üniversitesi olarak gerçekleştirdiğimiz öncü çalışmalar ile sosyal bilimler alanının ilerlemesine liderlik yapmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Ankara Yıldırım Beyazıt Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Evrensel değerler ışığında verdiği nitelikli eğitimle bilim, kültür, spor ve sanat alanlarında sorgulamaya açık, ahlaki değerlere saygılı bireyler yetiştirmeyi; yaptığı araştırmalar ile bilgi ve teknoloji üreterek toplum yararına sunmayı; sahip olduğu girişimcilik ruhuyla ürettiği bilgi ve teknoloji ekseninde insanlık için fayda üretmeyi; hissettiği sosyal sorumluluk bilinciyle ulusal ve uluslararası düzeyde beşeri sermayenin gelişimine katkıda bulunmayı misyonu olarak benimser.",
+    "vizyon": "Sunduğu eğitim-öğretim ile iyi bir gelecek inşasına katkı sağlayan, ilim geleneğimizin engin birikimini günümüze taşımayı başaran, araştırma ve projeleriyle insanlık adına faydalar üreten, uluslararası düzeyde saygınlık kazanmış, akademik, idari ve mali özerkliğe sahip bir üniversite olmayı vizyonu olarak benimser.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İstanbul Medeniyet Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Medeniyet odaklı, ürettiği bilim, teknoloji ve sanata evrensel değerleri katan özgün bir üniversite olmak.",
+    "vizyon": "Medeniyetimizi çağdaş dünyaya sunan, dünya barısına katkıda bulunan insani değerleri özümseyen,  bilimsel kalitesi ile ön plana çıkmış, yenilikci ve girişimci bir dünya üniversitesi olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Türk-Alman Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "devlet",
+    "misyon": "Yükseköğretim ve akademik araştırmalar alanında, Almanya yükseköğretim kurumlarıyla iş birliği yaparak yükseköğretim sisteminin gelişimine katkı sunmak, Türkiye ile Almanya arasındaki bilimsel, kültürel ve teknolojik iş birliğini geliştirmektir.",
+    "vizyon": "Bünyesine kazandıracağı nitelikli Türk/Alman öğretim elemanları ile ideal bir yükseköğretim merkezi, Türk-Alman sanayi/iktisat kuruluşları ve işletmeleri için yüksek düzeyde teknolojik, bilimsel araştırma ve geliştirme çalışmalarının yürütüleceği bir araştırma üniversitesi olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Altınbaş Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Dünyanın ve Türkiye'nin ihtiyaçları doğrultusunda kendini güncelleyen, yenilikçi, uygulamayı merkeze koyan ve öğrenen odaklı bir anlayışa sahip,inovasyonu önceliğe alan, özgür araştırma imkanını ve ortamını sağlayan, toplumsal sorumluluk bilinciyle özgün katkılar​ sağlayan çözüm öncelikli üniversite olmak.",
+    "vizyon": "Mezunlarıyla profesyonel alanda fark yaratan, evrensel bilime değer katan bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Ankara Medipol Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Ankara Medipol Üniversitesinin misyonu, nitelikli eğitim ve araştırmayla sağladığı kazanımlarla, kalıcı üstünlükler kazanmış, bilim ve teknoloji üretimine odaklı, toplumun değişen ihtiyaçlarına cevap verebilen bireyler yetiştirmek, paydaşlarla istikrarlı şekilde iş birliklerini sürdürmek, sürekli gelişmeyi sağlamak, topluma ve evrensel bilime katkıda bulunmaktır.",
+    "vizyon": "Ankara Medipol Üniversitesinin vizyonu, kaliteli eğitim ve öğretimi, katma değer oluşturan araştırmacı anlayışı, yenilikçilik ve girişimcilik ruhu, sürdürülebilir, sürekli gelişime açık dinamizmi ve güçlü kurumsal kültürü ile bilime ve topluma yön veren, bir araştırma üniversitesi olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Beykoz Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Öğrenen, öğrendikleri ile öğrenmeye ve topluma değer katan, evrensel bir üniversite olmaktır.",
+    "vizyon": "Bilimsel ve mesleki açıdan donanımlı ve yetkin, Araştırma, sorun çözme ve uygulama becerileri gelişmiş, Çok disiplinli yaklaşımlara açık; özgün, estetik, yaratıcı ve yenilikçi uygulamaları tasarlayabilen ve uygulayabilen, Öğrenmenin değerini bilen, öğrenmekten ve etik değerlerden yaşam boyu kopmayan, Özgür düşünen ve düşüncesini ifade etmekten çekinmeyen, Özgüveni yüksek ve etkili iletişim kurabilen, Kalite ve mükemmelliği bir yaşam biçimi olarak algılayan ve uygulayan, İnsan yaşamına, toplumsal ve kültürel değerlere saygılı, Sosyal sorumluluk bilinci gelişmiş; sürdürülebilir bir gelecek için sorumluluk alan, bireylerin yetişmesine olanak sağlayacak; öğrenci, çalışan ve paydaşları ile bütünleşmiş, yurt içinde ve yurt dışında saygınlığı olan örnek bir yükseköğretim ortamı ve kültürü oluşturmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Fatih Sultan Mehmet Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Misyonumuz, eleştirel ve çözüm odaklı düşünebilen, insani ve ahlaki değerlerle donatılmış, sosyal sorumluluk bilincine sahip üretken bireyler yetiştirmek; çok disiplinli araştırmalar ile medeniyet değerlerimiz ışığında bilime, sanata ve toplumsal gelişime katkı sağlamaktır.",
+    "vizyon": "Vizyonumuz, evrensel düzeyde eğitim-öğretim hizmeti sunan, nitelikli araştırma ve geliştirme çalışmaları yapan, ürettiği bilgiyi ülke ve insanlık yararına kullanan yenilikçi bir akademik kurum olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Fenerbahçe Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Bütün öğrencilerimize; profesyonel hayat ile ilgili destek vererek tercih edilirliklerini artırmak, doğru ve kolay kariyer seçimi yapmalarını sağlayacak desteği vermek, mezun olduktan sonra da FENERBAHÇE ailesi içerisinde hem “destek veren” hem de “destek alan” konumda bağları kuvvetlendirecek ortamlar oluşturmak.",
+    "vizyon": "Misyonumuzu gerçekleştirebilmek için; öğrencilerimizin bilinçli kariyer seçimleri yapmalarını sağlamak, yeni gelişen mezun ağımızdan yararlanarak destek oluşturmak, öğrencilikten profesyonel hayata geçişte hazırlıklı olmalarını sağlamak ve yeni/eski mezun buluşmaları ile çözüm ortaklıkları oluşturmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İbn Haldun Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Bilginin tüm kaynaklarına açık, insanlığa katkıyı önceleyen araştırmacılar yetiştirmektir.",
+    "vizyon": "Sosyal bilimler alanında söz sahibi, özgün bilgi ve yaklaşımlar üreten, küresel ölçekte saygın ve etkili bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İstanbul 29 Mayıs Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Kadim/milli kültürümüzden hareketle geliştirdiğimiz kurumsal değerlerimiz ışığında, uluslararası yeterlikte bir öğretim ve araştırma ortamı inşa ederek inançlara saygılı, etik değerlere bağlı, ülkemizin, bölgemizin ve insanlığın temel sorunlarına duyarlı, çözüm odaklı, gelişime açık, mesleki ve toplumsal sorumluluk bilinci yüksek insanlar yetiştirmektir.",
+    "vizyon": "Ülkemiz, bölgemiz ve insanlığın toplumsal gelişimine yön veren, akademik, sosyal ve kültürel faaliyetlerimizle daha iyi bir geleceğin şekillenmesine katkı sunan öncü, aranır ve örnek bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İstanbul Arel Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "İstanbul Arel Üniversitesi’nin misyonu, eğitim-öğretim, araştırma ve topluma hizmet etkinliklerini uluslararası kalite standartları doğrultusunda yürütmek; Atatürk ilkeleri ve Cumhuriyet değerlerine duyarlı, dünya insanı olma bilincine sahip, hukukun üstünlüğüne, etik ilkelere, insan haklarına ve farklılıklara saygılı, eleştirel ve yaratıcı düşünebilen, özgüveni yüksek bireyler yetiştirmektir.",
+    "vizyon": "İstanbul Arel Üniversitesi’nin vizyonu, sürekli değişen toplumsal, kültürel, ekonomik ve teknolojik gereksinimleri tespit ve tahlil edebilecek, bu gereksinimlerin karşılanmasına yönelik yenilikçi bilimsel araştırma ve mesleki faaliyetleri yürütebilecek bireyler yetiştiren, uluslararası tanınırlığa sahip, çağdaş bir eğitim ve araştırma üniversitesi olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İstanbul Aydın Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Sürdürülebilir kalkınma hedefleri doğrultusunda, girişimciliği teşvik etmek, yenilikçi araştırmalar geliştirerek araştırma kültürünü lisans seviyesine yaygınlaştırmak ve insanlığa faydalı bireyler yetiştirmektir.",
+    "vizyon": "Eğitim diplomasisi faaliyetleriyle ülkenin sosyo-ekonomik kalkınma sürecine katkı sağlayan, bilginin ürüne dönüşümünü hızlandıran, uluslararası iş birliklerinin katkısıyla öğrencilerini çok kültürlü kampüsleri içerisinde araştırma ekosistemine dahil ederek yetiştiren ve küresel rekabete hazırlayan bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İstanbul Esenyurt Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Cumhuriyet’in ilke ve değerlerini özümseyen, bilimsel ve teknolojik gelişmelerin topluma yayılmasına katkıda bulunan, genelde ülkemizin özelde bölgemizin ihtiyaç duyduğu alanlarda bilgili, yetkin ve girişimci ruha sahip, toplumsal sorumluluk duyarlılığı olan bireyler yetiştirmektir.",
+    "vizyon": "Özgürlükçü, Akademik ve fiziki altyapısı ile öne çıkan, Geleneklere ve farklılığa saygılı, Ülkesine ve bilime hizmeti amaç edinen, Dünya standartlarında, disiplinlerarası eğitim anlayışı ile özgün bilgiler üreten, geleceğe yön verebilecek bireyleri yetiştiren uygulama ağırlıklı bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İstanbul Gedik Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Yaşam boyu eğitim, bilimsel araştırma ve toplumsal katkı faaliyetlerini, ulusal ve uluslararası tüm paydaşların katılımıyla sektör-akademi iş birliği, sürdürülebilirlik, yenilikçilik, insan odaklılık, çevreye saygı ve etik değerler çerçevesinde sunarak, eleştirel düşünebilen yetkin profesyoneller yetiştirmektir.",
+    "vizyon": "Ulusal ve uluslararası düzeyde rekabet edebilen mezunlarıyla bilim, teknoloji ve sanatta geleceği şekillendiren, küresel ölçekte sürdürülebilirliğe ve evrensel bilgi üretimine katkı sunan, değişimlere adapte olabilen, çok kültürlü, disiplinler arası çalışmalarıyla öncü bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İstanbul Gelişim Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "İGÜ’ nün misyonu, toplumsal gelişim ve değişime katkı sağlamak için uluslararası nitelikte öz güvenli bireyler yetiştirmek ve sürdürülebilirlik ilkesiyle eğitim - araştırma faaliyetleri yürüterek insanlığa hizmet etmektir.",
+    "vizyon": "Eğitim, bilim, teknoloji ve sanatta değer üreten, sürdürülebilirlik anlayışını benimsemiş yenilikçi ve öncü bir dünya üniversitesi olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İstanbul Rumeli Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Yüzyıllardır medeniyetler arasında adeta bir kültür köprüsü görevi yaparak kazanmış olduğu zengin bilgi birikiminin yanı sıra çağdaş ve evrensel düşünce yapısına sahip olan, vatan sevgisi ve milli değerlerin kıymetini iyi bilen Rumeli Felsefesi doğrultusunda her türlü dogma, kalıp ve ezberden sıyrılan, farkları ve ayrıntıları yakalayabilen, bağımsız fikir ve düşünce üretebilen, tartışma kültürüne sahip, eleştirel ve sorgulayıcı olduğu kadar analitik, kavramsal, çözüm odaklı ve yaratıcı düşünebilen bireyleri topluma kazandırmaktır.",
+    "vizyon": "Hizmette paydaş memnuniyetinin göz önüne alındığı, sürekli gelişen, atılgan, dinamik, rekabet gücü yüksek, ulusal ve uluslararası değerleri ön plana alan ve değer katan bir dünya üniversitesi olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İstanbul Sabahattin Zaim Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Medeniyetimizin değerlerini özümseyen, bilim üreten, insanlığa hizmet eden, donanımlı, geleceği şekillendiren, erdemli ve lider insanlar yetiştirmek.",
+    "vizyon": "Akademik ve fiziki alt yapısı ile öne çıkan, mezunları tercih edilen, yayınları başvuru kaynağı olan, belirli alanlarda öncülük eden ve vakıf üniversiteleri arasında ilk beşte yer alan bir uluslararası araştırma üniversitesi olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İstanbul Topkapı Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "İstanbul Topkapı Üniversitesi disiplinlerarası programları, deneyimli akademisyen kadrosu, çağın gerekliliklerine uygun teknolojilerle evrensel standartlarda eğitim vermeyi; toplum bilinci yüksek, sektörel teması güçlü ve inovasyon odaklı eğitim sistemini benimsemeyi ve bu doğrultuda kaynaklarını verimli kullanarak çözüm üreten bir üniversite olmayı; çalışma hayatında tercih edilen, iletişimi güçlü mezunlar yetiştirmeyi kendisine misyon edinmiştir.",
+    "vizyon": "Uluslararası düzeyde tanınan, kendi ekosistemini kurarak fark yaratan, çalışma hayatı ve eğitim açısından tercih edilen geleceğin üniversitesi olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İstinye Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "İstinye Üniversitesi’nin misyonu; öğrenci merkezli ve sektörle yakın iş birliği içinde olan bir kurumda yenilikçi ve sürdürülebilir eğitim sunmak, ileri teknolojiye dayalı araştırmalar yürütmek, yeni bilgi ve teknolojileri üretmek, yerel ve evrensel sorunlara çözümler geliştirerek toplumun gelişimine katkıda bulunmaktır.",
+    "vizyon": "İstinye Üniversitesi’nin vizyonu; odak noktasında yapay zekânın yer aldığı, eğitim, araştırma, yenilik ve teknoloji geliştirmede mükemmeliyeti hedefleyen dünyanın öncü üniversitelerinden biri olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Mef Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Yenilikçi, özgürlükçü, yaratıcı, sürdürülebilir kalkınma amaçlarını ve etik değerleri gözeten, sürekli öğrenen, teknolojiyi etkin kullanabilen, girişimci ve öncü bireyler yetiştirmek. Bilime ve teknolojiye katkı veren araştırmacıları ve akademisyenleri bir araya getirmek ve desteklemek. Araştırmadan beslenen eğitim anlayışımızla bilgiyi toplumun hizmetine sunmaktır.",
+    "vizyon": "Yenilikçi ve girişimci liderler yetiştirmektir.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Nişantaşı Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Pozitif bilimi esas alarak bilgi üreten, analitik ve eleştirel düşünebilen, proje temelli eğitim modeliyle teknolojik devrimin sosyal yaşama ve iş hayatına getireceği yenilikleri, fırsatları değerlendirecek; dijitaleşen, otomasyon sistemleri ve robotik teknolojilerle bütünleşen bir dünyanın gerektirdiği becerilere sahip; geleceğin mesleklerine uyum sağlayacak; yaşam boyu öğrenmeyi amaç edinen bir nesil yetiştirmektir.",
+    "vizyon": "Teknoloji ile bütünleşen, araştırma-geliştirmeyi destekleyen, inovatif ürünler geliştirmeye odaklı, girişimciliğe değer veren, dijital platformlara aktarılabilecek iş modellerini önceleyen, uluslararası işbirliklerine açık bir eğitim modeli benimsemektedir. Vizyonumuz, dijital teknolojiden yararlanan, nesnelerin İnterneti ve yapay zekâyla donatılmış bir dünyanın ihtiyaçlarına cevap verebilecek, geleceğin mesleklerinde önemli roller üstlenecek bir nesil yetiştirmeye dayanmaktadır",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Özyeğin Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Odağında öğrencilerimizin dönüşümü ve verdiğimiz eğitimin ve üniversite deneyiminin mükemmelliği olan bir girişimci araştırma üniversitesi olarak alanında lider mezunlar yetiştirmek; çözüm odaklı ve katma değeri yüksek bilgi üreterek, paylaşarak ve uygulayarak bilimsel, sosyal ve ekonomik global etki yaratmak.",
+    "vizyon": "Öğrenen odaklı, global etkisi yüksek bir girişimci araştırma üniversitesi olmak, örnek alınmak ve tercih edilmek.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "TED Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Lider bireyler yetiştirmek: İş yaşamıyla bütünleşik, topluma katkıyı ve uluslararasılaşmayı önceleyen aktif ve katılımlı öğrenmeyi merkeze alan eğitim yaklaşımıyla girişimci, yaratıcı ve geleceği şekillendirebilecek bireyler yetiştirmek Yenilikçi çözümler üretmek: Özgürlükçü ve yaratıcılığı teşvik eden araştırma ortamında, disiplinlerarası yaklaşımla yerel-küresel sorunlara çözümler yaratarak toplumsal fayda sağlamak",
+    "vizyon": "Sürdürülebilir bir gelecek için toplumsal gelişimde iz bırakmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Üsküdar Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Eğitim-öğretim ve araştırmada mükemmellik ilkesiyle, bilim üreten ve yayan, çevresel ve sosyal sorunlar karşısında farkındalığı yüksek, sürdürülebilirlik ilkesiyle topluma hizmet eden erdemli insan yetiştirmek.",
+    "vizyon": "Gelecek için eğitim-öğretim ve araştırma yoluyla, küresel ve toplumsal gelişime çok boyutlu ve yenilikçi katkı sağlayan, insanı anlayan ve iyileştiren bir beyin üssü olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Yeni Yüzyıl Üniversitesi",
+    "konum": "yari_merkez",
+    "kurum_turu": "vakif",
+    "misyon": "Üniversitemiz, Dünyadaki gelişmeleri gözeterek, akademik ve teknolojik olarak ülkemizde çağdaş uygarlık düzeyini aşacak, araştırma ve çalışmalara katkıda bulunmaya yönelik önlisans, lisans, yüksek lisans ve doktora düzeyinde eğitimli işgücünün yetiştirilmesinde kendisini görevli görmektedir. İstanbul Yeni Yüzyıl Üniversitesi bu amaçla alanında uzman, deneyimli akademik kadrosuyla devlet kurumları, özel sektör ve sivil toplum kurum ve kuruluşları gibi paydaşlarla iş birliği içinde farklı disiplinlerde evrensel düzeyde eğitim vermektedir.",
+    "vizyon": "Vizyonumuz; küresel düzeyde aranan mezunlar yetiştirmek, yayınları ile alanındaki akademik çalışmaları yönlendirebilen bir üniversite konumuna ulaşmak ve her tür bilimsel etkinlikte işbirliği aranan bir mükemmeliyet merkezi ve araştırma - geliştirme kurumu olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Batman Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Evrensel düzeyde bilgi üreterek topluma faydalı, nitelikli, araştırmacı, eleştirel düşünen, kişisel ve mesleki alanda kendini sürekli yenileyen milli, manevi, kültürel ve insani değerlere saygılı bireyler yetiştirmek.",
+    "vizyon": "Eğitim, öğretim ve araştırma kalitesi yönüyle tercih edilen, kamu-üniversite-sanayi ve toplum işbirliğini önceleyen, geleneksel değerlerimizin özünü koruyarak çağdaş ve özgün eserler üreten, evrensel değerleri içselleştiren, kalite güvencesi anlayışını benimseyen, enerji ihtisası alanında bölgemiz ve ülkemizin geleceğinde etkili olan bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Bitlis Eren Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Bölgenin köklü tarihî ve zengin kültürel dokusuyla değer eksenli toplumsal bilincin oluşmasına katkı sağlamak, çağın gereklerine uygun bilgi ve beceriyle donatılmış bireyler yetiştirmek, nitelikli araştırmalarla bölge kaynaklarının etkin kullanılmasına öncülük etmek ve başta “Turizm” alanı olmak üzere ülkenin sürdürülebilir kalkınmasına katkı sağlamaktır.",
+    "vizyon": "Eğitim-öğretim ve bilimsel faaliyetleriyle ön plana çıkan; güçlü kurumsal yapısıyla yenilikçigirişimci bir aktör olarak yerel ve bölgesel kaynakları harekete geçirmeye ve turizm alanında ihtisaslaşmaya öncülük eden, evrensel değerler çerçevesinde nitelikli bireyler yetiştiren saygın bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Hakkari Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Hakkari Üniversitesi'nin misyonu, varolan şartlar içerisinde kaynağa dönüştürülebilecek tüm doğal ve kültürel zenginlikleri ile insana saygı anlayışı, farklılıkların kabulüyle fikri hürriyetlerin ifade bulduğu, bilimselliğin ve özgünlük çerçevesinde yapılan araştırmaların niceliksel olarak değer bulmaktan öteye geçtiği, sadece eğitim alanların değil, eğitim verenlerin de hür düşünceye sahip olduğu, bilimi ezberciliğe hapsolmaktan kurtarıp, özgür araştırmalar ve yaratıcı faaliyetlerle bilim zihniyetini kazanmak ve kazandırmaktır.",
+    "vizyon": "Kurum olarak vizyonumuz, düşüncelerin hür olduğu, farklılıkların kabul edilip hoşgörüldüğü, bireysel ve toplumsal bazda kendini gerçekleştirme yolunda ilerleyen, huzurlu, yaratıcı, araştırmacı bir Üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Aksaray Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Tüm paydaşların ihtiyaçlarına odaklanarak, bilgi ve teknolojiyi kullanabilen, rekabetçi, girişimci, yenilikçi atılımlarla bölge ve ülkenin ekonomik, sosyal ve kültürel gelişimine katkı sağlayabilecek nitelikli insan gücü yetiştirmektir.",
+    "vizyon": "Üniversite - sanayi - toplum işbirliği temelinde evrensel düzeyde faydalı bilgi ve yenilik üreterek, bilim ve teknolojinin gelişimine ortak olan bir üniversite olmaktır!",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Kırşehir Ahi Evran Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Millî ve evrensel değerleri benimsemiş, çağın gerektirdiği teknik ve insani becerilere sahip nitelikli insan yetiştirmek; paydaşlarla işbirliği ve sürekli iyileştirmeyi esas alarak yürüttüğü araştırmalar ve geliştirdiği kalite sistemleri ile bölgenin ve ülkenin kalkınmasına katkı sağlamaktır.",
+    "vizyon": "Sürekli iyileştirme ve paydaş memnuniyetini esas alan, bölgesel kalkınma ve ihtisaslaşmayı önceleyen, ulusal ve uluslararası düzeyde araştırmalar yürüten, nitelikli öğrencilerin tercih ettiği, geliştirdiği eğitim ve kalite yönetim sistemleri ile model alınan bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Çorum Hitit Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Yaşadığı toplumun gereksinimlerini belirleyip çözüm üreten,gelişime ve yeniliğe açık, etik değerlere bağlı, milli hassasiyetlere sahip meslek insanları yetiştirmek ve evrensel standartlarda ürettiği bilgiyi insanlığa yararlı çıktılara dönüştürecek bilimsel çalışmalar gerçekleştirmek.",
+    "vizyon": "Uluslararası standartlarda bilimsel saygınlığa sahip, tercih edilen bir dünya üniversitesi olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Yozgat Bozok üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Yozgat Bozok Üniversitesi; bölgesel kalkınma odaklı ihtisaslaşan yönüyle girişimci ve yenilikçi, ülkesine ve insanlığa değer katmada evrensel boyutta değişimleri öngören ve hayata geçiren eğitim anlayışı ile kaliteyi esas alan, bilgi üreten ve üretilen bilginin her düzeyde kullanımıyla değişim, dönüşüm ve gelişim süreçlerini yöneten bir üniversite olmayı görev edinmiştir.",
+    "vizyon": "Girişimci ve yenilikçi yüzü ile ürettiği bilgiyi paydaşlarıyla ekonomik değere dönüştüren ve insanlığın hizmetine sunan öncü üniversitelerden biri olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Çankırı Karatekin Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "İnsanı merkeze alan bir anlayışla; bilgiyi rehber edinen, tarihsel birikime sahip, kadim değerlere bağlı nesiller inşa etme gayesiyle eğitim-öğretim faaliyetleri sunan; bilim, sanat, ekonomi ve sosyal alanlarda ulusal ve uluslararası paydaşların ihtiyaçlarına cevap vermeyi ilke edinen, bilimsel bilgiyi inovasyonla birleştirerek kalkınmaya öncülük eden, ulusal ve evrensel sorunlara duyarlı, daimi tekâmül doğrultusunda yeniliği ve gelişimi amaç edinen bir üniversite olmak.",
+    "vizyon": "Tarihimizden ve medeniyetimizden alınan ilhamla geleceğe yön veren, yenilikçi ve girişimci bir anlayışla eğitim ve öğretim çalışmalarında yetkin, araştırmalarıyla paydaşlarına değer katan ve faaliyetleriyle daha yaşanılabilir bir Çankırı’nın şekillenmesine katkı sağlayan bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Nevşehir Hacı Bektaş Veli Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Nevşehir Hacı Bektaş Veli Üniversitesi; çağın gerektirdiği yetkinliklerle donatılmış, değişim ve gelişime açık, erdemli, girişimci ve paylaşımcı bireyler yetiştiren, nitelikli araştırmalar ve yenilikçi projeler hayata geçiren, paydaşlarla iş birliği halinde sürekli iyileşmeyi esas alarak bölgenin ve ülkenin kalkınmasına katkı sağlayan, uluslararası tanınırlığını sürekli artıran, Kapadokya Bölgesinin doğal ve kültürel mirasına sahip çıkarak yerel ve evrensel alandaki kimliğine değer katan bir yükseköğretim kurumudur.",
+    "vizyon": "Yenilikçiliği ve girişimciliği önceleyen, evrensel standartlarda eğitim-öğretim faaliyetleri yürüten, sürdürdüğü nitelikli araştırmalarla bölgesel ve ulusal sorunlara çözüm üreterek toplumsal katkı rolünü geliştiren, doğal ve kültürel miras turizmi ihtisaslaşma konusunda uluslararası alanda model alınan bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Kayseri Abdullah Gül Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "‘‘Gerçekleştirdiği bilimsel araştırmalar ve çağdaş eğitim ile bilime ve topluma ileri düzey katkı sağlamak.’’",
+    "vizyon": "‘‘Değişimlere yön veren, uluslararası saygın bir üniversite olmak.’’",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İzmir Demokrasi Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "İzmir Demokrasi Üniversitesi; bilim, sağlık, sanat, ekonomi, kültür ve teknolojiye katkı sağlamayı; etik değerleri gözeterek yenilikçi ve disiplinler arası araştırmalar yapmayı; nitelikli, eleştirel düşünebilen, geleceğe yön veren bireyler yetiştirerek topluma hizmet etmeyi görev edinmiştir.",
+    "vizyon": "Özgün ve yenilikçi bilimsel çalışmaları ve sunduğu nitelikli eğitim-öğretim hizmetleriyle, toplumsal gelişime öncülük eden, sorumluluk sahibi mezunlarıyla insanlığın geleceğine katkı sunan ve uluslararası tanınırlığı olan seçkin bir araştırma üniversitesi olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "İzmir Katip Çelebi Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Ulusal ve uluslararası rekabetçi yaklaşımla araştırma faaliyetleri yürütmek; eleştirel, üretken ve yetkin insan gücü yetiştirmek, çevreye duyarlı bir yaklaşımla üretilen nitelikli bilimsel bilgi ve teknolojiyi topluma hizmet uygulamalarıyla insanlık yararına sunmaktır.",
+    "vizyon": "Uluslararası standartlarda araştırma ve öğrenme faaliyetleriyle toplumsal refahı önceleyen ve sürekli iyileştirmeyi, sürdürülebilirliği ve yenilikçiliği esas alarak evrensel boyutta katma değer üreten üniversiteler arasında yer almaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Bandırma 17 Eylül Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Toplumsal değerlere saygılı, bilim, teknoloji, kültür ve sanatsal birikimiyle bölgesi ve ülkesi için değer üreten, uluslararası düzeyde saygın bir eğitim ve araştırma üniversitesi olarak ülkemiz ve insanlığın gelişimine katkı sağlamaktır.",
+    "vizyon": "Katılımcı, özgürlükçü, yenilikçi ve üretken kurumsal yapısıyla eğitim, bilim, teknoloji, kültür ve sanatta ulusal alanda öncü, uluslararası alanda etki sahibi bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Karaman Karamanoğlu Mehmet Bey üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Karamanoğlu Mehmetbey Üniversitesi’nin misyonu, çağdaş ve etik değerleri benimseyen, hukukun üstünlüğüne inanan, ulusal ve evrensel düzeyde donanıma sahip, üstün nitelikli bireyler yetiştirmektir.",
+    "vizyon": "Karamanoğlu Mehmetbey Üniversitesi’nin vizyonunda, bilgi çağının gerektirdiği nitelikleri taşıyan, insanlık onurunu her şeyin üstünde tutan, hayalleri ve idealleri olan; bulunduğu coğrafyada ve ulusal düzeyde tanınan, araştırma ve uygulamaya dayalı, geleceğin yenilikçi, üretici, içerisinde bulunduğu çevreyi geliştiren, çalıştığı kuruma katkı sağlayan ve değer katan bireylerini yetiştiren, toplumun sorunlarının çözümünde önderlik rolü üstlenen, akademik ve etik değerlere bağlı, katılımcı bir üniversite olmak hedefi yer almaktadır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Osmaniye Korkut Ata Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Çevre ve temel değerlere duyarlı, paydaşlarına sunduğu kaliteli eğitim, araştırma ve danışmanlık faaliyetleriyle topluma değer katan ve sürekli gelişen bir eğitim kurumudur.",
+    "vizyon": "Girişimci, yenilikçi ve rekabetçi anlayışıyla uluslararası bir üniversite olmaktır..",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Giresun Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Milli ve evrensel değerler ışığında, ülkemizin stratejik hedefleri doğrultusunda eğitim, araştırma ve toplumsal katkı alanlarında çağdaş bilgi teknolojileri ve altyapı donanımlarını kullanarak yükseköğretimde kaliteyi sağlamak; özgüveni yüksek, araştırmacı, girişimci ve çözüm üreten bireyler yetiştirmek; yerel, bölgesel ve ulusal kalkınmaya, insan yaşamına, çevreye ve doğaya sürdürülebilir katkılar sunmak; ihtisas alanı olan fındık alanında uzmanlaşmaktır",
+    "vizyon": "Çağdaş, yenilikçi, bilgi üretimine katkı sunan, ihtisaslaşma alanını (fındık) önceleyen,  ulusal ve uluslararası alanda gelişim gösteren bir üniversite olmaktır",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Kastamonu Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Misyonumuz; Ürettiği bilimsel bilgi ışığında toplum ve ülke ihtiyaçlarını karşılayan projeler yürüterek ülke kalkınmasına katkı sağlayan, kültürel değerlerle ve bulunduğu şehirle bütünleşik, bütün mensuplarının ve öğrencilerinin hürriyeti soluyabildiği, mensubu ve mezunu olmaktan gurur duyulan bir üniversite olmaktır.",
+    "vizyon": "Vizyonumuz; Sunduğu bilimsel bilgi ve sağladığı özgür eğitim ortamıyla ulusal ve uluslararası seviyede tercih edilen bir ‘dünya üniversitesi’ olarak ön sıralarda yer almaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Karabük Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Geleceğin mesleklerine uygun kaliteli eğitim",
+    "vizyon": "Uluslararasılaşmada lider üniversite olmak",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Gümüşhane Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Misyonumuz, üniversitemizin mezunlarıyla sürdürülebilir bir iletişim ağı oluşturmak ve onların bağlantılarını korumak, geliştirmek ve artırmak için çalışmaktır. Bu bağlantılar, mezunlarımızın kariyerleri ve yaşamları boyunca okulumuzla bağlantıda kalmasını ve üniversitemizin de onların hayatlarında önemli bir rol oynamasını sağlayacaktır. Ayrıca, mezunlarımızın üniversitemizin gelişimine katkıda bulunmalarını sağlamak ve onların deneyimlerinden faydalanarak öğrencilerimize farklı kariyer seçenekleri ve mentorluk imkanları sunmak için çaba göstereceğiz. Tüm bunları yaparken, üniversitemizin itibarını koruyacak ve güçlendirecek, mezunlarımızın da üniversitemizin gururla temsil etmelerini sağlayacak bir çalışma ortamı oluşturmayı hedefleyeceğiz.",
+    "vizyon": "Vizyonumuz, üniversitemizin mezunlarının, mezun olmadan önceki bağlarından daha güçlü bir şekilde üniversitemize bağlı olmalarını ve üniversitemizin her zaman yanlarında olduğunu hissetmelerini sağlamaktır.  Vizyonumuz ayrıca, üniversitemizin mezunlarının farklı sektörlerdeki liderler haline gelmelerini ve üniversitemizin itibarının artmasını sağlayacak bir mezunlar ağı oluşturmaktır.  Mezunlarımızın deneyimlerinden faydalanarak, öğrencilerimize gelecekteki kariyerleri için yol gösterici olacak programlar ve kaynaklar sunmak da vizyonumuzun bir parçasıdır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Mardin Artuklu Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Yerel ve evrensel değerlerden güç alarak ilim, kültür, sanat ve teknolojide uluslararası alanda özgün, yaratıcı ve lider bir üniversite olmak.",
+    "vizyon": "İnsanı merkez alan, yerel ve evrensel değerlere dayalı eğitim-öğretim, araştırma-geliştirme, kültür-sanat, bilim ve teknoloji alanlarında özgün, yenilikçi ve eleştirel bakışı ilke edinen, ahlaki değerlerle donanmış, çevreyi önemseyen, sosyal ve mesleki sorumluluğa sahip, kurum ve kalite standartlarına uymayı özümsemiş, insanlığın birikimine katkı sunan örnek bireyler yetiştirmek ve bu alanlarda özgün araştırmalar yapan lider bir üniversite olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Düzce Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Düzce Üniversitesi misyonu; Katma değeri yüksek uluslararası bilimsel çalışmalarıyla çevre ve sağlık teknolojileri alanında öncü; nitelikli eğitimi ve ürettiği evrensel değerlerle bölgenin sosyal ve ekonomik kalkınmasına öncülük eden yükseköğretim kurumu olmaktır. Üniversitemiz misyonu çerçevesinde Lisansüstü Enstitümüz misyonu; üniversitemizin topluma sunduğu eğitim ve araştırma hizmetlerini lisansüstü programları aracılığı ile genişletmek, yenilikçi lisansüstü programları hazırlamak ve sürdürmek, programların kalitesini ve yüksek standartlarını sağlamak, ulusal ve uluslararası düzeyde bilgi ve beceriye sahip, bilim insanı, uzman ve uygulayıcıları yetiştirmektir.",
+    "vizyon": "Düzce Üniversitesi; çağdaş ve demokratik bir üniversite olarak; değişim ve gelişime açık, erdemli bilim, meslek, sanat insanları ve liderler yetiştiren; çevre ve sağlık teknolojileri başta olmak üzere bölgesel, ulusal ve uluslararası düzeyde işbirlikleri kuran; sürdürülebilir kalkınmaya öncülük eden; yenilikçi, girişimci, spesifik olarak çevre ve sağlık alanlarında evrensel bilgi ve değerler üreten bir üniversitedir. Üniversitemiz vizyonu doğrultusunda Düzce Üniversitesi Lisansüstü Eğitim Enstitüsü vizyonu; bilim, teknoloji, sanat, sağlık, spor ve toplumsal alanlarında evrensel bilgi ve değer üretmek, yenilikçi, inovatif ve girişimci eğitimsel ve bilimsel araştırmalar yoluyla saygın ve güvenilir bir eğitim kurumu olarak faaliyetlerine devam etmek, uluslararası, ulusal ve bölgesel düzeyde lisansüstü eğitimde öncü olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Tekirdağ Namık Kemal Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Dünyadaki gelişmeleri takip ederek, yenilikçi ve özgün yöntemler kullanarak, bilimsel gelişime katkı Evrensel değerler ışığında; yetkin bireyler yetiştirmek, bilimsel çalışmalar yapmak, girişimci faaliyetleri teşvik etmek ve uluslararası görünürlüğü artırarak topluma hizmet etmek.",
+    "vizyon": "Uygulamalı eğitim-öğretim modeli ve yenilikçi araştırma faaliyetleri ile topluma ve çevreye fayda sağlayan, uluslararası tanınırlığı yüksek bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Yalova Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Öğretim, eğitim, araştırma ve sosyal faaliyetlerde kaliteyi ön planda tutan, bilimsel ve teknolojik donanıma sahip, etik değerlere bağlı girişimci bireyler yetiştiren ve toplumsal gelişime katkı sağlayan bir üniversite olmaktır.",
+    "vizyon": "Bilimsel, sosyal ve sanatsal alanlardaki özgün faaliyetleriyle insanlığın gelişimine katkı sunan bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Bursa Teknik Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Üniversitemizin üstlendiği yenilikçi misyon doğrultusunda ulusal ve uluslararası eğilimlere uygun lisansüstü programlarda kaliteli eğitim ve öğretim sağlamak;Evrensel nitelikteki bilimsel araştırma çalışmaları ile eğitim-öğretim hizmetlerini desteklemeyi ve mesleki açıdan yetkin ve özgür düşünceli bireyler yetiştirmek;Araştırma ve inovasyon ruhunu benimsemiş, bilim ve teknolojiyi toplum ve insanlık yararına kullanabilecek, çevreye ve etik değerlere saygılı, yaşam boyu öğrenmeyi kendisine ilke edinmiş, alanında akademik olarak donanımlı ve uluslararası alanda rekabet edebilecek bireyler yetiştirmek;Lisansüstü eğitim-öğretimde sürekli kalite iyileştirme süreçlerini teşvik etmek ve lisansüstü eğitim-öğretim politikalarının geliştirilmesine katkıda bulunmak;Üniversite-kamu-sanayi işbirliğini en üst düzeyde teşvik etmek ve disiplinler arası araştırmaların geliştirilmesine olanak sağlayacak düzenlemeler yapmak;Lisansüstü öğrencilerin alanlarında güncel literatürü yakalamış olmalarını ve ileri araştırmalar için gerekli bilgi ve beceriyi almalarını sağlamak;Uluslararası bilimsel dergilerde yayın yapabilecek düzeye ulaşmış, farklı disiplin ve alanlarla işbirliğine girebilecek uzmanlığı edinmiş bilim insanları yetiştirmek.",
+    "vizyon": "Ulusal ve uluslararası düzeyde üstün nitelikli, inovasyon ve girişimcilik anlayışı kazanmış, rekabet gücü yüksek, analitik düşünme becerisine sahip uzmanlar ve akademisyenler yetiştiren, ileri teknolojilerin ve bilimin gelişmesine katkı sağlayan, toplumsal gereksinimlere yönelik araştırma ve geliştirme çalışmalarına öncülük eden, uluslararası düzeyde seçkin bir kurum olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Necmettin Erbakan Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Bilginin üretiminde insana ve çevreye faydayı esas alarak bilimsel etik ve evrensel değerler çerçevesinde, araştırmayı öncelik edinen; sektörler arası iş birliğini, ulusal ve uluslararası projeleri destekleyen; bilim, teknoloji, spor ve sanat alanlarında üstün niteliklere sahip eleştirel düşünme yeteneği kazanmış bireyler yetiştirmeyi hedefleyen; üretilen bilgi, hizmet ve teknolojiyi ülke ve toplum yararına sunan girişimci bir üniversite olmak.",
+    "vizyon": "Selçuklunun başkentinden aldığı ilham, ismini taşıdığı Necmettin Erbakan’ın hayatından ve ideallerinden aldığı motivasyonla; araştırma, eğitim ve girişim alanlarında, ülkemizde ilk on ve dünyada ilk beş yüz üniversite arasında yer almak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "İnsan merkezli eğitim-öğretim faaliyetleriyle milli ve manevi değerlerini özümsemiş nitelikli bireyler yetiştirmek, kaliteli sağlık hizmetleri sunmak, araştırma ve sosyal faaliyetlerini evrensel standartlarda yürüterek bölgenin ve ülkenin sosyal, kültürel, ekonomik, bilimsel ve teknolojik kalkınmasına katkı sağlamak.",
+    "vizyon": "Bilim ve teknolojik alanda rekabet gücüne sahip, evrensel düzeyde eğitim-öğretim veren, ulusal ve uluslararası düzeyde öğrenciler tarafından tercih edilen, özgün araştırmalarıyla tanınan, saygın bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Niğde Ömer Halisdemir Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Araştıran, sorgulayan, katılımcı, evrensel düşünebilen, etik ve kültürel değerlere sahip bireyler yetiştirmek; bilim, teknoloji ve sanatın gelişmesini sağlayarak, çevreye saygı bilinci ile ülke ve bölgenin kalkınmasına katkıda bulunmaktır.",
+    "vizyon": "Bölgesel kalkınma odaklı, öncelikli alanlarda ihtisaslaşmış, topluma hizmette öncü ve yenilikçi bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Kafkas Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Sürekli farklılaşmanın yollarını arayan, bulunduğu şehrin mirası dahil paydaşlarına değer katan ve tercih edilen saygın bir üniversite vizyonu ile hareket eden üniversitemizde, Kafkas Üniversitesi Genel Sekreterliği olarak bu vizyon doğrultusunda çağdaş eğitim gerekliliklerini takip eden, kurum kimliği ve imajını oluşturmayı ve benimsetmeyi önemseyen bir idari yapı oluşturarak sürdürülebilir kılmak için çalışmaktadır.",
+    "vizyon": "Kafkas Üniversitesi, özgün araştırma yapabilen, çalışanlarına ve diğer paydaşlarına değer katmayı, toplumsal gelişmeye öncülük etmeyi, yenilikçi ürünler yaratabilmeyi ve bunu girişimciliğe dönüştürebilmeyi, öncelikle Kafkasya ve Orta Asya olmak üzere diğer ülkelerle etkileşimle edindiği birikimi kurumsal yaratıcılığa dönüştürmeyi misyon edinmiştir. Kafkas Üniversitesi Genel Sekreterliği ve bağlı birimleri, bu misyonun gerçekleştirilmesinde çağdaş bir yönetim felsefesi oluşturarak üniversitenin iç ve dış paydaşlarıyla koordinasyon içerisinde hareket etmesini sağlamayı, bunu yaparken gelişen ve geliştiren, yenilikçi ve inisiyatif alabilen, çözüm odaklı, çalışma uyumu ve barışına sahip, şeffaf ve hakkaniyetli, diğer birimlerle etkileşimli çalışan bir yönetim misyonunu taşımaktadır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Kütahya Dumlupınar Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Bilimsel araştırma ve topluma hizmet sorumluluğuyla çeşitli alanlarda mesleki yeterliklere sahip bireyler yetiştiren eğitim ağırlıklı bir üniversite olmaktır.",
+    "vizyon": "Alanında tercih edilen, girişimci, mesleki bilgi ve becerilere sahip mezunlar yetiştirmektir.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Tokat Gaziosmanpaşa Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Evrensel değerlere sahip, insana, topluma ve doğaya saygılı, Ülkenin sosyokültürel ve ekonomik gelişimine katkı sağlayacak çok yönlü, girişimci ve yenilikçi bireyler yetiştirmek; yerel, bölgesel, ulusal ve uluslararası sorunlara çözümler üretecek bilimsel çalışmalar yapmak ve edinilen bu bilgi birikimini başta Ülkemiz olmak üzere tüm insanlığın hizmetine sunmak.",
+    "vizyon": "Yerel kalkınma başta olmak üzere, Ülkemizin sürdürülebilir kalkınmasına ve tüm insanlığın refahına katkı sunan, öz kaynaklarını sürekli geliştiren, ulusal ve uluslararası tanınırlığı olan ve tercih edilen yeni nesil bir üniversite olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Süleyman Demirel Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "SDÜ; toplumla etkileşim içinde, insanı önceleyerek, uluslararası standartlarda eğitim vermeyi, araştırma yapmayı, hizmet sunmayı ve çözümler üretmeyi görev edinmiştir.",
+    "vizyon": "SDÜ; evrensel ölçekte bilgi, teknoloji ve hizmet üreterek, ilham ve yön veren bir üniversite olmayı hedeflemektedir.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Kırklareli Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "devlet",
+    "misyon": "Dinamik, tecrübeli ve kurumsal kültüre sahip kadrosu ile bilgiye ulaşmayı, üretmeyi, paylaşmayı ve uygulamayı evrensel boyutlara taşıyan bilimsel, teknolojik ve kültürel birikime katkıda bulunan, yaratıcı sorgulayıcı, araştırıcı, liderlik vasıflarına sahip, işine kendini adamış yetkin ve özgüven sahibi bilinçli bireyler yetiştirmektir.",
+    "vizyon": "Ülkemizin ve bölgemizin hedefleri ile paydaşlarımızın beklentilerine hizmet etmek amacıyla yenilikçi kendine güvenen, çevresine güven veren, etik ve evrensel değerlere bağlı bireyler yetiştirmek ve eşit, özgür, katılımcı bir çalışma ortamında üretilen bilimsel faaliyetleri ile saygı duyulan bir bölge üniversitesi olmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Avrasya Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "vakif",
+    "misyon": "Eğitimde; sürdürülebilir, kaliteli eğitim veren lider üniversitelerden biri olmak; Bilimsel üretim, uygulanabilir teknoloji ve yenilikçi çalışmalar yapmak; Topluma katkı yapmak; Kendi kendini denetleyen yenileyen geliştiren, sürdürülebilir bir üniversite idare sistemi kurmak; Kendi ekonomik kaynaklarını geliştiren ve çeşitlendiren bir üniversite olmak; Uluslararası akredite programlara sahip olmak",
+    "vizyon": "Türkiye’de ve dünyada saygın üniversitelerden biri olmak.",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Çağ Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "vakif",
+    "misyon": "Bilgi üretim ve paylaşım merkezi olarak Atatürkçü düşünce sistemi doğrultusunda; Dünya standartlarında eğitim ve öğretim vererek; araştırmacı, sorgulayıcı, girişimci; evrensel değerler çerçevesinde topluma ve çevreye duyarlı; sosyal sorumluluk bilincine sahip, etik değerleri göz önünde bulunduran;özgüveni yüksek, kendini ifade edebilen, yaşama hazır bireyler yetiştirmek.",
+    "vizyon": "Sosyal ve beşeri bilimler alanında eğitim-öğretim, araştırma ve toplumsal katkı çalışmalarında Türkiye’nin önde gelen vakıf üniversitelerinden biri olmak",
+    "topic_codes": [],
+    "region_codes": []
+  },
+  {
+    "universite": "Kapadokya Üniversitesi",
+    "konum": "tasra",
+    "kurum_turu": "vakif",
+    "misyon": "Ülkemize ve insanlığa fayda sağlayacak ve sonuçları uygulamaya dönük olan bilginin üretimi ve yayılmasına destek sağlamak, Ulusal ve uluslararası kurum ve kuruluşlarla iş birliği içinde gerçekleştirilen bilimsel araştırma projelerinde araştırmacılarımızın ihtiyaç duyduğu her türlü mal ve hizmetin ilgili mevzuat çerçevesinde alım süreçlerinin koordinasyonunu sağlamak,Araştırmacıların başarılarını yükseltmek, akademik yaşamlarını kolaylaştırmak ve bu yolla üniversitenin toplumsal etkinliği ve saygınlığına katkıda bulunmak.",
+    "vizyon": "Mevcut yasal düzenlemeler ve kaynaklar dâhilinde, teknolojik imkanlarla donanmış yüksek hizmet kalitesi ile, çağdaş ve bilimsel tüm gelişmeleri çalışmalarına yansıtarak, süreçlerin hızlı ve etkin bir şekilde yürütüldüğü bir sistem yaklaşımı kullanan, yenilikçi düşünceye sahip çalışanlarımızın, mesleki bilgi ve donanımlarını en üst düzeye taşıyan bir birim olarak, araştırmacı başına düşen ulusal ve uluslararası yayın, patent ve atıf sayısıyla dünyanın önde gelen üniversiteleri arasında bulunmaktır.",
+    "topic_codes": [],
+    "region_codes": []
+  }
+]
