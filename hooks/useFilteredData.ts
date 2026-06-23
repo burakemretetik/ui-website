@@ -28,14 +28,10 @@ export function useFilteredData<T extends BaseRecord>(data: T[]): T[] {
     return data.filter((rec) => {
 
       // 1. Konum — her section için geçerli
-      if (cfg.konum) {
-        if (rec.konum === 'bilinmiyor') {
-          // Eğer 3 konum da seçiliyse (filtre yoksa) bilinmiyor'u göster,
-          // Kullanıcı spesifik bir konum seçtiyse gizle.
-          if (konum.size < 3) return false;
-        } else {
-          if (!konum.has(rec.konum as any)) return false;
-        }
+      // 'bilinmiyor' konumlu kayıtlar (kitap bölümü gibi) her zaman dahil edilir;
+      // üniversite bilgisi olmayan kayıtları konum filtresiyle eleyemeyiz.
+      if (cfg.konum && rec.konum !== 'bilinmiyor') {
+        if (!konum.has(rec.konum as any)) return false;
       }
 
       // 2. Kurum türü — her section için geçerli

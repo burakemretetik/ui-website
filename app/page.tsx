@@ -21,6 +21,12 @@ export default function HomePage() {
             4.828 ders kaydı ve 220 proje verisi üzerinden merkez–yarı merkez–taşra
             ekseninde karşılaştırmalı analiz.
           </p>
+          <Link
+            href="/universiteler"
+            className="inline-block mt-4 text-sm text-teal-400 border-b border-teal-600 hover:text-teal-300 hover:border-teal-400 transition-colors"
+          >
+            Çalışma Kapsamındaki Üniversiteler
+          </Link>
         </div>
       </section>
 
@@ -32,7 +38,7 @@ export default function HomePage() {
           <StatCard value="272"   label="Kitap Bölümü" sub="WoS BKCI-SSH" color="text-amber-400" />
           <StatCard value="4.828" label="Ders Kaydı"  sub="418 benzersiz ders" color="text-violet-400" />
           <StatCard value="220"   label="Proje"       sub="COST · TÜBİTAK · Erasmus+" color="text-rose-400" />
-          <StatCard value="117"   label="Üniversite"  sub="Vizyon & misyon analizi" color="text-blue-400" />
+          <StatCard value="120"   label="Üniversite"  sub="Uİ / SBUİ bölümleri" color="text-blue-400" />
         </div>
       </section>
 

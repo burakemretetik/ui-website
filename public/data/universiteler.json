@@ -1,0 +1,722 @@
+[
+  {
+    "universite": "Akdeniz Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 1"
+  },
+  {
+    "universite": "Aksaray Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Altınbaş Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "Ankara Hacı Bayram Veli Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Ankara Medipol Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "Ankara Sosyal Bilimler Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "Ankara Üniversitesi",
+    "tur": "devlet",
+    "kategori": "merkez",
+    "kategori_detay": "merkez"
+  },
+  {
+    "universite": "Ankara Yıldırım Beyazıt Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "Antalya Bilim Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 1"
+  },
+  {
+    "universite": "Atılım Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Avrasya Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Aydın Adnan Menderes Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 2"
+  },
+  {
+    "universite": "Bahçeşehir Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Bandırma 17 Eylül Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Başkent Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Batman Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Beykent Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Beykoz Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "Bitlis Eren Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Boğaziçi Üniversitesi",
+    "tur": "devlet",
+    "kategori": "merkez",
+    "kategori_detay": "merkez"
+  },
+  {
+    "universite": "Bolu Abant İzzet Baysal Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 2"
+  },
+  {
+    "universite": "Bursa Teknik Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Bursa Uludağ Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 2"
+  },
+  {
+    "universite": "Çağ Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Çanakkale 18 Mart Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 2"
+  },
+  {
+    "universite": "Çankaya Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Çankırı Karatekin Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Çorum Hitit Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Çukurova Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 1"
+  },
+  {
+    "universite": "Doğuş Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Dokuz Eylül Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 1"
+  },
+  {
+    "universite": "Düzce Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Ege Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 1"
+  },
+  {
+    "universite": "Erciyes Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 2"
+  },
+  {
+    "universite": "Erzurum Atatürk Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 1"
+  },
+  {
+    "universite": "Eskişehir Osmangazi Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 2"
+  },
+  {
+    "universite": "Fatih Sultan Mehmet Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "Fenerbahçe Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "Galatasaray Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Giresun Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Gümüşhane Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Hacettepe Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Hakkari Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Haliç Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Hasan Kalyoncu Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Hasan Kalyoncu Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 1"
+  },
+  {
+    "universite": "Işık Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "İbn Haldun Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "İhsan Doğramacı Bilkent Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "merkez",
+    "kategori_detay": "merkez"
+  },
+  {
+    "universite": "İnönü Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 1"
+  },
+  {
+    "universite": "İstanbul 29 Mayıs Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "İstanbul Arel Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "İstanbul Aydın Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "İstanbul Bilgi Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "İstanbul Esenyurt Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "İstanbul Gedik Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "İstanbul Gelişim Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "İstanbul Kültür Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "İstanbul Medeniyet Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "İstanbul Medipol Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "İstanbul Rumeli Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "İstanbul Sabahattin Zaim Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "İstanbul Ticaret Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "İstanbul Topkapı Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "İstanbul Üniversitesi (İktisat)",
+    "tur": "devlet",
+    "kategori": "merkez",
+    "kategori_detay": "merkez"
+  },
+  {
+    "universite": "İstanbul Üniversitesi (Siyasal)",
+    "tur": "devlet",
+    "kategori": "merkez",
+    "kategori_detay": "merkez"
+  },
+  {
+    "universite": "İstinye Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "İzmir Demokrasi Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "İzmir Ekonomi Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "İzmir Katip Çelebi Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Kadir Has Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Kafkas Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Kahramanmaraş Sütçü İmam Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 1"
+  },
+  {
+    "universite": "Kapadokya Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Karabük Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Karadeniz Teknik Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 1"
+  },
+  {
+    "universite": "Karaman Karamanoğlu Mehmet Bey Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Kastamonu Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Kayseri Abdullah Gül Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Kırıkkale Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 2"
+  },
+  {
+    "universite": "Kırklareli Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Kırşehir Ahi Evran Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Kocaeli Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 2"
+  },
+  {
+    "universite": "Koç Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Kütahya Dumlupınar Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Maltepe Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Manisa Celal Bayar Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 2"
+  },
+  {
+    "universite": "Mardin Artuklu Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Marmara Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Mef Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "Mersin Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 2"
+  },
+  {
+    "universite": "Muğla Sıtkı Koçman Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 2"
+  },
+  {
+    "universite": "Necmettin Erbakan Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Nevşehir Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Niğde Ömer Halisdemir Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Nişantaşı Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "Okan Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Ortadoğu Teknik Üniversitesi",
+    "tur": "devlet",
+    "kategori": "merkez",
+    "kategori_detay": "merkez"
+  },
+  {
+    "universite": "Osmaniye Korkut Ata Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Özyeğin Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "Recep Tayyip Erdoğan Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Sabancı Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Sakarya Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 2"
+  },
+  {
+    "universite": "Selçuk Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 2"
+  },
+  {
+    "universite": "Süleyman Demirel Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "TED Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "Tekirdağ Namık Kemal Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "TOBB Ekonomi ve Teknoloji Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Tokat Gaziosmanpaşa Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Trakya Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Türk-Alman Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "Ufuk Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Üsküdar Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "Van Yüzüncü Yıl Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Yalova Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  },
+  {
+    "universite": "Yaşar Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Yeditepe Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 3"
+  },
+  {
+    "universite": "Yeni Yüzyıl Üniversitesi",
+    "tur": "vakıf",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 4"
+  },
+  {
+    "universite": "Yıldız Teknik Üniversitesi",
+    "tur": "devlet",
+    "kategori": "yarı merkez",
+    "kategori_detay": "yarı merkez 2"
+  },
+  {
+    "universite": "Yozgat Bozok Üniversitesi",
+    "tur": "devlet",
+    "kategori": "taşra",
+    "kategori_detay": "taşra"
+  }
+]
