@@ -32,7 +32,7 @@ export default function FilterBar() {
     kurum_turu, toggleKurumTuru,
     topic_codes, setTopicCodes,
     region_codes, setRegionCodes,
-    year_range, setYearRange,
+    years, toggleYear,
     resetAll,
   } = useFilterStore();
 
@@ -44,7 +44,7 @@ export default function FilterBar() {
   const hasActiveFilters =
     (cfg.topic_codes && topic_codes.length > 0) ||
     (cfg.region_codes && region_codes.length > 0) ||
-    (cfg.year && (year_range[0] > YEAR_MIN || year_range[1] < YEAR_MAX));
+    (cfg.year && years.size > 0);
 
   const toggleCode = (code: string, current: string[], setter: (c: string[]) => void) => {
     setter(current.includes(code) ? current.filter((c) => c !== code) : [...current, code]);
@@ -115,11 +115,28 @@ export default function FilterBar() {
             </div>
           )}
 
-          {/* ── Yıl aralığı ── */}
+          {/* ── Yıl ── */}
           {cfg.year && (
             <div className="flex items-center gap-2 shrink-0">
-              <span className="text-xs font-semibold text-slate-400 uppercase tracking-widest whitespace-nowrap">Yıl</span>
-              <YearRangePicker value={year_range} onChange={setYearRange} />
+              <span className="text-xs font-semibold text-slate-400 uppercase tracking-widest whitespace-nowrap">YIL</span>
+              <div className="flex gap-1">
+                {Array.from({ length: YEAR_MAX - YEAR_MIN + 1 }, (_, i) => YEAR_MIN + i).map((y) => {
+                  const active = years.has(y);
+                  return (
+                    <button
+                      key={y}
+                      onClick={() => toggleYear(y)}
+                      className={`w-10 py-0.5 text-xs rounded font-mono transition-all border
+                        ${active
+                          ? 'bg-teal-600 border-teal-600 text-white font-bold'
+                          : 'bg-transparent border-slate-600 text-slate-500 hover:border-teal-500 hover:text-teal-400'
+                        }`}
+                    >
+                      {y}
+                    </button>
+                  );
+                })}
+              </div>
             </div>
           )}
 
@@ -191,54 +208,3 @@ export default function FilterBar() {
   );
 }
 
-// ── Yıl aralığı seçici — buton tabanlı, slider değil ────────────────
-function YearRangePicker({
-  value,
-  onChange,
-}: {
-  value: [number, number];
-  onChange: (r: [number, number]) => void;
-}) {
-  const years = Array.from({ length: YEAR_MAX - YEAR_MIN + 1 }, (_, i) => YEAR_MIN + i);
-  const [from, to] = value;
-
-  return (
-    <div className="flex items-center gap-1">
-      {years.map((y) => {
-        const inRange = y >= from && y <= to;
-        const isEdge  = y === from || y === to;
-        return (
-          <button
-            key={y}
-            onClick={() => {
-              if (y < from) onChange([y, to]);
-              else if (y > to) onChange([from, y]);
-              else if (y === from && from < to) onChange([y + 1, to]);
-              else if (y === to && from < to) onChange([from, y - 1]);
-              else if (from === to) {
-                // tek yıl seçiliyse genişlet
-                if (y > YEAR_MIN) onChange([y - 1, y]);
-                else onChange([y, y + 1]);
-              }
-            }}
-            className={`w-10 py-0.5 text-xs rounded transition-all font-mono
-              ${isEdge  ? 'bg-teal-600 text-white font-bold' :
-                inRange ? 'bg-teal-900 text-teal-300' :
-                          'text-slate-500 hover:text-slate-300'}`}
-          >
-            {y}
-          </button>
-        );
-      })}
-      {(from > YEAR_MIN || to < YEAR_MAX) && (
-        <button
-          onClick={() => onChange([YEAR_MIN, YEAR_MAX])}
-          className="ml-1 text-xs text-slate-500 hover:text-slate-300 px-1"
-          title="Tüm yıllar"
-        >
-          ×
-        </button>
-      )}
-    </div>
-  );
-}

@@ -89,5 +89,5 @@ export interface FilterState {
   kurum_turu: Set<KurumTuru>;
   topic_codes: string[];
   region_codes: string[];
-  year_range: [number, number];
+  years: Set<number>;
 }

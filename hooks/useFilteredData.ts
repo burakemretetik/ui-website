@@ -22,7 +22,7 @@ export function useFilteredData<T extends BaseRecord>(data: T[]): T[] {
   const section  = pathToSection(pathname);
   const cfg      = SECTION_FILTERS[section] ?? SECTION_FILTERS['home'];
 
-  const { konum, kurum_turu, topic_codes, region_codes, year_range } = useFilterStore();
+  const { konum, kurum_turu, topic_codes, region_codes, years } = useFilterStore();
 
   return useMemo(() => {
     return data.filter((rec) => {
@@ -41,9 +41,9 @@ export function useFilteredData<T extends BaseRecord>(data: T[]): T[] {
       // 2. Kurum türü — her section için geçerli
       if (cfg.kurum_turu && !kurum_turu.has(rec.kurum_turu)) return false;
 
-      // 3. Yıl — sadece year:true olan sectionlar için
-      if (cfg.year && rec.year != null) {
-        if (rec.year < year_range[0] || rec.year > year_range[1]) return false;
+      // 3. Yıl — sadece year:true olan sectionlar için, boş set = filtre yok
+      if (cfg.year && years.size > 0 && rec.year != null) {
+        if (!years.has(rec.year)) return false;
       }
 
       // 4. Konu kodu — sadece topic_codes:true olan sectionlar ve filtre seçilmişse
@@ -60,5 +60,5 @@ export function useFilteredData<T extends BaseRecord>(data: T[]): T[] {
 
       return true;
     });
-  }, [data, cfg, konum, kurum_turu, topic_codes, region_codes, year_range]);
+  }, [data, cfg, konum, kurum_turu, topic_codes, region_codes, years]);
 }

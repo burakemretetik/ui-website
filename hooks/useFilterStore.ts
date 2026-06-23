@@ -3,12 +3,14 @@ import { create } from 'zustand';
 import type { FilterState, Konum, KurumTuru } from '@/lib/types';
 import { YEAR_MIN, YEAR_MAX } from '@/lib/constants';
 
+const ALL_YEARS = Array.from({ length: YEAR_MAX - YEAR_MIN + 1 }, (_, i) => YEAR_MIN + i);
+
 interface FilterActions {
   toggleKonum: (k: Konum) => void;
   toggleKurumTuru: (k: KurumTuru) => void;
   setTopicCodes: (codes: string[]) => void;
   setRegionCodes: (codes: string[]) => void;
-  setYearRange: (range: [number, number]) => void;
+  toggleYear: (y: number) => void;
   resetAll: () => void;
 }
 
@@ -17,7 +19,7 @@ const DEFAULT_STATE: FilterState = {
   kurum_turu:   new Set<KurumTuru>(['devlet', 'vakif']),
   topic_codes:  [],
   region_codes: [],
-  year_range:   [YEAR_MIN, YEAR_MAX],
+  years:        new Set<number>(),
 };
 
 export const useFilterStore = create<FilterState & FilterActions>((set) => ({
@@ -50,7 +52,18 @@ export const useFilterStore = create<FilterState & FilterActions>((set) => ({
 
   setTopicCodes:  (codes) => set({ topic_codes: codes }),
   setRegionCodes: (codes) => set({ region_codes: codes }),
-  setYearRange:   (range) => set({ year_range: range }),
+  toggleYear: (y) =>
+    set((s) => {
+      const next = new Set(s.years);
+      if (next.has(y)) {
+        next.delete(y);
+      } else {
+        next.add(y);
+        // Tüm yıllar seçiliyse sıfırla (= filtre yok)
+        if (next.size === ALL_YEARS.length) return { years: new Set<number>() };
+      }
+      return { years: next };
+    }),
 
   resetAll: () =>
     set({
@@ -58,6 +71,6 @@ export const useFilterStore = create<FilterState & FilterActions>((set) => ({
       kurum_turu:   new Set<KurumTuru>(['devlet', 'vakif']),
       topic_codes:  [],
       region_codes: [],
-      year_range:   [YEAR_MIN, YEAR_MAX],
+      years:        new Set<number>(),
     }),
 }));
