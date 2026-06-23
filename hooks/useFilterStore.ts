@@ -11,6 +11,7 @@ interface FilterActions {
   setTopicCodes: (codes: string[]) => void;
   setRegionCodes: (codes: string[]) => void;
   toggleYear: (y: number) => void;
+  clearYears: () => void;
   resetAll: () => void;
 }
 
@@ -52,6 +53,7 @@ export const useFilterStore = create<FilterState & FilterActions>((set) => ({
 
   setTopicCodes:  (codes) => set({ topic_codes: codes }),
   setRegionCodes: (codes) => set({ region_codes: codes }),
+  clearYears: () => set({ years: new Set<number>() }),
   toggleYear: (y) =>
     set((s) => {
       const next = new Set(s.years);

@@ -32,7 +32,7 @@ export default function FilterBar() {
     kurum_turu, toggleKurumTuru,
     topic_codes, setTopicCodes,
     region_codes, setRegionCodes,
-    years, toggleYear,
+    years, toggleYear, clearYears,
     resetAll,
   } = useFilterStore();
 
@@ -120,6 +120,16 @@ export default function FilterBar() {
             <div className="flex items-center gap-2 shrink-0">
               <span className="text-xs font-semibold text-slate-400 uppercase tracking-widest whitespace-nowrap">YIL</span>
               <div className="flex gap-1">
+                <button
+                  onClick={clearYears}
+                  className={`px-2 py-0.5 text-xs rounded font-mono transition-all border
+                    ${years.size === 0
+                      ? 'bg-teal-600 border-teal-600 text-white font-bold'
+                      : 'bg-transparent border-slate-600 text-slate-500 hover:border-teal-500 hover:text-teal-400'
+                    }`}
+                >
+                  Tümü
+                </button>
                 {Array.from(
                   { length: (cfg.yearMax ?? YEAR_MAX) - (cfg.yearMin ?? YEAR_MIN) + 1 },
                   (_, i) => (cfg.yearMin ?? YEAR_MIN) + i
