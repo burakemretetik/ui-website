@@ -25,9 +25,14 @@ export default function AkademisyenSection() {
 
   // — Cinsiyet dağılımı
   const genderData = useMemo(() => {
-    const counts: Record<string, number> = { Erkek: 0, Kadın: 0 };
-    data.forEach((a) => { if (a.cinsiyet) counts[a.cinsiyet] = (counts[a.cinsiyet] ?? 0) + 1; });
-    return Object.entries(counts).map(([name, value]) => ({ name, value }));
+    const counts: Record<string, number> = { Erkek: 0, Kadın: 0, Bilinmiyor: 0 };
+    data.forEach((a) => {
+      const key = a.cinsiyet ?? 'Bilinmiyor';
+      counts[key] = (counts[key] ?? 0) + 1;
+    });
+    return Object.entries(counts)
+      .filter(([, value]) => value > 0)
+      .map(([name, value]) => ({ name, value }));
   }, [data]);
 
   // — Unvan dağılımı (‘Diğer’ hariç)

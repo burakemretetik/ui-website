@@ -2,7 +2,7 @@
 import { useMemo } from 'react';
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, Legend,
-  ResponsiveContainer, ScatterChart, Scatter, Cell,
+  ResponsiveContainer, Cell,
 } from 'recharts';
 import { useFilteredData } from '@/hooks/useFilteredData';
 import SectionHeader from '@/components/SectionHeader';
@@ -55,18 +55,6 @@ export default function YayinSection() {
     });
     return Object.entries(counts).sort((a, b) => Number(a[0]) - Number(b[0])).map(([year, count]) => ({ year, count }));
   }, [makaleler]);
-
-  // Scatter: atıf vs yayın sayısı (üniversite bazlı)
-  const scatterData = useMemo(() => {
-    const uniMap: Record<string, { cited: number; count: number; konum: string }> = {};
-    data.forEach((y) => {
-      const uni = (y as any).affiliations ?? 'Bilinmiyor';
-      if (!uniMap[uni]) uniMap[uni] = { cited: 0, count: 0, konum: y.konum };
-      uniMap[uni].count++;
-      uniMap[uni].cited += (y.times_cited_wos ?? 0);
-    });
-    return Object.entries(uniMap).map(([name, d]) => ({ name, x: d.count, y: d.cited, konum: d.konum }));
-  }, [data]);
 
   // En çok atıf alan 10 yayın
   const topCited = useMemo(() =>

@@ -10,12 +10,12 @@ const DATA = rawData as MisyonVizyon[];
 
 // Türkçe stop words
 const STOP_WORDS = new Set([
-  've', 'ile', 've', 'bir', 'bu', 'da', 'de', 'en', 'için', 'olan', 'olarak',
-  'olan', 'hem', 'her', 'ya', 'veya', 'gibi', 'kadar', 'çok', 'daha', 'olan',
-  'ise', 'ki', 'bu', 'o', 'ben', 'biz', 'siz', 'onlar', 'aynı', 'ilgili',
-  'başta', 'olan', 'olup', 'olan', 'olan', 'olmuş', 'eder', 'etmek', 'olan',
-  'olan', 'doğru', 'karşı', 'üzere', 'yönelik', 'açısından', 'üzerinde',
-  'sahip', 'olmak', 'olması', 'olmaya', 'olmuş', 'üniversite', 'üniversitesi',
+  've', 'ile', 'bir', 'bu', 'da', 'de', 'en', 'için', 'olan', 'olarak',
+  'hem', 'her', 'ya', 'veya', 'gibi', 'kadar', 'çok', 'daha',
+  'ise', 'ki', 'o', 'ben', 'biz', 'siz', 'onlar', 'aynı', 'ilgili',
+  'başta', 'olup', 'olmuş', 'eder', 'etmek',
+  'doğru', 'karşı', 'üzere', 'yönelik', 'açısından', 'üzerinde',
+  'sahip', 'olmak', 'olması', 'olmaya', 'üniversite', 'üniversitesi',
 ]);
 
 function tokenize(text: string): string[] {
