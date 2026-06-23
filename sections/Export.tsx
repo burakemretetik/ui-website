@@ -3,7 +3,7 @@ import { useMemo } from 'react';
 import {
   BarChart, Bar, XAxis, YAxis, Tooltip, Legend,
   ResponsiveContainer, Cell, PieChart, Pie,
-  LineChart, Line, CartesianGrid,
+  LineChart, Line, CartesianGrid, LabelList,
 } from 'recharts';
 
 // ── Data imports ─────────────────────────────────────────────────────────
@@ -106,7 +106,8 @@ const PROJE_COLORS_EN = PROJE_COLORS;
 
 // ── Shared chart styling ──────────────────────────────────────────────────
 const TOOLTIP_STYLE = { background: '#1E293B', border: '1px solid #334155', borderRadius: 8, fontSize: 12 };
-const AXIS_TICK = { fontSize: 11, fill: '#94A3B8' };
+const AXIS_TICK  = { fontSize: 11, fill: '#94A3B8' };
+const LABEL_STYLE = { fontSize: 10, fill: '#94A3B8' };
 
 // ── Course name normalization ─────────────────────────────────────────────
 // Groups spelling variants caused by I/İ encoding differences and digit vs.
@@ -421,7 +422,7 @@ export default function ExportSection() {
 
         <FigureCard id="fig-topics" label="Figure 3" title="Research Topics Among Academics">
           <ResponsiveContainer width="100%" height={Math.max(320, acTopicData.length * 28)}>
-            <BarChart data={acTopicData} layout="vertical" margin={{ left: 240, right: 30 }}>
+            <BarChart data={acTopicData} layout="vertical" margin={{ left: 240, right: 50 }}>
               <XAxis type="number" tick={AXIS_TICK} label={{ value: 'No. of Academics', position: 'insideBottom', offset: -2, fontSize: 11, fill: '#94A3B8' }} />
               <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={240} />
               <Tooltip
@@ -432,6 +433,7 @@ export default function ExportSection() {
                 {acTopicData.map((_, i) => (
                   <Cell key={i} fill={`hsl(${172 + i * 8}, 70%, ${45 - i * 1.5}%)`} />
                 ))}
+                <LabelList dataKey="value" position="right" style={LABEL_STYLE} />
               </Bar>
             </BarChart>
           </ResponsiveContainer>
@@ -439,7 +441,7 @@ export default function ExportSection() {
 
         <FigureCard id="fig-regions" label="Figure 4" title="Research Regions Among Academics">
           <ResponsiveContainer width="100%" height={Math.max(300, acRegionData.length * 28)}>
-            <BarChart data={acRegionData} layout="vertical" margin={{ left: 220, right: 30 }}>
+            <BarChart data={acRegionData} layout="vertical" margin={{ left: 220, right: 50 }}>
               <XAxis type="number" tick={AXIS_TICK} label={{ value: 'No. of Academics', position: 'insideBottom', offset: -2, fontSize: 11, fill: '#94A3B8' }} />
               <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={220} />
               <Tooltip
@@ -450,6 +452,7 @@ export default function ExportSection() {
                 {acRegionData.map((_, i) => (
                   <Cell key={i} fill={`hsl(${38 + i * 5}, 80%, ${45 - i * 1.5}%)`} />
                 ))}
+                <LabelList dataKey="value" position="right" style={LABEL_STYLE} />
               </Bar>
             </BarChart>
           </ResponsiveContainer>
@@ -470,6 +473,7 @@ export default function ExportSection() {
                 {levelData.map((entry) => (
                   <Cell key={entry.name} fill={SEVIYE_COLORS_EN[entry.name] ?? '#6B7280'} />
                 ))}
+                <LabelList dataKey="value" position="top" style={LABEL_STYLE} />
               </Bar>
             </BarChart>
           </ResponsiveContainer>
@@ -485,6 +489,7 @@ export default function ExportSection() {
                 {topCourses.map((_, i) => (
                   <Cell key={i} fill={`hsl(172, ${75 - i * 2}%, ${45 - i}%)`} />
                 ))}
+                <LabelList dataKey="value" position="right" style={LABEL_STYLE} />
               </Bar>
             </BarChart>
           </ResponsiveContainer>
@@ -533,28 +538,32 @@ export default function ExportSection() {
 
         <FigureCard id="fig-proj-topics" label="Figure 9" title="Research Topics in Projects">
           <ResponsiveContainer width="100%" height={Math.max(280, projTopicData.length * 28)}>
-            <BarChart data={projTopicData} layout="vertical" margin={{ left: 240, right: 30 }}>
+            <BarChart data={projTopicData} layout="vertical" margin={{ left: 240, right: 50 }}>
               <XAxis type="number" tick={AXIS_TICK} />
               <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={240} />
               <Tooltip
                 formatter={(v: unknown) => [v as number, 'Projects']}
                 contentStyle={TOOLTIP_STYLE}
               />
-              <Bar dataKey="value" fill="#059669" radius={[0, 4, 4, 0]} />
+              <Bar dataKey="value" fill="#059669" radius={[0, 4, 4, 0]}>
+                <LabelList dataKey="value" position="right" style={LABEL_STYLE} />
+              </Bar>
             </BarChart>
           </ResponsiveContainer>
         </FigureCard>
 
         <FigureCard id="fig-proj-regions" label="Figure 10" title="Target Regions in Projects">
           <ResponsiveContainer width="100%" height={Math.max(260, projRegionData.length * 28)}>
-            <BarChart data={projRegionData} layout="vertical" margin={{ left: 220, right: 30 }}>
+            <BarChart data={projRegionData} layout="vertical" margin={{ left: 220, right: 50 }}>
               <XAxis type="number" tick={AXIS_TICK} />
               <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={220} />
               <Tooltip
                 formatter={(v: unknown) => [v as number, 'Projects']}
                 contentStyle={TOOLTIP_STYLE}
               />
-              <Bar dataKey="value" fill="#D97706" radius={[0, 4, 4, 0]} />
+              <Bar dataKey="value" fill="#D97706" radius={[0, 4, 4, 0]}>
+                <LabelList dataKey="value" position="right" style={LABEL_STYLE} />
+              </Bar>
             </BarChart>
           </ResponsiveContainer>
         </FigureCard>
@@ -622,11 +631,13 @@ export default function ExportSection() {
 
         <FigureCard id="fig-quota-top" label="Figure 15" title="Top 15 Departments by 2025 Student Quota">
           <ResponsiveContainer width="100%" height={420}>
-            <BarChart data={top2025} layout="vertical" margin={{ left: 290, right: 40 }}>
+            <BarChart data={top2025} layout="vertical" margin={{ left: 290, right: 60 }}>
               <XAxis type="number" tick={AXIS_TICK} />
               <YAxis type="category" dataKey="bolum" tick={{ fontSize: 10, fill: '#94A3B8' }} width={290} />
               <Tooltip contentStyle={TOOLTIP_STYLE} />
-              <Bar dataKey="kontenjan" name="Quota" fill="#0D9488" radius={[0, 4, 4, 0]} />
+              <Bar dataKey="kontenjan" name="Quota" fill="#0D9488" radius={[0, 4, 4, 0]}>
+                <LabelList dataKey="kontenjan" position="right" style={LABEL_STYLE} />
+              </Bar>
             </BarChart>
           </ResponsiveContainer>
         </FigureCard>
