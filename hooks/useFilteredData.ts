@@ -42,8 +42,9 @@ export function useFilteredData<T extends BaseRecord>(data: T[]): T[] {
       if (cfg.kurum_turu && !kurum_turu.has(rec.kurum_turu)) return false;
 
       // 3. Yıl — sadece year:true olan sectionlar için, boş set = filtre yok
-      if (cfg.year && years.size > 0 && rec.year != null) {
-        if (!years.has(rec.year)) return false;
+      // year=null olan kayıtlar yıl seçiliyken gizlenir, sadece Tümü'nde görünür
+      if (cfg.year && years.size > 0) {
+        if (rec.year == null || !years.has(rec.year)) return false;
       }
 
       // 4. Konu kodu — sadece topic_codes:true olan sectionlar ve filtre seçilmişse
