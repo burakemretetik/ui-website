@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# temporary files
+/exported_charts/
+/exported_svgs/
+/public/data_admin/
+align-all.js
+export-charts.js
+export-svgs.js
+fix-export.js
+fix-interval.js

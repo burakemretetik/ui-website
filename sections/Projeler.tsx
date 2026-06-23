@@ -100,7 +100,7 @@ export default function ProjelerSection() {
           <ResponsiveContainer width="100%" height={240}>
             <BarChart data={konumByTur}>
               <XAxis dataKey="name" tick={{ fontSize: 11 }} />
-              <YAxis tick={{ fontSize: 11 }} />
+              <YAxis interval={0} tick={{ fontSize: 11 }} />
               <Tooltip contentStyle={{ background: '#1E293B', border: '1px solid #334155', borderRadius: 8 }} />
               <Legend />
               {['COST', 'TÜBİTAK 1001', 'Erasmus+', 'Jean Monnet'].map((t) => (
@@ -115,9 +115,9 @@ export default function ProjelerSection() {
         {/* Konu kodları */}
         <ChartCard title="En Çok Çalışılan Konular">
           <ResponsiveContainer width="100%" height={Math.max(280, topicData.length * 28)}>
-            <BarChart data={topicData} layout="vertical" margin={{ left: 280, right: 30 }}>
+            <BarChart data={topicData} layout="vertical" margin={{ left: 290, right: 30 }}>
               <XAxis type="number" tick={{ fontSize: 11 }} />
-              <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={280} />
+              <YAxis type="category" dataKey="name" width={290} tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} />
               <Tooltip contentStyle={{ background: '#1E293B', border: '1px solid #334155', borderRadius: 8 }} />
               <Bar dataKey="value" fill="#059669" radius={[0, 4, 4, 0]} />
             </BarChart>
@@ -127,9 +127,9 @@ export default function ProjelerSection() {
         {/* Bölge kodları */}
         <ChartCard title="Hedeflenen Bölgeler">
           <ResponsiveContainer width="100%" height={Math.max(260, regionData.length * 28)}>
-            <BarChart data={regionData} layout="vertical" margin={{ left: 240, right: 30 }}>
+            <BarChart data={regionData} layout="vertical" margin={{ left: 290, right: 30 }}>
               <XAxis type="number" tick={{ fontSize: 11 }} />
-              <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={240} />
+              <YAxis interval={0} type="category" dataKey="name" width={290} tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} />
               <Tooltip contentStyle={{ background: '#1E293B', border: '1px solid #334155', borderRadius: 8 }} />
               <Bar dataKey="value" fill="#D97706" radius={[0, 4, 4, 0]} />
             </BarChart>

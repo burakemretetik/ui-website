@@ -124,9 +124,9 @@ export default function AkademisyenSection() {
         {/* Unvan × Konum */}
         <ChartCard title="Unvan Dağılımı (Konum Bazlı)">
           <ResponsiveContainer width="100%" height={220}>
-            <BarChart data={unvanData} layout="vertical" margin={{ left: 100, right: 20 }}>
+            <BarChart data={unvanData} layout="vertical" margin={{ left: 290, right: 30 }}>
               <XAxis type="number" tick={{ fontSize: 11 }} />
-              <YAxis type="category" dataKey="name" tick={{ fontSize: 11, fill: '#94A3B8' }} width={100} />
+              <YAxis interval={0} type="category" dataKey="name" width={290} tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} />
               <Tooltip contentStyle={{ background: '#1E293B', border: '1px solid #334155', borderRadius: 8 }} />
               <Legend />
               {(['merkez', 'yari_merkez', 'tasra'] as const).map((k) => (
@@ -141,9 +141,9 @@ export default function AkademisyenSection() {
       {/* Araştırma Konuları */}
       <ChartCard title="En Çok Çalışılan Konular">
         <ResponsiveContainer width="100%" height={Math.max(300, topicData.length * 28)}>
-          <BarChart data={topicData} layout="vertical" margin={{ left: 280, right: 30 }}>
+          <BarChart data={topicData} layout="vertical" margin={{ left: 290, right: 30 }}>
             <XAxis type="number" tick={{ fontSize: 11 }} />
-            <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={280} />
+            <YAxis interval={0} type="category" dataKey="name" width={290} tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} />
             <Tooltip
               formatter={(v: unknown) => [v as number, 'Akademisyen']}
               labelFormatter={(_, payload) => payload?.[0]?.payload?.code ?? ''}
@@ -161,9 +161,9 @@ export default function AkademisyenSection() {
       {/* Bölgeler */}
       <ChartCard title="En Çok Çalışılan Bölgeler">
         <ResponsiveContainer width="100%" height={Math.max(280, regionData.length * 28)}>
-          <BarChart data={regionData} layout="vertical" margin={{ left: 230, right: 30 }}>
+          <BarChart data={regionData} layout="vertical" margin={{ left: 290, right: 30 }}>
             <XAxis type="number" tick={{ fontSize: 11 }} />
-            <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={230} />
+            <YAxis interval={0} type="category" dataKey="name" width={290} tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} />
             <Tooltip
               formatter={(v: unknown) => [v as number, 'Akademisyen']}
               contentStyle={{ background: '#1E293B', border: '1px solid #334155', borderRadius: 8 }}

@@ -28,7 +28,15 @@ export function useFilteredData<T extends BaseRecord>(data: T[]): T[] {
     return data.filter((rec) => {
 
       // 1. Konum — her section için geçerli
-      if (cfg.konum && !konum.has(rec.konum as any)) return false;
+      if (cfg.konum) {
+        if (rec.konum === 'bilinmiyor') {
+          // Eğer 3 konum da seçiliyse (filtre yoksa) bilinmiyor'u göster,
+          // Kullanıcı spesifik bir konum seçtiyse gizle.
+          if (konum.size < 3) return false;
+        } else {
+          if (!konum.has(rec.konum as any)) return false;
+        }
+      }
 
       // 2. Kurum türü — her section için geçerli
       if (cfg.kurum_turu && !kurum_turu.has(rec.kurum_turu)) return false;

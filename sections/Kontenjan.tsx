@@ -73,7 +73,7 @@ export default function KontenjanSection() {
           <ResponsiveContainer width="100%" height={260}>
             <BarChart data={yearlyByKonum}>
               <XAxis dataKey="year" tick={{ fontSize: 11 }} />
-              <YAxis tick={{ fontSize: 11 }} />
+              <YAxis interval={0} tick={{ fontSize: 11 }} />
               <Tooltip contentStyle={{ background: '#1E293B', border: '1px solid #334155', borderRadius: 8 }} />
               <Legend />
               {(['merkez', 'yari_merkez', 'tasra'] as const).map((k) => (
@@ -114,10 +114,19 @@ export default function KontenjanSection() {
 
       {/* En büyük bölümler */}
       <ChartCard title="2025 Yılı En Yüksek Kontenjanlı Bölümler">
-        <ResponsiveContainer width="100%" height={400}>
-          <BarChart data={top2025} layout="vertical" margin={{ left: 280, right: 40 }}>
+        <ResponsiveContainer width="100%" height={480}>
+          <BarChart data={top2025} layout="vertical" margin={{ left: 290, right: 30 }}>
             <XAxis type="number" tick={{ fontSize: 11 }} />
-            <YAxis type="category" dataKey="bolum" tick={{ fontSize: 10, fill: '#94A3B8' }} width={280} />
+            <YAxis 
+              type="category" 
+              dataKey="bolum" 
+              width={290} 
+              tick={(props: any) => (
+                <text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>
+                  {props.payload.value}
+                </text>
+              )} 
+            />
             <Tooltip contentStyle={{ background: '#1E293B', border: '1px solid #334155', borderRadius: 8 }} />
             <Bar dataKey="kontenjan" name="Kontenjan" fill="#0D9488" radius={[0, 4, 4, 0]} />
           </BarChart>

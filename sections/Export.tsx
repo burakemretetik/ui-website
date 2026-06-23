@@ -408,9 +408,15 @@ export default function ExportSection() {
 
         <FigureCard id="fig-title" label="Figure 2" title="Academic Title Distribution by Institutional Location">
           <ResponsiveContainer width="100%" height={280}>
-            <BarChart data={titleData} layout="vertical" margin={{ left: 160, right: 20 }}>
+            <BarChart data={titleData} layout="vertical" margin={{ left: 290, right: 30 }}>
               <XAxis type="number" tick={AXIS_TICK} />
-              <YAxis type="category" dataKey="name" tick={AXIS_TICK} width={160} />
+              <YAxis 
+              interval={0} 
+              type="category" 
+              dataKey="name" 
+              width={290} 
+              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} 
+            />
               <Tooltip contentStyle={TOOLTIP_STYLE} />
               <Legend />
               {(['Centre', 'Semi-Centre', 'Provincial'] as const).map((k) => (
@@ -422,9 +428,15 @@ export default function ExportSection() {
 
         <FigureCard id="fig-topics" label="Figure 3" title="Research Topics Among Academics">
           <ResponsiveContainer width="100%" height={Math.max(320, acTopicData.length * 28)}>
-            <BarChart data={acTopicData} layout="vertical" margin={{ left: 240, right: 50 }}>
+            <BarChart data={acTopicData} layout="vertical" margin={{ left: 290, right: 30 }}>
               <XAxis type="number" tick={AXIS_TICK} label={{ value: 'No. of Academics', position: 'insideBottom', offset: -2, fontSize: 11, fill: '#94A3B8' }} />
-              <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={240} />
+              <YAxis 
+              interval={0} 
+              type="category" 
+              dataKey="name" 
+              width={290} 
+              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} 
+            />
               <Tooltip
                 formatter={(v: unknown) => [v as number, 'Academics']}
                 contentStyle={TOOLTIP_STYLE}
@@ -441,9 +453,15 @@ export default function ExportSection() {
 
         <FigureCard id="fig-regions" label="Figure 4" title="Research Regions Among Academics">
           <ResponsiveContainer width="100%" height={Math.max(300, acRegionData.length * 28)}>
-            <BarChart data={acRegionData} layout="vertical" margin={{ left: 220, right: 50 }}>
+            <BarChart data={acRegionData} layout="vertical" margin={{ left: 290, right: 30 }}>
               <XAxis type="number" tick={AXIS_TICK} label={{ value: 'No. of Academics', position: 'insideBottom', offset: -2, fontSize: 11, fill: '#94A3B8' }} />
-              <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={220} />
+              <YAxis 
+              interval={0} 
+              type="category" 
+              dataKey="name" 
+              width={290} 
+              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} 
+            />
               <Tooltip
                 formatter={(v: unknown) => [v as number, 'Academics']}
                 contentStyle={TOOLTIP_STYLE}
@@ -481,9 +499,15 @@ export default function ExportSection() {
 
         <FigureCard id="fig-courses" label="Figure 6" title="Top 20 Most Widely Offered Courses (by Number of Universities)">
           <ResponsiveContainer width="100%" height={580}>
-            <BarChart data={topCourses} layout="vertical" margin={{ left: 320, right: 60 }}>
+            <BarChart data={topCourses} layout="vertical" margin={{ left: 290, right: 30 }}>
               <XAxis type="number" tick={AXIS_TICK} label={{ value: 'No. of Universities', position: 'insideBottom', offset: -2, fontSize: 11, fill: '#94A3B8' }} />
-              <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={320} />
+              <YAxis 
+              interval={0} 
+              type="category" 
+              dataKey="name" 
+              width={290} 
+              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} 
+            />
               <Tooltip contentStyle={TOOLTIP_STYLE} formatter={(v: unknown) => [v as number, 'Universities']} />
               <Bar dataKey="value" name="Universities" radius={[0, 4, 4, 0]}>
                 {topCourses.map((_, i) => (
@@ -538,9 +562,15 @@ export default function ExportSection() {
 
         <FigureCard id="fig-proj-topics" label="Figure 9" title="Research Topics in Projects">
           <ResponsiveContainer width="100%" height={Math.max(280, projTopicData.length * 28)}>
-            <BarChart data={projTopicData} layout="vertical" margin={{ left: 240, right: 50 }}>
+            <BarChart data={projTopicData} layout="vertical" margin={{ left: 290, right: 30 }}>
               <XAxis type="number" tick={AXIS_TICK} />
-              <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={240} />
+              <YAxis 
+              interval={0} 
+              type="category" 
+              dataKey="name" 
+              width={290} 
+              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} 
+            />
               <Tooltip
                 formatter={(v: unknown) => [v as number, 'Projects']}
                 contentStyle={TOOLTIP_STYLE}
@@ -554,9 +584,15 @@ export default function ExportSection() {
 
         <FigureCard id="fig-proj-regions" label="Figure 10" title="Target Regions in Projects">
           <ResponsiveContainer width="100%" height={Math.max(260, projRegionData.length * 28)}>
-            <BarChart data={projRegionData} layout="vertical" margin={{ left: 220, right: 50 }}>
+            <BarChart data={projRegionData} layout="vertical" margin={{ left: 290, right: 30 }}>
               <XAxis type="number" tick={AXIS_TICK} />
-              <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={220} />
+              <YAxis 
+              interval={0} 
+              type="category" 
+              dataKey="name" 
+              width={290} 
+              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} 
+            />
               <Tooltip
                 formatter={(v: unknown) => [v as number, 'Projects']}
                 contentStyle={TOOLTIP_STYLE}
@@ -631,9 +667,15 @@ export default function ExportSection() {
 
         <FigureCard id="fig-quota-top" label="Figure 15" title="Top 15 Departments by 2025 Student Quota">
           <ResponsiveContainer width="100%" height={420}>
-            <BarChart data={top2025} layout="vertical" margin={{ left: 290, right: 60 }}>
+            <BarChart data={top2025} layout="vertical" margin={{ left: 290, right: 30 }}>
               <XAxis type="number" tick={AXIS_TICK} />
-              <YAxis type="category" dataKey="bolum" tick={{ fontSize: 10, fill: '#94A3B8' }} width={290} />
+              <YAxis 
+              interval={0} 
+              type="category" 
+              dataKey="bolum" 
+              width={290} 
+              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} 
+            />
               <Tooltip contentStyle={TOOLTIP_STYLE} />
               <Bar dataKey="kontenjan" name="Quota" fill="#0D9488" radius={[0, 4, 4, 0]}>
                 <LabelList dataKey="kontenjan" position="right" style={LABEL_STYLE} />

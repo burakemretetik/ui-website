@@ -93,7 +93,7 @@ export default function MufredatSection() {
           <ResponsiveContainer width="100%" height={220}>
             <BarChart data={seviyeStats}>
               <XAxis dataKey="name" tick={{ fontSize: 11 }} />
-              <YAxis tick={{ fontSize: 11 }} />
+              <YAxis interval={0} tick={{ fontSize: 11 }} />
               <Tooltip contentStyle={{ background: '#1E293B', border: '1px solid #334155', borderRadius: 8 }} />
               <Bar dataKey="value" name="Ders Sayısı" radius={[4, 4, 0, 0]}>
                 {seviyeStats.map((entry) => (
@@ -120,9 +120,9 @@ export default function MufredatSection() {
       {/* En sık dersler */}
       <ChartCard title={`En Sık Görülen 20 Ders${seviye !== 'Tümü' ? ` (${seviye})` : ''}`}>
         <ResponsiveContainer width="100%" height={520}>
-          <BarChart data={topDersler} layout="vertical" margin={{ left: 280, right: 60 }}>
+          <BarChart data={topDersler} layout="vertical" margin={{ left: 290, right: 30 }}>
             <XAxis type="number" tick={{ fontSize: 11 }} />
-            <YAxis type="category" dataKey="ders" tick={{ fontSize: 10, fill: '#94A3B8' }} width={280} />
+            <YAxis type="category" dataKey="ders" width={290} tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} />
             <Tooltip
               contentStyle={{ background: '#1E293B', border: '1px solid #334155', borderRadius: 8 }}
               formatter={(v: unknown, name: unknown) => [v as number, (name as string) === 'count' ? 'Üniversite Sayısı' : 'Ort. AKTS']}
