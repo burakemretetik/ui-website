@@ -120,7 +120,10 @@ export default function FilterBar() {
             <div className="flex items-center gap-2 shrink-0">
               <span className="text-xs font-semibold text-slate-400 uppercase tracking-widest whitespace-nowrap">YIL</span>
               <div className="flex gap-1">
-                {Array.from({ length: YEAR_MAX - YEAR_MIN + 1 }, (_, i) => YEAR_MIN + i).map((y) => {
+                {Array.from(
+                  { length: (cfg.yearMax ?? YEAR_MAX) - (cfg.yearMin ?? YEAR_MIN) + 1 },
+                  (_, i) => (cfg.yearMin ?? YEAR_MIN) + i
+                ).map((y) => {
                   const active = years.has(y);
                   return (
                     <button
