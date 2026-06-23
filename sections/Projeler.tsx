@@ -33,24 +33,28 @@ export default function ProjelerSection() {
     });
   }, [data]);
 
-  // Konu kodları
+  // Konu kodları (normalize et, çöp/na filtrele, tümü göster)
   const topicData = useMemo(() => {
     const counts: Record<string, number> = {};
-    data.forEach((p) => p.topic_codes?.forEach((k) => { counts[k] = (counts[k] ?? 0) + 1; }));
+    data.forEach((p) => p.topic_codes?.forEach((raw) => {
+      const k = raw.trim().toUpperCase();
+      if (TOPIC_LABELS[k]) counts[k] = (counts[k] ?? 0) + 1;
+    }));
     return Object.entries(counts)
       .sort((a, b) => b[1] - a[1])
-      .slice(0, 10)
-      .map(([code, value]) => ({ code, name: TOPIC_LABELS[code] ?? code, value }));
+      .map(([code, value]) => ({ code, name: `${code} (${TOPIC_LABELS[code]})`, value }));
   }, [data]);
 
-  // Bölge kodları
+  // Bölge kodları (normalize et, çöp/na filtrele, tümü göster)
   const regionData = useMemo(() => {
     const counts: Record<string, number> = {};
-    data.forEach((p) => p.region_codes?.forEach((b) => { counts[b] = (counts[b] ?? 0) + 1; }));
+    data.forEach((p) => p.region_codes?.forEach((raw) => {
+      const b = raw.trim().toUpperCase();
+      if (REGION_LABELS[b]) counts[b] = (counts[b] ?? 0) + 1;
+    }));
     return Object.entries(counts)
       .sort((a, b) => b[1] - a[1])
-      .slice(0, 10)
-      .map(([code, value]) => ({ code, name: REGION_LABELS[code] ?? code, value }));
+      .map(([code, value]) => ({ code, name: `${code} (${REGION_LABELS[code]})`, value }));
   }, [data]);
 
   // Yıl trendi (Erasmus+ / TÜBİTAK)
@@ -110,10 +114,10 @@ export default function ProjelerSection() {
       <div className="grid lg:grid-cols-2 gap-8">
         {/* Konu kodları */}
         <ChartCard title="En Çok Çalışılan Konular">
-          <ResponsiveContainer width="100%" height={280}>
-            <BarChart data={topicData} layout="vertical" margin={{ left: 200, right: 30 }}>
+          <ResponsiveContainer width="100%" height={Math.max(280, topicData.length * 28)}>
+            <BarChart data={topicData} layout="vertical" margin={{ left: 280, right: 30 }}>
               <XAxis type="number" tick={{ fontSize: 11 }} />
-              <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={200} />
+              <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={280} />
               <Tooltip contentStyle={{ background: '#1E293B', border: '1px solid #334155', borderRadius: 8 }} />
               <Bar dataKey="value" fill="#059669" radius={[0, 4, 4, 0]} />
             </BarChart>
@@ -122,10 +126,10 @@ export default function ProjelerSection() {
 
         {/* Bölge kodları */}
         <ChartCard title="Hedeflenen Bölgeler">
-          <ResponsiveContainer width="100%" height={280}>
-            <BarChart data={regionData} layout="vertical" margin={{ left: 180, right: 30 }}>
+          <ResponsiveContainer width="100%" height={Math.max(260, regionData.length * 28)}>
+            <BarChart data={regionData} layout="vertical" margin={{ left: 240, right: 30 }}>
               <XAxis type="number" tick={{ fontSize: 11 }} />
-              <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={180} />
+              <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={240} />
               <Tooltip contentStyle={{ background: '#1E293B', border: '1px solid #334155', borderRadius: 8 }} />
               <Bar dataKey="value" fill="#D97706" radius={[0, 4, 4, 0]} />
             </BarChart>

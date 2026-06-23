@@ -101,4 +101,10 @@ const NAV_ITEMS = [
     title: 'Vizyon & Misyon',
     desc: 'Devlet–vakıf üniversitelerinin vizyon/misyon kelime analizi ve karşılaştırması.',
   },
+  {
+    href: '/export',
+    emoji: '📑',
+    title: 'Publication Figures',
+    desc: 'English-language charts and tables for academic publication use (Figures 1–15, Tables 1–2).',
+  },
 ];

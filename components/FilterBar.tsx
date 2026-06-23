@@ -128,7 +128,7 @@ export default function FilterBar() {
             <div className="flex items-start gap-2">
               <span className="text-xs font-semibold text-slate-400 uppercase tracking-widest whitespace-nowrap pt-1">Konu</span>
               <div className="flex flex-wrap gap-1">
-                {Object.entries(TOPIC_LABELS).map(([code, label]) => {
+                {Object.entries(TOPIC_LABELS).filter(([code]) => code.startsWith('K')).map(([code, label]) => {
                   const active = topic_codes.includes(code);
                   return (
                     <button
@@ -154,7 +154,7 @@ export default function FilterBar() {
             <div className="flex items-start gap-2">
               <span className="text-xs font-semibold text-slate-400 uppercase tracking-widest whitespace-nowrap pt-1">Bölge</span>
               <div className="flex flex-wrap gap-1">
-                {Object.entries(REGION_LABELS).map(([code, label]) => {
+                {Object.entries(REGION_LABELS).filter(([code]) => code.startsWith('B')).map(([code, label]) => {
                   const active = region_codes.includes(code);
                   return (
                     <button

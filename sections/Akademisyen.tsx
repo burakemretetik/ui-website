@@ -30,36 +30,41 @@ export default function AkademisyenSection() {
     return Object.entries(counts).map(([name, value]) => ({ name, value }));
   }, [data]);
 
-  // — Unvan dağılımı (gruplandırılmış: konum bazlı)
+  // — Unvan dağılımı (‘Diğer’ hariç)
   const unvanData = useMemo(() => {
     const grouped: Record<string, Record<string, number>> = {};
-    UNVAN_ORDER.forEach((u) => { grouped[u] = { merkez: 0, yari_merkez: 0, tasra: 0 }; });
+    UNVAN_ORDER.filter((u) => u !== 'Diğer').forEach((u) => { grouped[u] = { merkez: 0, yari_merkez: 0, tasra: 0 }; });
     data.forEach((a) => {
-      if (grouped[a.unvan]) grouped[a.unvan][a.konum] = (grouped[a.unvan][a.konum] ?? 0) + 1;
+      if (a.unvan !== 'Diğer' && grouped[a.unvan]) grouped[a.unvan][a.konum] = (grouped[a.unvan][a.konum] ?? 0) + 1;
     });
     return UNVAN_ORDER
+      .filter((u) => u !== 'Diğer')
       .map((u) => ({ name: u, ...grouped[u] }))
       .filter((r) => Object.values(r).slice(1).some((v) => (v as unknown as number) > 0));
   }, [data]);
 
-  // — Top K kodları
+  // — Konu kodları (normalize et, çöp/na filtrele, tümü göster)
   const topicData = useMemo(() => {
     const counts: Record<string, number> = {};
-    data.forEach((a) => a.topic_codes?.forEach((k) => { counts[k] = (counts[k] ?? 0) + 1; }));
+    data.forEach((a) => a.topic_codes?.forEach((raw) => {
+      const k = raw.trim().toUpperCase();
+      if (TOPIC_LABELS[k]) counts[k] = (counts[k] ?? 0) + 1;
+    }));
     return Object.entries(counts)
       .sort((a, b) => b[1] - a[1])
-      .slice(0, 12)
-      .map(([code, value]) => ({ code, name: TOPIC_LABELS[code] ?? code, value }));
+      .map(([code, value]) => ({ code, name: `${code} (${TOPIC_LABELS[code]})`, value }));
   }, [data]);
 
-  // — Top B kodları
+  // — Bölge kodları (normalize et, çöp/na filtrele, tümü göster)
   const regionData = useMemo(() => {
     const counts: Record<string, number> = {};
-    data.forEach((a) => a.region_codes?.forEach((b) => { counts[b] = (counts[b] ?? 0) + 1; }));
+    data.forEach((a) => a.region_codes?.forEach((raw) => {
+      const b = raw.trim().toUpperCase();
+      if (REGION_LABELS[b]) counts[b] = (counts[b] ?? 0) + 1;
+    }));
     return Object.entries(counts)
       .sort((a, b) => b[1] - a[1])
-      .slice(0, 12)
-      .map(([code, value]) => ({ code, name: REGION_LABELS[code] ?? code, value }));
+      .map(([code, value]) => ({ code, name: `${code} (${REGION_LABELS[code]})`, value }));
   }, [data]);
 
   // — Konum dağılımı (pie)
@@ -134,11 +139,11 @@ export default function AkademisyenSection() {
       </div>
 
       {/* Araştırma Konuları */}
-      <ChartCard title="En Çok Çalışılan Konular (K Kodları)">
-        <ResponsiveContainer width="100%" height={300}>
-          <BarChart data={topicData} layout="vertical" margin={{ left: 220, right: 30 }}>
+      <ChartCard title="En Çok Çalışılan Konular">
+        <ResponsiveContainer width="100%" height={Math.max(300, topicData.length * 28)}>
+          <BarChart data={topicData} layout="vertical" margin={{ left: 280, right: 30 }}>
             <XAxis type="number" tick={{ fontSize: 11 }} />
-            <YAxis type="category" dataKey="name" tick={{ fontSize: 11, fill: '#94A3B8' }} width={220} />
+            <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={280} />
             <Tooltip
               formatter={(v: unknown) => [v as number, 'Akademisyen']}
               labelFormatter={(_, payload) => payload?.[0]?.payload?.code ?? ''}
@@ -154,11 +159,11 @@ export default function AkademisyenSection() {
       </ChartCard>
 
       {/* Bölgeler */}
-      <ChartCard title="En Çok Çalışılan Bölgeler (B Kodları)">
-        <ResponsiveContainer width="100%" height={300}>
-          <BarChart data={regionData} layout="vertical" margin={{ left: 180, right: 30 }}>
+      <ChartCard title="En Çok Çalışılan Bölgeler">
+        <ResponsiveContainer width="100%" height={Math.max(280, regionData.length * 28)}>
+          <BarChart data={regionData} layout="vertical" margin={{ left: 230, right: 30 }}>
             <XAxis type="number" tick={{ fontSize: 11 }} />
-            <YAxis type="category" dataKey="name" tick={{ fontSize: 11, fill: '#94A3B8' }} width={180} />
+            <YAxis type="category" dataKey="name" tick={{ fontSize: 10, fill: '#94A3B8' }} width={230} />
             <Tooltip
               formatter={(v: unknown) => [v as number, 'Akademisyen']}
               contentStyle={{ background: '#1E293B', border: '1px solid #334155', borderRadius: 8 }}
