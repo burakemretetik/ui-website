@@ -129,9 +129,9 @@ export default function AkademisyenSection() {
         {/* Unvan × Konum */}
         <ChartCard title="Unvan Dağılımı (Konum Bazlı)">
           <ResponsiveContainer width="100%" height={220}>
-            <BarChart data={unvanData} layout="vertical" margin={{ left: 290, right: 30 }}>
+            <BarChart data={unvanData} layout="vertical" margin={{ left: 5, right: 20 }}>
               <XAxis type="number" tick={{ fontSize: 11 }} />
-              <YAxis interval={0} type="category" dataKey="name" width={290} tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} />
+              <YAxis interval={0} type="category" dataKey="name" width={155} tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} />
               <Tooltip contentStyle={{ background: '#1E293B', border: '1px solid #334155', borderRadius: 8 }} />
               <Legend />
               {(['merkez', 'yari_merkez', 'tasra'] as const).map((k) => (

@@ -122,7 +122,7 @@ export default function MufredatSection() {
         <ResponsiveContainer width="100%" height={520}>
           <BarChart data={topDersler} layout="vertical" margin={{ left: 290, right: 30 }}>
             <XAxis type="number" tick={{ fontSize: 11 }} />
-            <YAxis type="category" dataKey="ders" width={290} tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} />
+            <YAxis interval={0} type="category" dataKey="ders" width={290} tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} />
             <Tooltip
               contentStyle={{ background: '#1E293B', border: '1px solid #334155', borderRadius: 8 }}
               formatter={(v: unknown, name: unknown) => [v as number, (name as string) === 'count' ? 'Üniversite Sayısı' : 'Ort. AKTS']}
