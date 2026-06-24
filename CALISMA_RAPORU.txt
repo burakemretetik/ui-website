@@ -1,0 +1,150 @@
+================================================================================
+  TÜRKİYE ULUSLARARASI İLİŞKİLER AKADEMİK EKOSİSTEMİ
+  WEB SİTESİ — ÇALIŞMA RAPORU
+================================================================================
+
+  Proje      : TÜBİTAK 124K418
+  Kurum      : TED Üniversitesi
+  Rapor tarihi: 24 Haziran 2026
+  Repo       : github.com/burakemretetik/ui-website
+
+--------------------------------------------------------------------------------
+  1. GENEL BAKIŞ
+--------------------------------------------------------------------------------
+
+Bu çalışma, Türkiye'deki tüm Uluslararası İlişkiler (Uİ) ve Siyaset Bilimi &
+Uluslararası İlişkiler (SBUİ) bölümlerine ait akademik verileri tek bir
+interaktif web sitesinde görselleştiren bir veri analiz platformudur. Veriler;
+merkez – yarı merkez – taşra ekseni ile devlet – vakıf ayrımı temelinde
+karşılaştırmalı olarak sunulur.
+
+Platformda toplam 7 ayrı veri seti işlenmektedir:
+
+  - 1.707 akademisyen
+  -   707 yayın (435 WoS makale + 272 kitap bölümü)
+  - 4.797 ders kaydı (2.450 benzersiz ders)
+  - 1.101 kontenjan kaydı (2021–2025)
+  -   220 proje (COST, TÜBİTAK 1001, Erasmus+, Jean Monnet)
+  -   117 üniversite vizyon/misyon metni
+  -   120 üniversite (çalışma kapsamı)
+
+--------------------------------------------------------------------------------
+  2. SİTE YAPISI (SAYFALAR)
+--------------------------------------------------------------------------------
+
+  Ana sayfa         : Proje tanıtımı, özet istatistik kartları, bölüm linkleri
+  Akademisyen       : Cinsiyet, unvan, araştırma konusu ve bölge dağılımı
+  Yayın             : Q1–Q4 sıralaması, atıf analizi, kitap bölümleri
+  Kontenjan         : 2021–2025 öğrenci kontenjan trendleri
+  Müfredat          : En yaygın dersler, AKTS ağırlıkları, program düzeyi
+  Projeler          : Tür, konu, bölge ve konum bazlı proje dağılımı
+  Vizyon & Misyon   : Devlet–vakıf üniversitelerinin kelime frekans analizi
+  Üniversiteler     : 120 üniversitenin kategori bazlı açıklamalı listesi
+  Publication Figures: Akademik yayın için İngilizce grafik ve tablolar
+
+Her sayfada, o sayfaya uygun filtreler (konum, kurum türü, yıl, konu kodu,
+bölge kodu) üst çubuktan uygulanabilir ve tüm grafikler anlık güncellenir.
+
+--------------------------------------------------------------------------------
+  3. YAPILAN ÇALIŞMALAR (KRONOLOJİK ÖZET)
+--------------------------------------------------------------------------------
+
+3.1. VERİ HAZIRLAMA (Excel → JSON)
+  - Her veri seti, orijinal Excel dosyalarından (data_admin/) JSON formatına
+    dönüştürüldü. Site bu JSON dosyalarını kullanır.
+  - Türkçe karakter kodlaması (dotted-i vb.) ve üniversite adı tutarsızlıkları
+    ele alındı.
+
+3.2. GÖRSELLEŞTİRME VE GRAFİKLER
+  - Tüm grafikler Recharts kütüphanesi ile oluşturuldu (çubuk, pasta, çizgi,
+    yığılmış çubuk).
+  - Her veri seti için konuma/kuruma/yıla göre kırılımlı grafikler tasarlandı.
+
+3.3. FİLTRELEME SİSTEMİ
+  - Tüm sayfalarda ortak çalışan merkezi bir filtre sistemi kuruldu.
+  - Yıl filtresi, aralık seçiciden tek tek yıl butonlarına dönüştürüldü;
+    "Tümü" seçeneği eklendi.
+  - Her bölüme özgü yıl aralıkları tanımlandı
+    (yayın 2018–2023, kontenjan 2021–2025, projeler 2021–2024).
+
+3.4. HATA DÜZELTMELERİ
+  - Yarım genişlikteki grafik hücrelerinde barların görünmemesi sorunu giderildi
+    (MisyonVizyon, Akademisyen, Projeler).
+  - Akademisyen cinsiyet grafiğinde boş (null) değerler "Bilinmiyor" kategorisine
+    alındı.
+  - Eksik/ölü kod temizliği yapıldı (kullanılmayan grafik kodları, tekrar eden
+    stop-word listeleri).
+
+3.5. ÜNİVERSİTELER SAYFASI (YENİ)
+  - 120 üniversitenin merkez / yarı merkez / taşra kategorilerine göre
+    açıklamalı listelendiği yeni bir sayfa eklendi.
+  - Ana sayfadan bu sayfaya tıklanabilir bağlantı verildi.
+
+3.6. KAYNAK DOĞRULAMA (PROVENANCE)
+  - 7 veri setinin tamamı, satır sayısı düzeyinde orijinal Excel'lere karşı
+    doğrulandı. 6'sı birebir uyuşuyor; misyon-vizyon'daki −5 fark, kapsam-dışı
+    üniversitelerin bilinçli olarak dışarıda bırakılmasından kaynaklanıyor.
+  - Müfredat verisi, parça sheet'ler yerine konsolide/temizlenmiş kaynaktan
+    yeniden üretildi (4.828 → 4.797).
+  - Yayın kitap bölümlerinin kaynağı (kitap sheet'i) tamamlandı.
+
+3.7. FİLTRE DENETİMİ (VERİ KAYBI KONTROLÜ)
+  - Her grafiğin gruplama mantığı, kayıtların %100'ünü kapsayıp kapsamadığına
+    göre tek tek denetlendi.
+  - Bir filtre değişiminde konumu bilinmeyen 272 kitap bölümünün kaybolması
+    sorunu giderildi (artık her zaman görünür).
+  - Müfredat "Ort. AKTS" hesabı düzeltildi (boş AKTS değerleri ortalamayı
+    düşürüyordu; artık yalnızca dolu değerler üzerinden hesaplanır).
+  - Ana sayfa istatistikleri güncel verilerle düzeltildi
+    (ders kaydı 4.797, benzersiz ders 2.450, üniversite 120).
+
+--------------------------------------------------------------------------------
+  4. VERİ KALİTE KONTROLÜ SONUÇLARI
+--------------------------------------------------------------------------------
+
+  - JSON ↔ Excel uyumu : 7/7 doğrulandı (misyon-vizyon farkı bilinçli)
+  - Filtre kaynaklı veri kaybı: yalnızca 1 gerçek sorun bulundu ve düzeltildi
+    (kitap bölümlerinin konum filtresinde kaybolması)
+  - Grafik hesap hatası : 1 adet bulundu ve düzeltildi (Müfredat Ort. AKTS)
+  - Kalan farklar, kaynak veriden gelen ve doğru şekilde işlenen durumlardır
+    (aşağıya bakınız)
+
+--------------------------------------------------------------------------------
+  5. BİLİNEN VERİ KALİTESİ NOTLARI (kaynak kaynaklı — hata değil)
+--------------------------------------------------------------------------------
+
+  - Akademisyen konu/bölge alanlarında ham veride "NA", "KONU ÇALIŞIYOR" gibi
+    yer tutucu metinler var; grafikler yalnızca geçerli kodları (K1–K17, B1–B16)
+    saydığı için bunlar doğru biçimde sayım dışı kalır.
+  - 150 COST projesinin yıl bilgisi kaynakta yoktur; "Yıllara Göre Proje Sayısı"
+    grafiği bu nedenle yalnızca yıl bilgisi olan türleri gösterir.
+  - 157 ders kaydının AKTS değeri kaynakta eksik/bozuktur (yer tutucu veya
+    Excel'in tarihe çevirdiği girdiler); bu kayıtlar null olarak işlenir.
+  - Üniversite adları veri setleri arasında standart değildir (kısaltma, büyük
+    harf, parantezli şehir, yazım hataları). Bu nedenle her kaydın konum/kurum
+    bilgisi kendi kaynak sütunundan alınır.
+  - "Hasan Kalyoncu Üniversitesi" kapsam listesinde iki kez yer alır
+    (120 satır / 119 benzersiz isim).
+
+--------------------------------------------------------------------------------
+  6. TEKNOLOJİ
+--------------------------------------------------------------------------------
+
+  - Çatı        : Next.js (App Router) + TypeScript
+  - Stil        : Tailwind CSS
+  - Grafikler   : Recharts
+  - Durum yönetimi: Zustand (merkezi filtre durumu)
+  - Veri formatı: Statik JSON (build-time), kaynak Excel'ler yerelde
+  - Sürüm kontrolü: Git / GitHub
+
+--------------------------------------------------------------------------------
+  7. İLGİLİ DOSYALAR
+--------------------------------------------------------------------------------
+
+  VERI_DEGISIKLIKLERI.md : Veri setleri üzerindeki tüm değişikliklerin tarihli
+                           ve teknik ayrıntılı günlüğü.
+  CALISMA_RAPORU.txt     : Bu dosya — genel çalışma özeti.
+
+================================================================================
+  Rapor sonu.
+================================================================================
