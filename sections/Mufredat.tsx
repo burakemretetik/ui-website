@@ -25,19 +25,24 @@ export default function MufredatSection() {
 
   // En sık geçen dersler
   const topDersler = useMemo(() => {
-    const counts: Record<string, { count: number; totalAkts: number }> = {};
+    // aktsCount: AKTS'si dolu kayıt sayısı — ortalama yalnızca bunlar üzerinden hesaplanır,
+    // boş AKTS değerleri ortalamayı düşürmesin diye paydaya katılmaz.
+    const counts: Record<string, { count: number; totalAkts: number; aktsCount: number }> = {};
     filtered.forEach((d) => {
-      if (!counts[d.ders_adi]) counts[d.ders_adi] = { count: 0, totalAkts: 0 };
+      if (!counts[d.ders_adi]) counts[d.ders_adi] = { count: 0, totalAkts: 0, aktsCount: 0 };
       counts[d.ders_adi].count++;
-      counts[d.ders_adi].totalAkts += d.akts ?? 0;
+      if (d.akts != null) {
+        counts[d.ders_adi].totalAkts += d.akts;
+        counts[d.ders_adi].aktsCount++;
+      }
     });
     return Object.entries(counts)
       .sort((a, b) => b[1].count - a[1].count)
       .slice(0, 20)
-      .map(([ders, { count, totalAkts }]) => ({
+      .map(([ders, { count, totalAkts, aktsCount }]) => ({
         ders: ders.length > 45 ? ders.slice(0, 45) + '…' : ders,
         count,
-        avgAkts: count > 0 ? +(totalAkts / count).toFixed(1) : 0,
+        avgAkts: aktsCount > 0 ? +(totalAkts / aktsCount).toFixed(1) : 0,
       }));
   }, [filtered]);
 
