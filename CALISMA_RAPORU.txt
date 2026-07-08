@@ -3,147 +3,156 @@
   WEB SİTESİ — ÇALIŞMA RAPORU
 ================================================================================
 
-  Proje      : TÜBİTAK 124K418
-  Kurum      : TED Üniversitesi
-  Rapor tarihi: 24 Haziran 2026
-  Repo       : github.com/burakemretetik/ui-website
+  Proje       : TÜBİTAK 124K418
+  Kurum       : TED Üniversitesi
+  Rapor tarihi : 24 Haziran 2026
+  Repo        : github.com/burakemretetik/ui-website
 
---------------------------------------------------------------------------------
-  1. GENEL BAKIŞ
---------------------------------------------------------------------------------
 
-Bu çalışma, Türkiye'deki tüm Uluslararası İlişkiler (Uİ) ve Siyaset Bilimi &
-Uluslararası İlişkiler (SBUİ) bölümlerine ait akademik verileri tek bir
-interaktif web sitesinde görselleştiren bir veri analiz platformudur. Veriler;
-merkez – yarı merkez – taşra ekseni ile devlet – vakıf ayrımı temelinde
-karşılaştırmalı olarak sunulur.
+GENEL BAKIŞ
 
-Platformda toplam 7 ayrı veri seti işlenmektedir:
+Bu çalışma kapsamında, Türkiye'deki tüm Uluslararası İlişkiler (Uİ) ve Siyaset
+Bilimi & Uluslararası İlişkiler (SBUİ) bölümlerine ait akademik verileri tek bir
+interaktif web sitesinde toplayan ve görselleştiren bir analiz platformu
+geliştirildi. Sitenin temel yaklaşımı, tüm verileri merkez – yarı merkez – taşra
+ekseni ile devlet – vakıf ayrımı temelinde karşılaştırmalı olarak sunmaktır.
+Platform yedi ayrı veri seti üzerine kuruludur: 1.707 akademisyen, 707 yayın,
+4.797 ders kaydı, 1.101 kontenjan kaydı, 220 proje, 117 üniversite vizyon/misyon
+metni ve çalışma kapsamındaki 120 üniversite. Her veri seti, orijinal Excel
+dosyalarından JSON formatına dönüştürülerek siteye işlendi.
 
-  - 1.707 akademisyen
-  -   707 yayın (435 WoS makale + 272 kitap bölümü)
-  - 4.797 ders kaydı (2.450 benzersiz ders)
-  - 1.101 kontenjan kaydı (2021–2025)
-  -   220 proje (COST, TÜBİTAK 1001, Erasmus+, Jean Monnet)
-  -   117 üniversite vizyon/misyon metni
-  -   120 üniversite (çalışma kapsamı)
+Aşağıda her sayfa ve o sayfadaki grafiklerin hangi veriden üretildiği
+açıklanmaktadır.
 
---------------------------------------------------------------------------------
-  2. SİTE YAPISI (SAYFALAR)
---------------------------------------------------------------------------------
 
-  Ana sayfa         : Proje tanıtımı, özet istatistik kartları, bölüm linkleri
-  Akademisyen       : Cinsiyet, unvan, araştırma konusu ve bölge dağılımı
-  Yayın             : Q1–Q4 sıralaması, atıf analizi, kitap bölümleri
-  Kontenjan         : 2021–2025 öğrenci kontenjan trendleri
-  Müfredat          : En yaygın dersler, AKTS ağırlıkları, program düzeyi
-  Projeler          : Tür, konu, bölge ve konum bazlı proje dağılımı
-  Vizyon & Misyon   : Devlet–vakıf üniversitelerinin kelime frekans analizi
-  Üniversiteler     : 120 üniversitenin kategori bazlı açıklamalı listesi
-  Publication Figures: Akademik yayın için İngilizce grafik ve tablolar
+ANA SAYFA
 
-Her sayfada, o sayfaya uygun filtreler (konum, kurum türü, yıl, konu kodu,
-bölge kodu) üst çubuktan uygulanabilir ve tüm grafikler anlık güncellenir.
+Ana sayfa, projeyi tanıtan bir giriş metni, altı özet istatistik kartı
+(akademisyen, makale, kitap bölümü, ders kaydı, proje ve üniversite sayıları) ve
+analiz bölümlerine yönlendiren kartlardan oluşur. Giriş metninin altında,
+çalışmanın kapsamındaki 120 üniversitenin listelendiği sayfaya tıklanabilir bir
+bağlantı bulunur. Bu sayfadaki sayılar doğrudan ilgili veri setlerinin güncel
+kayıt sayılarını yansıtır.
 
---------------------------------------------------------------------------------
-  3. YAPILAN ÇALIŞMALAR (KRONOLOJİK ÖZET)
---------------------------------------------------------------------------------
 
-3.1. VERİ HAZIRLAMA (Excel → JSON)
-  - Her veri seti, orijinal Excel dosyalarından (data_admin/) JSON formatına
-    dönüştürüldü. Site bu JSON dosyalarını kullanır.
-  - Türkçe karakter kodlaması (dotted-i vb.) ve üniversite adı tutarsızlıkları
-    ele alındı.
+AKADEMİSYEN HARİTASI SAYFASI
 
-3.2. GÖRSELLEŞTİRME VE GRAFİKLER
-  - Tüm grafikler Recharts kütüphanesi ile oluşturuldu (çubuk, pasta, çizgi,
-    yığılmış çubuk).
-  - Her veri seti için konuma/kuruma/yıla göre kırılımlı grafikler tasarlandı.
+Bu sayfa akademisyenler veri setinden (1.707 kayıt) üretilir. Sayfanın üstünde
+akademisyenlerin konuma göre (merkez / yarı merkez / taşra) dağılımını gösteren
+üç özet kart yer alır. "Cinsiyet Dağılımı" pasta grafiği cinsiyet alanından
+hesaplanır; boş değerler "Bilinmiyor" olarak gösterilir. "Unvan Dağılımı (Konum
+Bazlı)" grafiği, her akademik unvanın konuma göre kırılımını yığılmış çubuk
+olarak verir. "En Çok Çalışılan Konular" grafiği akademisyenlerin araştırma konu
+kodlarından (K1–K17), "En Çok Çalışılan Bölgeler" grafiği ise bölge kodlarından
+(B1–B16) üretilir; geçerli olmayan kodlar sayım dışı bırakılır.
 
-3.3. FİLTRELEME SİSTEMİ
-  - Tüm sayfalarda ortak çalışan merkezi bir filtre sistemi kuruldu.
-  - Yıl filtresi, aralık seçiciden tek tek yıl butonlarına dönüştürüldü;
-    "Tümü" seçeneği eklendi.
-  - Her bölüme özgü yıl aralıkları tanımlandı
-    (yayın 2018–2023, kontenjan 2021–2025, projeler 2021–2024).
 
-3.4. HATA DÜZELTMELERİ
-  - Yarım genişlikteki grafik hücrelerinde barların görünmemesi sorunu giderildi
-    (MisyonVizyon, Akademisyen, Projeler).
-  - Akademisyen cinsiyet grafiğinde boş (null) değerler "Bilinmiyor" kategorisine
-    alındı.
-  - Eksik/ölü kod temizliği yapıldı (kullanılmayan grafik kodları, tekrar eden
-    stop-word listeleri).
+YAYIN & BİBLİYOMETRİ SAYFASI
 
-3.5. ÜNİVERSİTELER SAYFASI (YENİ)
-  - 120 üniversitenin merkez / yarı merkez / taşra kategorilerine göre
-    açıklamalı listelendiği yeni bir sayfa eklendi.
-  - Ana sayfadan bu sayfaya tıklanabilir bağlantı verildi.
+Bu sayfa yayınlar veri setinden (707 kayıt: 435 makale + 272 kitap bölümü)
+üretilir. Üstte makale sayısı, kitap bölümü sayısı ve toplam atıf özet kartları
+bulunur. "Q Sıralaması × Konum" ve "Q Sıralaması × Kurum Türü" grafikleri,
+makalelerin Q1–Q4 sıralamasını sırasıyla konum ve kurum türüne göre yığılmış
+çubukla gösterir; sıralaması bilinmeyen makaleler "Diğer" kategorisinde yer alır.
+"Yıllara Göre Makale Sayısı" grafiği makalelerin yayın yılından, "En Çok Atıf
+Alan 10 Makale" listesi ise WoS atıf sayısından üretilir. Kitap bölümlerinin
+kaynak veride üniversite/konum bilgisi bulunmadığından, bu kayıtlar konum
+filtresinden bağımsız olarak her zaman sayıma dahil edilir.
 
-3.6. KAYNAK DOĞRULAMA (PROVENANCE)
-  - 7 veri setinin tamamı, satır sayısı düzeyinde orijinal Excel'lere karşı
-    doğrulandı. 6'sı birebir uyuşuyor; misyon-vizyon'daki −5 fark, kapsam-dışı
-    üniversitelerin bilinçli olarak dışarıda bırakılmasından kaynaklanıyor.
-  - Müfredat verisi, parça sheet'ler yerine konsolide/temizlenmiş kaynaktan
-    yeniden üretildi (4.828 → 4.797).
-  - Yayın kitap bölümlerinin kaynağı (kitap sheet'i) tamamlandı.
 
-3.7. FİLTRE DENETİMİ (VERİ KAYBI KONTROLÜ)
-  - Her grafiğin gruplama mantığı, kayıtların %100'ünü kapsayıp kapsamadığına
-    göre tek tek denetlendi.
-  - Bir filtre değişiminde konumu bilinmeyen 272 kitap bölümünün kaybolması
-    sorunu giderildi (artık her zaman görünür).
-  - Müfredat "Ort. AKTS" hesabı düzeltildi (boş AKTS değerleri ortalamayı
-    düşürüyordu; artık yalnızca dolu değerler üzerinden hesaplanır).
-  - Ana sayfa istatistikleri güncel verilerle düzeltildi
-    (ders kaydı 4.797, benzersiz ders 2.450, üniversite 120).
+KONTENJAN ANALİZİ SAYFASI
 
---------------------------------------------------------------------------------
-  4. VERİ KALİTE KONTROLÜ SONUÇLARI
---------------------------------------------------------------------------------
+Bu sayfa kontenjan veri setinden (1.101 kayıt, 2021–2025) üretilir. "Yıllık
+Kontenjan (Konum Bazlı, Yığılmış)" grafiği her yıl için kontenjan toplamını
+konuma göre yığılmış çubukla; "Devlet vs Vakıf Kontenjanı" grafiği aynı toplamı
+kurum türüne göre çizgi grafikle; "Toplam Kontenjan Trendi" grafiği ise yıllık
+genel toplamı tek çizgide gösterir. "2025 Yılı En Yüksek Kontenjanlı Bölümler"
+grafiği, 2025 yılı kayıtlarının bölüm bazında kontenjana göre sıralanmasıyla
+oluşturulur.
 
-  - JSON ↔ Excel uyumu : 7/7 doğrulandı (misyon-vizyon farkı bilinçli)
-  - Filtre kaynaklı veri kaybı: yalnızca 1 gerçek sorun bulundu ve düzeltildi
-    (kitap bölümlerinin konum filtresinde kaybolması)
-  - Grafik hesap hatası : 1 adet bulundu ve düzeltildi (Müfredat Ort. AKTS)
-  - Kalan farklar, kaynak veriden gelen ve doğru şekilde işlenen durumlardır
-    (aşağıya bakınız)
 
---------------------------------------------------------------------------------
-  5. BİLİNEN VERİ KALİTESİ NOTLARI (kaynak kaynaklı — hata değil)
---------------------------------------------------------------------------------
+MÜFREDAT ANALİZİ SAYFASI
 
-  - Akademisyen konu/bölge alanlarında ham veride "NA", "KONU ÇALIŞIYOR" gibi
-    yer tutucu metinler var; grafikler yalnızca geçerli kodları (K1–K17, B1–B16)
-    saydığı için bunlar doğru biçimde sayım dışı kalır.
-  - 150 COST projesinin yıl bilgisi kaynakta yoktur; "Yıllara Göre Proje Sayısı"
-    grafiği bu nedenle yalnızca yıl bilgisi olan türleri gösterir.
-  - 157 ders kaydının AKTS değeri kaynakta eksik/bozuktur (yer tutucu veya
-    Excel'in tarihe çevirdiği girdiler); bu kayıtlar null olarak işlenir.
-  - Üniversite adları veri setleri arasında standart değildir (kısaltma, büyük
-    harf, parantezli şehir, yazım hataları). Bu nedenle her kaydın konum/kurum
-    bilgisi kendi kaynak sütunundan alınır.
-  - "Hasan Kalyoncu Üniversitesi" kapsam listesinde iki kez yer alır
-    (120 satır / 119 benzersiz isim).
+Bu sayfa müfredat veri setinden (4.797 ders kaydı) üretilir. Sayfanın üstündeki
+seviye seçici ile veriler Lisans, Yüksek Lisans ve Doktora düzeyinde
+filtrelenebilir. "Ders Seviyesi Dağılımı" grafiği kayıtların seviyeye göre
+sayısını, "Program Türü Dağılımı" grafiği derslerin Uİ veya SBUİ programına ait
+olma durumunu gösterir. "En Sık Görülen 20 Ders" grafiği, ders adlarının kaç
+üniversitede geçtiğini sayar ve her ders için ortalama AKTS değerini verir;
+ortalama AKTS yalnızca değeri girilmiş kayıtlar üzerinden hesaplanır.
 
---------------------------------------------------------------------------------
-  6. TEKNOLOJİ
---------------------------------------------------------------------------------
 
-  - Çatı        : Next.js (App Router) + TypeScript
-  - Stil        : Tailwind CSS
-  - Grafikler   : Recharts
-  - Durum yönetimi: Zustand (merkezi filtre durumu)
-  - Veri formatı: Statik JSON (build-time), kaynak Excel'ler yerelde
-  - Sürüm kontrolü: Git / GitHub
+PROJELER SAYFASI
 
---------------------------------------------------------------------------------
-  7. İLGİLİ DOSYALAR
---------------------------------------------------------------------------------
+Bu sayfa projeler veri setinden (220 kayıt) üretilir. "Proje Türü Dağılımı" pasta
+grafiği projelerin türünü (COST, TÜBİTAK 1001, Erasmus+, Jean Monnet), "Proje
+Türü × Konum" grafiği bu türlerin konuma göre kırılımını gösterir. "En Çok
+Çalışılan Konular" ve "Hedeflenen Bölgeler" grafikleri projelerin konu ve bölge
+kodlarından üretilir. "Yıllara Göre Proje Sayısı" grafiği projeleri yıla göre
+gösterir; COST projelerinin kaynak veride yıl bilgisi bulunmadığından bu grafik
+yıl bilgisi olan türleri kapsar.
 
-  VERI_DEGISIKLIKLERI.md : Veri setleri üzerindeki tüm değişikliklerin tarihli
-                           ve teknik ayrıntılı günlüğü.
-  CALISMA_RAPORU.txt     : Bu dosya — genel çalışma özeti.
+
+VİZYON & MİSYON SAYFASI
+
+Bu sayfa vizyon/misyon veri setinden (117 üniversite metni) üretilir. Üstteki tab
+ile misyon ve vizyon metinleri arasında geçiş yapılır. "Devlet Üniversiteleri" ve
+"Vakıf Üniversiteleri" grafikleri, ilgili üniversite gruplarının metinlerinde en
+sık geçen kelimeleri (Türkçe dolgu kelimeler ayıklanarak) frekansa göre yatay
+çubukla gösterir. "Devlet vs Vakıf — Kelime Frekansı Karşılaştırması" grafiği iki
+grubu aynı kelimeler üzerinden karşılaştırır. Sayfanın altında her gruptan örnek
+metinler yer alır.
+
+
+ÜNİVERSİTELER SAYFASI
+
+Bu sayfa, çalışma kapsamındaki üniversiteler veri setinden (120 üniversite)
+üretilir. Bir grafik sayfası değil, açıklamalı bir referans sayfasıdır.
+Üniversiteler merkez, yarı merkez ve taşra kategorilerine ayrılarak her kategori
+bir açıklama metniyle birlikte listelenir; yarı merkez kategorisi kendi alt
+gruplarına bölünür. Her üniversitenin devlet/vakıf etiketi gösterilir ve üstte
+toplam, devlet, vakıf ve kategori sayılarını veren özet kartları bulunur.
+
+
+PUBLICATION FIGURES SAYFASI
+
+Bu sayfa, akademik yayında kullanılmak üzere İngilizce hazırlanmış grafik ve
+tablolardan oluşur. Diğer sayfalardan farklı olarak filtrelerden etkilenmez; her
+zaman tüm veri setini gösterir. Toplam 15 figür ve 2 tablo içerir: akademisyen
+verisinden cinsiyet, unvan, konu ve bölge dağılımları (Figür 1–4); müfredat
+verisinden ders seviyesi ve en yaygın dersler (Figür 5–6); proje verisinden tür,
+konum, konu, bölge ve yıl dağılımları (Figür 7–11); kontenjan verisinden konum
+ve kurum bazlı yıllık kontenjanlar, toplam trend ve en yüksek kontenjanlı
+bölümler (Figür 12–15) ile kontenjan özet tabloları (Tablo 1–2).
+
+
+FİLTRELEME SİSTEMİ
+
+Tüm analiz sayfaları, üst kısımda ortak çalışan merkezi bir filtre çubuğu kullanır.
+Kullanıcı konum, kurum türü, yıl, araştırma konusu ve bölge kodu filtrelerini
+seçtiğinde, o sayfadaki tüm grafikler anlık olarak yeniden hesaplanır. Her sayfa
+yalnızca kendisiyle ilgili filtreleri gösterir. Yıl filtresi tek tek yıl
+butonlarından oluşur ve "Tümü" seçeneğiyle tüm yıllar görüntülenebilir; ayrıca
+her bölüme özgü yıl aralıkları tanımlanmıştır (yayın 2018–2023, kontenjan
+2021–2025, projeler 2021–2024).
+
+
+VERİ ALTYAPISI VE DOĞRULAMA
+
+Site, kaynak Excel dosyalarından JSON'a dönüştürülmüş statik veri kullanır.
+Çalışma sonunda yedi veri setinin tamamı, satır sayısı düzeyinde orijinal
+Excel'lere karşı doğrulandı ve grafiklerin filtreleme mantığı, herhangi bir
+kaydın sessizce kaybolup kaybolmadığı açısından denetlendi. Bu denetimde tespit
+edilen sorunlar düzeltildi. Veri tarafındaki tüm değişikliklerin tarihli ve
+teknik ayrıntılı kaydı VERI_DEGISIKLIKLERI.md dosyasında tutulmaktadır.
+
+
+TEKNOLOJİ
+
+Site Next.js (App Router) ve TypeScript ile geliştirildi; arayüz Tailwind CSS,
+grafikler Recharts kütüphanesi, filtre durumu ise Zustand ile yönetilir. Veriler
+build aşamasında statik JSON olarak yüklenir; kaynak Excel dosyaları yerelde
+tutulur. Sürüm kontrolü Git ve GitHub üzerinden yapılır.
 
 ================================================================================
   Rapor sonu.

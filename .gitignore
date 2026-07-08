@@ -40,12 +40,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# temporary files
-/exported_charts/
-/exported_svgs/
-/public/data_admin/
-align-all.js
-export-charts.js
-export-svgs.js
-fix-export.js
-fix-interval.js
+# NOT: Kaynak Excel'ler (public/data_admin/), dışa aktarılan figürler
+# (exported_charts/, exported_svgs/) ve yardımcı scriptler bilinçli olarak
+# repoya dahil edilir — makine değiştirirken kaybolmamaları için izlenirler.
