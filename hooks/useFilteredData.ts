@@ -35,7 +35,8 @@ export function useFilteredData<T extends BaseRecord>(data: T[]): T[] {
       }
 
       // 2. Kurum türü — her section için geçerli
-      if (cfg.kurum_turu && !kurum_turu.has(rec.kurum_turu)) return false;
+      // 'bilinmiyor' kurumlu kayıtlar (ör. üniversitesi eşleşmeyen tezler) her zaman dahil edilir.
+      if (cfg.kurum_turu && rec.kurum_turu !== 'bilinmiyor' && !kurum_turu.has(rec.kurum_turu)) return false;
 
       // 3. Yıl — sadece year:true olan sectionlar için, boş set = filtre yok
       // year=null olan kayıtlar yıl seçiliyken gizlenir, sadece Tümü'nde görünür

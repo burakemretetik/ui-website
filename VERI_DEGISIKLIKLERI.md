@@ -2,7 +2,61 @@
 
 Bu dosya, `public/data/*.json` veri setleri ve grafik mantığı üzerinde yapılan
 kayda değer değişiklikleri kaydeder. Kaynak Excel'ler `public/data_admin/`
-altındadır ve gitignore'ludur (repoya dahil edilmez, yalnızca yereldedir).
+altındadır ve repoda izlenir (tez verisi hariç, bkz. 2026-11-03).
+
+---
+
+## 2026-11-03 — Pelin Hoca'nın istekleri: menü, COST yılları, tezler sayfası; etiket düzeltmesi
+
+### 1. Üst menü (ana sayfa linki)
+- **Yeni:** `components/SiteNav.tsx`, `app/layout.tsx` içinde filtre çubuğunun üstünde.
+  Her sayfada "Ana Sayfa" linki ve tüm bölümlerin linkleri var; aktif sayfa vurgulanır.
+
+### 2. COST projelerinin yılı (`projeler.json`, 150 kayıt)
+- **Önce:** 150 COST projesinin `year` alanı `null` (kaynak Excel'de yıl sütunu yok).
+- **Sonra:** Yıl, COST aksiyon kodundan türetildi. Kodun ilk iki hanesi açık çağrı yılıdır
+  (CA**23**xxx → OC-2023, Mayıs 2024'te onaylandı). Başlangıç yılı = çağrı yılı + 1.
+  Dağılım: 2021: 48, 2022: 25, 2023: 41, 2024: 36.
+- **Not:** Bu tahmini başlangıç yılıdır; kesin başlangıç tarihleri cost.eu'daki aksiyon
+  sayfalarında yazar. Kesin tarih girilirse `projeler.json` doğrudan güncellenebilir.
+- Projeler sayfasındaki "Yıllara Göre Proje Sayısı" grafiği artık COST'u da gösteriyor.
+- TÜBİTAK 1001 (22), Erasmus+ (7), Jean Monnet (41) yılları zaten tamdı; değişmedi.
+
+### 3. Konu ve bölge etiketleri düzeltildi (`lib/constants.ts`, `sections/Export.tsx`)
+- **Sorun:** K/T ve B/R kodlarının sitede gösterilen adları, verinin kodlandığı kod
+  kitabıyla uyuşmuyordu. Kanıt (veriyle karşılaştırma):
+  - Anahtar kelimesinde "göç/mülteci" geçen 86 akademisyenin 77'si K5'e kodlu → sitede
+    K5 "Karşılaştırmalı Siyaset" yazıyordu. Kod kitabında K5 = Uluslararası Göç.
+  - "terör" → K8 (sitede "Çevre & Enerji"), "hukuk/insan hakları" → K9 (sitede "Göç &
+    Mültecilik"), "Balkan" → B5 (sitede "Güney Avrupa"), "Afrika" → B9/B10.
+  - Projeler aynı tabloyu verir: göç → T5, enerji/çevre → T4, barış → T7, dijital → T11.
+- **Çözüm:** Etiketler, tez analizinde ve "Analiz Açıklaması" belgesinde kullanılan kod
+  kitabına göre yazıldı (K1 Teori … K17 Avrupa Birliği; B1 Kuzey Amerika … B16 Türkiye).
+  Kodlar ve sayılar değişmedi, yalnızca adlar.
+- **Etkilenen:** Akademisyen, Projeler, Publication Figures sayfaları ve filtre çubuğu.
+- **Yapılmadı:** `exported_charts/` ve `exported_svgs/` altındaki eski figürler eski
+  etiketleri taşıyor; yeniden üretilmeleri gerekiyor.
+
+### 4. Yeni sayfa: Tezler (`/tezler`, `public/data/tezler.json`)
+- **Kaynak:** Drive › Analizler › Tez & Akademisyen › `TEZ_VERISI (YL ve Doktora).xlsx`
+  (14.112 tez, 2006–2025; 11.659 YL, 2.452 doktora, 1 sanatta yeterlik). 20 MB ve yazar /
+  özet içerdiği için repoya konmadı; siteye yalnızca yıl, tez türü, üniversite, konum,
+  kurum türü, konu ve bölge kodları yazıldı.
+- **Üretim:** `python scripts/tez/tezler_json_uret.py "<xlsx yolu>"`. Konu/bölge atama
+  kuralı `scripts/tez/tez_konu_bolge_analizi.py` ile aynıdır (başlık 10 p, Türkçe özet her
+  geçiş 1 p, eşik 3 p); sayılar Drive'daki tez analiz raporuyla birebir aynıdır
+  (ör. B16 Türkiye 6.121, K3 Güvenlik 5.218).
+- **Bilinmeyenler:** 2.035 tezin üniversitesi kapsam listesiyle eşleşmediği için konum ve
+  kurum türü `bilinmiyor`. Kitap bölümlerindeki kural gibi bu tezler konum/kurum
+  filtresinden bağımsız olarak her zaman sayılır (`hooks/useFilteredData.ts` kurum türü
+  için de güncellendi).
+- **Bilinen sınırlama:** Sözlükteki "AB ", "EU ", "BM ", "UN " anahtarları kodun boşluk
+  kuralı yüzünden hiç eşleşmiyor; AB / Uluslararası Örgütler kısmen düşük sayılıyor olabilir.
+  Drive'daki raporla tutarlılık için düzeltilmedi.
+- Ana sayfaya "Tezler" kartı ve KPI eklendi; "Kontenjan & Tezler" kartı "Kontenjan" oldu
+  (o sayfada tez verisi yoktu).
+- **Filtre:** Yıl filtresi 2006–2025 (20 yıl) için satır kırılımlı hale getirildi; tüm
+  yıllar seçilince otomatik sıfırlama, bölüm aralıkları farklı olduğu için kaldırıldı.
 
 ---
 

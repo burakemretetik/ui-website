@@ -57,7 +57,8 @@ export default function ProjelerSection() {
       .map(([code, value]) => ({ code, name: `${code} (${REGION_LABELS[code]})`, value }));
   }, [data]);
 
-  // Yıl trendi (Erasmus+ / TÜBİTAK)
+  // Yıl trendi (tüm türler). COST yılları aksiyon kodundan türetilmiştir
+  // (CAyy → yy çağrı yılı, başlangıç = yy+1); bkz. VERI_DEGISIKLIKLERI.md
   const yearData = useMemo(() => {
     const counts: Record<number, Record<string, number>> = {};
     data.filter((p) => p.year).forEach((p) => {
@@ -145,11 +146,15 @@ export default function ProjelerSection() {
               <YAxis tick={{ fontSize: 11 }} />
               <Tooltip contentStyle={{ background: '#1E293B', border: '1px solid #334155', borderRadius: 8 }} />
               <Legend />
-              {['Erasmus+', 'TÜBİTAK 1001', 'Jean Monnet'].map((t) => (
+              {['Erasmus+', 'TÜBİTAK 1001', 'Jean Monnet', 'COST'].map((t) => (
                 <Bar key={t} dataKey={t} stackId="a" fill={PROJE_COLORS[t] ?? '#6B7280'} />
               ))}
             </BarChart>
           </ResponsiveContainer>
+          <p className="mt-2 text-xs text-slate-500">
+            COST projelerinin yılı, aksiyon kodundaki çağrı yılından türetilmiş tahmini başlangıç yılıdır
+            (ör. CA22… → 2022 çağrısı → 2023).
+          </p>
         </ChartCard>
       )}
     </div>

@@ -23,45 +23,47 @@ export const KURUM_LABELS: Record<string, string> = {
   vakif:  'Vakıf',
 };
 
-// ── Konu kodları K1–17 (akademisyen) & T1–17 (proje) ────────────────────────
+// ── Konu kodları K1–17 (akademisyen, yayın, tez) & T1–17 (proje) ────────────────
+// Proje kod kitabına göredir (Analiz Açıklaması, 31.12.2025). 03.11.2026'da düzeltildi:
+// önceki etiketler veriyle uyuşmuyordu (bkz. VERI_DEGISIKLIKLERI.md).
 export const TOPIC_LABELS: Record<string, string> = {
-  K1:  'Uluslararası İlişkiler Teorisi',   T1:  'Uluslararası İlişkiler Teorisi',
-  K2:  'Dış Politika',                       T2:  'Dış Politika',
-  K3:  'Güvenlik Çalışmaları',               T3:  'Güvenlik Çalışmaları',
-  K4:  'Uluslararası Politik Ekonomi',      T4:  'Uluslararası Politik Ekonomi',
-  K5:  'Karşılaştırmalı Siyaset',           T5:  'Karşılaştırmalı Siyaset',
-  K6:  'Toplumsal Cinsiyet & Kimlik',     T6:  'Toplumsal Cinsiyet & Kimlik',
-  K7:  'İnsan Hakları',                      T7:  'İnsan Hakları',
-  K8:  'Çevre & Enerji',                    T8:  'Çevre & Enerji',
-  K9:  'Göç & Mültecilik',                  T9:  'Göç & Mültecilik',
-  K10: 'Uluslararası Örgütler',             T10: 'Uluslararası Örgütler',
-  K11: 'Diplomasi & Müzakere',             T11: 'Diplomasi & Müzakere',
-  K12: 'Tarih & Siyasi Tarih',             T12: 'Tarih & Siyasi Tarih',
-  K13: 'Bölge Çalışmaları',                 T13: 'Bölge Çalışmaları',
-  K14: 'Kamu Yönetimi & Yerel Yönetim',   T14: 'Kamu Yönetimi & Yerel Yönetim',
-  K15: 'Kültür & İletişim',                 T15: 'Kültür & İletişim',
-  K16: 'Hukuk & Yönetişim',                T16: 'Hukuk & Yönetişim',
-  K17: 'Avrupa Birliği',                   T17: 'Avrupa Birliği',
+  K1: 'Teori',                     T1: 'Teori',
+  K2: 'Dış Politika',              T2: 'Dış Politika',
+  K3: 'Güvenlik',                  T3: 'Güvenlik',
+  K4: 'Çevre ve Enerji',           T4: 'Çevre ve Enerji',
+  K5: 'Uluslararası Göç',          T5: 'Uluslararası Göç',
+  K6: 'Toplumsal Cinsiyet',        T6: 'Toplumsal Cinsiyet',
+  K7: 'Barış Çalışmaları',         T7: 'Barış Çalışmaları',
+  K8: 'Terör',                     T8: 'Terör',
+  K9: 'Uluslararası Hukuk',        T9: 'Uluslararası Hukuk',
+  K10: 'Uluslararası Örgütler',    T10: 'Uluslararası Örgütler',
+  K11: 'Dijitalleşme ve Medya',    T11: 'Dijitalleşme ve Medya',
+  K12: 'Politik Ekonomi',          T12: 'Politik Ekonomi',
+  K13: 'Kimlik ve Milliyetçilik',  T13: 'Kimlik ve Milliyetçilik',
+  K14: 'Normatif Çalışmalar',      T14: 'Normatif Çalışmalar',
+  K15: 'Küreselleşme',             T15: 'Küreselleşme',
+  K16: 'Yöntem ve Disiplin',       T16: 'Yöntem ve Disiplin',
+  K17: 'Avrupa Birliği',           T17: 'Avrupa Birliği',
 };
 
-// ── Bölge kodları B1–16 (akademisyen) & R1–16 (proje) ───────────────────
+// ── Bölge kodları B1–16 (akademisyen, yayın, tez) & R1–16 (proje) ───────────────
 export const REGION_LABELS: Record<string, string> = {
-  B1:  'Kuzey Amerika',              R1:  'Kuzey Amerika',
-  B2:  'Latin Amerika',              R2:  'Latin Amerika',
-  B3:  'Batı Avrupa',               R3:  'Batı Avrupa',
-  B4:  'Kuzey Avrupa',               R4:  'Kuzey Avrupa',
-  B5:  'Güney Avrupa',               R5:  'Güney Avrupa',
-  B6:  'Afrika',                     R6:  'Afrika',
-  B7:  'Orta Asya',                  R7:  'Orta Asya',
-  B8:  'Ortadoğu',                   R8:  'Ortadoğu',
-  B9:  'Güney Asya',                 R9:  'Güney Asya',
-  B10: 'Afrika (Alt-Sahra)',         R10: 'Afrika (Alt-Sahra)',
-  B11: 'Doğu Asya',                  R11: 'Doğu Asya',
-  B12: 'Güneydoğu Asya',            R12: 'Güneydoğu Asya',
-  B13: 'Okyanusya',                  R13: 'Okyanusya',
-  B14: 'Balkanlar & Doğu Avrupa',   R14: 'Balkanlar & Doğu Avrupa',
-  B15: 'Kafkasya',                   R15: 'Kafkasya',
-  B16: 'Türkiye',                    R16: 'Türkiye',
+  B1: 'Kuzey Amerika',          R1: 'Kuzey Amerika',
+  B2: 'Güney Amerika',          R2: 'Güney Amerika',
+  B3: 'Batı Avrupa',            R3: 'Batı Avrupa',
+  B4: 'Merkez ve Doğu Avrupa',  R4: 'Merkez ve Doğu Avrupa',
+  B5: 'Balkanlar',              R5: 'Balkanlar',
+  B6: 'Asya',                   R6: 'Asya',
+  B7: 'Güney Pasifik',          R7: 'Güney Pasifik',
+  B8: 'Orta Doğu',              R8: 'Orta Doğu',
+  B9: 'Kuzey Afrika',           R9: 'Kuzey Afrika',
+  B10: 'Güney Afrika',          R10: 'Güney Afrika',
+  B11: 'Avrasya',               R11: 'Avrasya',
+  B12: 'Uzak Doğu / Pasifik',   R12: 'Uzak Doğu / Pasifik',
+  B13: 'Karayipler',            R13: 'Karayipler',
+  B14: 'Kutuplar',              R14: 'Kutuplar',
+  B15: 'Rusya',                 R15: 'Rusya',
+  B16: 'Türkiye',               R16: 'Türkiye',
 };
 
 // ── Proje türü renkleri ───────────────────────────────────────────────

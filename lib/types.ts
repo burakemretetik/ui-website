@@ -1,10 +1,12 @@
 // ── Temel filtre alanları — her kayıtta bulunması zorunlu ─────────────
 export type Konum = 'merkez' | 'yari_merkez' | 'tasra' | 'bilinmiyor';
 export type KurumTuru = 'devlet' | 'vakif';
+// Kurum bilgisi olmayan kayıtlar (ör. üniversitesi eşleşmeyen tezler) — filtreden etkilenmez
+export type KurumTuruKayit = KurumTuru | 'bilinmiyor';
 
 export interface BaseRecord {
   konum: Konum;
-  kurum_turu: KurumTuru;
+  kurum_turu: KurumTuruKayit;
   year?: number | null;
   topic_codes?: string[];
   region_codes?: string[];
@@ -51,6 +53,14 @@ export interface Kontenjan extends BaseRecord {
   bolum: string | null;
   year: number;
   kontenjan: number;
+}
+
+// ── Tez (YÖK Ulusal Tez Merkezi, 2006–2025) ──────────────────────────
+// topic_codes / region_codes: tez konu-bölge analiziyle atanır (scripts/tez/)
+export interface Tez extends BaseRecord {
+  year: number;
+  tez_turu: 'Yüksek Lisans' | 'Doktora' | 'Sanatta Yeterlik';
+  universite: string | null;
 }
 
 // ── Müfredat ──────────────────────────────────────────────────────────

@@ -51,7 +51,7 @@ export default function FilterBar() {
   };
 
   return (
-    <div className="sticky top-0 z-50 bg-slate-900/95 backdrop-blur border-b border-slate-700 shadow-lg">
+    <div className="bg-slate-900/95 backdrop-blur border-b border-slate-700">
       <div className="max-w-screen-xl mx-auto px-4 py-3">
         <div className="flex flex-wrap items-start gap-x-6 gap-y-2">
 
@@ -117,9 +117,9 @@ export default function FilterBar() {
 
           {/* ── Yıl ── */}
           {cfg.year && (
-            <div className="flex items-center gap-2 shrink-0">
+            <div className="flex items-start gap-2 min-w-0">
               <span className="text-xs font-semibold text-slate-400 uppercase tracking-widest whitespace-nowrap">YIL</span>
-              <div className="flex gap-1">
+              <div className="flex flex-wrap gap-1">
                 <button
                   onClick={clearYears}
                   className={`px-2 py-0.5 text-xs rounded font-mono transition-all border
