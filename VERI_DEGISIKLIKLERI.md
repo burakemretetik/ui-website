@@ -6,6 +6,31 @@ altındadır ve repoda izlenir (tez verisi hariç, bkz. 2026-11-03).
 
 ---
 
+## 2026-11-03 (öğleden sonra) — Tez sözlüğü düzeltmesi, COST yılları doğrulandı
+
+### Tez sözlüğü: AB / EU / BM (Elif Hoca'nın onayıyla)
+- **Sorun:** `scripts/tez/tez_konu_bolge_analizi.py` sözlüğünde "AB ", "EU ", "BM ", "UN "
+  sonda boşlukla yazılmıştı. Kod her anahtarın iki yanına boşluk eklediği ve metin tek
+  boşluğa indirgendiği için bu dördü hiçbir tezde eşleşmiyordu.
+- **Çözüm:** "AB", "EU" (K17 Avrupa Birliği ve B3 Batı Avrupa), "BM" (K10) boşluksuz yazıldı.
+  **"UN" çıkarıldı:** Türkçe ekle karışıyor ("Covid-19'un" → "COVID UN"); Birleşmiş Milletler
+  zaten "BIRLESMIS MILLETLER" ve "UNITED NATIONS" ile aranıyor.
+- **Etki (14.112 tez):** 827 tezin etiketi değişti, hiçbir tez etiket kaybetmedi.
+  K17 Avrupa Birliği 2.114 → 2.674 (%15,0 → %18,9), B3 Batı Avrupa 3.008 → 3.496
+  (%21,3 → %24,8; Orta Doğu'yu geçip 2. sıra), K10 Uluslararası Örgütler 478 → 589
+  (%3,4 → %4,2). Diğer tüm konu/bölgeler aynı.
+- `tezler.json` yeniden üretildi; Drive › Analizler › Tez & Akademisyen › Tez konu-bölge
+  analizi klasöründeki rapor, 5 grafik ve 2 tablo da aynı kuralla yeniden üretildi.
+- Kaynak: `TEZ_VERISI (YL ve Doktora).xlsx` 3 Kasım 10:17 sürümü. 2 Kasım sürümüyle içerik
+  birebir aynı (yalnızca boş hücre biçimi farklı), sonuca etkisi yok.
+
+### COST yılları doğrulandı
+- İrem'in "Proje Başlangıç Yılı" listesi (150 proje) koddan türetilen yıllarla 150/150 aynı.
+  `projeler.json` değişmedi; `public/data_admin/projeler.xlsx` COST sayfasına
+  "Proje Başlangıç Yılı" sütunu eklendi, Projeler sayfasındaki "tahmini" notu güncellendi.
+
+---
+
 ## 2026-11-03 — Pelin Hoca'nın istekleri: menü, COST yılları, tezler sayfası; etiket düzeltmesi
 
 ### 1. Üst menü (ana sayfa linki)
@@ -50,9 +75,8 @@ altındadır ve repoda izlenir (tez verisi hariç, bkz. 2026-11-03).
   kurum türü `bilinmiyor`. Kitap bölümlerindeki kural gibi bu tezler konum/kurum
   filtresinden bağımsız olarak her zaman sayılır (`hooks/useFilteredData.ts` kurum türü
   için de güncellendi).
-- **Bilinen sınırlama:** Sözlükteki "AB ", "EU ", "BM ", "UN " anahtarları kodun boşluk
-  kuralı yüzünden hiç eşleşmiyor; AB / Uluslararası Örgütler kısmen düşük sayılıyor olabilir.
-  Drive'daki raporla tutarlılık için düzeltilmedi.
+- ~~Bilinen sınırlama: "AB ", "EU ", "BM ", "UN " anahtarları hiç eşleşmiyor.~~ → aynı gün
+  düzeltildi, bkz. aşağıdaki "Tez sözlüğü düzeltmesi".
 - Ana sayfaya "Tezler" kartı ve KPI eklendi; "Kontenjan & Tezler" kartı "Kontenjan" oldu
   (o sayfada tez verisi yoktu).
 - **Filtre:** Yıl filtresi 2006–2025 (20 yıl) için satır kırılımlı hale getirildi; tüm

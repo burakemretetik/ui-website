@@ -17,6 +17,7 @@ PUAN_OZET = 1     # Özette geçerse destekleyici
 ESIK_DEGERI = 3   # Bir tezin bir konuya atanması için gereken min puan
 
 # --- 1. GÜNCELLENMİŞ MASTER BÖLGE SÖZLÜĞÜ ---
+# 03.11.2026: "AB ", "EU " → "AB", "EU" (sondaki boşluk eşleşmeyi engelliyordu)
 BOLGE_SOZLUGU = {
     "B1. Kuzey Amerika": [
         "ABD", "USA", "AMERIKA BIRLESIK", "BIRLESIK DEVLETLER", "UNITED STATES", 
@@ -28,7 +29,7 @@ BOLGE_SOZLUGU = {
         "VENEZUELA", "KOLOMBIYA", "MERCOSUR", "AMAZON"
     ],
     "B3. Batı Avrupa": [
-        "BATI AVRUPA", "AVRUPA", "AB ", "EU ", "ALMANYA", "ALMAN", "FRANSA", "FRANSIZ", 
+        "BATI AVRUPA", "AVRUPA", "AB", "EU", "ALMANYA", "ALMAN", "FRANSA", "FRANSIZ", 
         "INGILTERE", "BIRLESIK KRALLIK", "UK", "ITALYA", "TALYA", "ISPANYA", "SPANYA", 
         "HOLLANDA", "BELCIKA", "LONDRA", "PARIS", "BERLIN", "BREXIT"
     ],
@@ -88,6 +89,7 @@ BOLGE_SOZLUGU = {
 }
 
 # --- 2. GÜNCELLENMİŞ MASTER KONU SÖZLÜĞÜ ---
+# 03.11.2026: "AB ", "EU ", "BM " → boşluksuz; "UN " çıkarıldı (Türkçe ekle karışıyordu)
 KONU_SOZLUGU = {
     "K1. Teori": [
         "TEORI", "KURAM", "REALIZM", "LIBERAL", "INSAACI", "CONSTRUCTIVISM", "HEGEMONYA", 
@@ -132,7 +134,7 @@ KONU_SOZLUGU = {
         "MAHKEME", "AIHM", "ADALET", "YASAL", "SUC", "SOYKIRIM"
     ],
     "K10. Uluslararası Örgütler": [
-        "ORGUT", "ORGANIZATION", "KURULUS", "BIRLESMIS MILLETLER", "BM ", "UN ", 
+        "ORGUT", "ORGANIZATION", "KURULUS", "BIRLESMIS MILLETLER", "BM", 
         "UNITED NATIONS", "KONSEY", "TESKILAT"
     ],
     "K11. Dijitalleşme ve Medya": [
@@ -164,7 +166,7 @@ KONU_SOZLUGU = {
         "AMPIRIK", "BILIMSEL"
     ],
     "K17. Avrupa Birliği": [
-        "AVRUPA BIRLIGI", "AB ", "EU ", "EUROPEAN UNION", "BIRLIK", "UNION", 
+        "AVRUPA BIRLIGI", "AB", "EU", "EUROPEAN UNION", "BIRLIK", "UNION", 
         "ENTEGRASYON", "UYELIK", "GENISLEME", "MUKTESEBAT", "KOPENHAG", 
         "AVRUPALILASMA", "GUMRUK BIRLIGI", "TOPLULUK"
     ]
@@ -300,6 +302,9 @@ def main():
         f.write("- Temizlik: 'Kriz', 'Parti', 'Türk' (tek başına) gibi gürültü kelimeleri çıkarıldı.\n")
         f.write("- Eklemeler: 'Türk Dünyası', 'Blokzincir', 'Sürdürülebilir Kalkınma' eklendi.\n")
         f.write("- Puanlama: Başlıkta geçen kelimeler 10 kat daha değerli sayıldı.\n")
+        f.write("- Düzeltme (03.11.2026): 'AB', 'EU', 'BM' kısaltmaları sözlükte sonda boşlukla yazıldığı için\n"
+                "  hiç eşleşmiyordu; düzeltildi. 'UN' çıkarıldı: Türkçe ekle karışıyordu ('Covid-19'un' → 'COVID UN').\n"
+                "  Birleşmiş Milletler zaten 'BIRLESMIS MILLETLER' ve 'UNITED NATIONS' ile aranıyor.\n")
 
 
     # --- EK ANALİZ (02.11.2026): Merkez / Yarı merkez / Taşra kırılımı ---
