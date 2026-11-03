@@ -57,8 +57,8 @@ export default function ProjelerSection() {
       .map(([code, value]) => ({ code, name: `${code} (${REGION_LABELS[code]})`, value }));
   }, [data]);
 
-  // Yıl trendi (tüm türler). COST yılları aksiyon kodundan türetilmiştir
-  // (CAyy → yy çağrı yılı, başlangıç = yy+1); bkz. VERI_DEGISIKLIKLERI.md
+  // Yıl trendi (tüm türler). COST yılları = proje başlangıç yılı (CAyy → yy+1),
+  // İrem'in listesiyle 150/150 doğrulandı; bkz. VERI_DEGISIKLIKLERI.md
   const yearData = useMemo(() => {
     const counts: Record<number, Record<string, number>> = {};
     data.filter((p) => p.year).forEach((p) => {
@@ -152,8 +152,8 @@ export default function ProjelerSection() {
             </BarChart>
           </ResponsiveContainer>
           <p className="mt-2 text-xs text-slate-500">
-            COST projelerinin yılı, aksiyon kodundaki çağrı yılından türetilmiş tahmini başlangıç yılıdır
-            (ör. CA22… → 2022 çağrısı → 2023).
+            COST projelerinde yıl, proje başlangıç yılıdır (ör. CA22… → 2022 çağrısı → 2023 başlangıç);
+            proje ekibinin listesiyle doğrulanmıştır.
           </p>
         </ChartCard>
       )}
