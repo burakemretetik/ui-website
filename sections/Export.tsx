@@ -365,7 +365,9 @@ export default function ExportSection() {
   // RENDER
   // ════════════════════════════════════════════════════════════════════════
   return (
-    <div className="space-y-20 pb-20">
+    // lang="en": İngilizce figür sayfası. Site lang="tr" olduğu için CSS uppercase
+    // "Figure" kelimesini "FİGURE" yapıyordu.
+    <div lang="en" className="space-y-20 pb-20">
 
       {/* Page header */}
       <div className="pt-6">
@@ -415,10 +417,10 @@ export default function ExportSection() {
               type="category" 
               dataKey="name" 
               width={290} 
-              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} 
+              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={12}>{props.payload.value}</text>)} 
             />
               <Tooltip contentStyle={TOOLTIP_STYLE} />
-              <Legend />
+              <Legend itemSorter={null} />
               {(['Centre', 'Semi-Centre', 'Provincial'] as const).map((k) => (
                 <Bar key={k} dataKey={k} name={k} stackId="a" fill={LOCATION_COLORS_EN[k]} />
               ))}
@@ -428,14 +430,14 @@ export default function ExportSection() {
 
         <FigureCard id="fig-topics" label="Figure 3" title="Research Topics Among Academics">
           <ResponsiveContainer width="100%" height={Math.max(320, acTopicData.length * 28)}>
-            <BarChart data={acTopicData} layout="vertical" margin={{ left: 290, right: 30 }}>
+            <BarChart data={acTopicData} layout="vertical" margin={{ left: 290, right: 30, bottom: 16 }}>
               <XAxis type="number" tick={AXIS_TICK} label={{ value: 'No. of Academics', position: 'insideBottom', offset: -2, fontSize: 11, fill: '#94A3B8' }} />
               <YAxis 
               interval={0} 
               type="category" 
               dataKey="name" 
               width={290} 
-              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} 
+              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={12}>{props.payload.value}</text>)} 
             />
               <Tooltip
                 formatter={(v: unknown) => [v as number, 'Academics']}
@@ -453,14 +455,14 @@ export default function ExportSection() {
 
         <FigureCard id="fig-regions" label="Figure 4" title="Research Regions Among Academics">
           <ResponsiveContainer width="100%" height={Math.max(300, acRegionData.length * 28)}>
-            <BarChart data={acRegionData} layout="vertical" margin={{ left: 290, right: 30 }}>
+            <BarChart data={acRegionData} layout="vertical" margin={{ left: 290, right: 30, bottom: 16 }}>
               <XAxis type="number" tick={AXIS_TICK} label={{ value: 'No. of Academics', position: 'insideBottom', offset: -2, fontSize: 11, fill: '#94A3B8' }} />
               <YAxis 
               interval={0} 
               type="category" 
               dataKey="name" 
               width={290} 
-              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} 
+              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={12}>{props.payload.value}</text>)} 
             />
               <Tooltip
                 formatter={(v: unknown) => [v as number, 'Academics']}
@@ -499,14 +501,14 @@ export default function ExportSection() {
 
         <FigureCard id="fig-courses" label="Figure 6" title="Top 20 Most Widely Offered Courses (by Number of Universities)">
           <ResponsiveContainer width="100%" height={580}>
-            <BarChart data={topCourses} layout="vertical" margin={{ left: 290, right: 30 }}>
+            <BarChart data={topCourses} layout="vertical" margin={{ left: 290, right: 30, bottom: 16 }}>
               <XAxis type="number" tick={AXIS_TICK} label={{ value: 'No. of Universities', position: 'insideBottom', offset: -2, fontSize: 11, fill: '#94A3B8' }} />
               <YAxis 
               interval={0} 
               type="category" 
               dataKey="name" 
               width={290} 
-              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} 
+              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={12}>{props.payload.value}</text>)} 
             />
               <Tooltip contentStyle={TOOLTIP_STYLE} formatter={(v: unknown) => [v as number, 'Universities']} />
               <Bar dataKey="value" name="Universities" radius={[0, 4, 4, 0]}>
@@ -552,7 +554,7 @@ export default function ExportSection() {
               <XAxis dataKey="name" tick={AXIS_TICK} />
               <YAxis tick={AXIS_TICK} />
               <Tooltip contentStyle={TOOLTIP_STYLE} />
-              <Legend />
+              <Legend itemSorter={null} />
               {['COST', 'TÜBİTAK 1001', 'Erasmus+', 'Jean Monnet'].map((t) => (
                 <Bar key={t} dataKey={t} stackId="a" fill={PROJE_COLORS_EN[t] ?? '#6B7280'} />
               ))}
@@ -569,7 +571,7 @@ export default function ExportSection() {
               type="category" 
               dataKey="name" 
               width={290} 
-              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} 
+              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={12}>{props.payload.value}</text>)} 
             />
               <Tooltip
                 formatter={(v: unknown) => [v as number, 'Projects']}
@@ -591,7 +593,7 @@ export default function ExportSection() {
               type="category" 
               dataKey="name" 
               width={290} 
-              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} 
+              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={12}>{props.payload.value}</text>)} 
             />
               <Tooltip
                 formatter={(v: unknown) => [v as number, 'Projects']}
@@ -611,7 +613,7 @@ export default function ExportSection() {
                 <XAxis dataKey="year" tick={AXIS_TICK} />
                 <YAxis tick={AXIS_TICK} allowDecimals={false} />
                 <Tooltip contentStyle={TOOLTIP_STYLE} />
-                <Legend />
+                <Legend itemSorter={null} />
                 {['Erasmus+', 'TÜBİTAK 1001', 'Jean Monnet', 'COST'].map((t) => (
                   <Bar key={t} dataKey={t} stackId="a" fill={PROJE_COLORS_EN[t] ?? '#6B7280'} />
                 ))}
@@ -631,7 +633,7 @@ export default function ExportSection() {
               <XAxis dataKey="year" tick={AXIS_TICK} />
               <YAxis tick={AXIS_TICK} />
               <Tooltip contentStyle={TOOLTIP_STYLE} />
-              <Legend />
+              <Legend itemSorter={null} />
               {(['Centre', 'Semi-Centre', 'Provincial'] as const).map((k) => (
                 <Bar key={k} dataKey={k} name={k} stackId="a" fill={LOCATION_COLORS_EN[k]} />
               ))}
@@ -646,7 +648,7 @@ export default function ExportSection() {
               <XAxis dataKey="year" tick={AXIS_TICK} />
               <YAxis tick={AXIS_TICK} />
               <Tooltip contentStyle={TOOLTIP_STYLE} />
-              <Legend />
+              <Legend itemSorter={null} />
               <Line type="monotone" dataKey="State"       stroke="#1D4ED8" strokeWidth={2} dot />
               <Line type="monotone" dataKey="Foundation"  stroke="#7C3AED" strokeWidth={2} dot />
             </LineChart>
@@ -674,7 +676,7 @@ export default function ExportSection() {
               type="category" 
               dataKey="bolum" 
               width={290} 
-              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} 
+              tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={12}>{props.payload.value}</text>)} 
             />
               <Tooltip contentStyle={TOOLTIP_STYLE} />
               <Bar dataKey="kontenjan" name="Quota" fill="#0D9488" radius={[0, 4, 4, 0]}>
