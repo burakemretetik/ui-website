@@ -18,7 +18,7 @@ export default function HomePage() {
           <p className="text-slate-400 text-lg leading-relaxed">
             Türkiye&apos;deki tüm Uluslararası İlişkiler ve Siyaset Bilimi &amp; Uluslararası
             İlişkiler bölümlerinin akademik haritası. 1.707 akademisyen, 707 yayın,
-            4.797 ders kaydı ve 220 proje verisi üzerinden merkez–yarı merkez–taşra
+            4.797 ders kaydı, 220 proje ve 14.112 lisansüstü tez verisi üzerinden merkez–yarı merkez–taşra
             ekseninde karşılaştırmalı analiz.
           </p>
           <Link
@@ -32,12 +32,13 @@ export default function HomePage() {
 
       {/* KPI kartları */}
       <section>
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-4">
           <StatCard value="1.707" label="Akademisyen" sub="Uİ / SBUİ bölümleri" color="text-teal-400" />
           <StatCard value="435"   label="WoS Makale"  sub="2018–2023" color="text-amber-400" />
           <StatCard value="272"   label="Kitap Bölümü" sub="WoS BKCI-SSH" color="text-amber-400" />
           <StatCard value="4.797" label="Ders Kaydı"  sub="2.450 benzersiz ders" color="text-violet-400" />
           <StatCard value="220"   label="Proje"       sub="COST · TÜBİTAK · Erasmus+" color="text-rose-400" />
+          <StatCard value="14.112" label="Tez"        sub="YL · Doktora, 2006–2025" color="text-sky-400" />
           <StatCard value="120"   label="Üniversite"  sub="Uİ / SBUİ bölümleri" color="text-blue-400" />
         </div>
       </section>
@@ -86,8 +87,14 @@ const NAV_ITEMS = [
   {
     href: '/kontenjan',
     emoji: '📊',
-    title: 'Kontenjan & Tezler',
+    title: 'Kontenjan',
     desc: '2021–2025 öğrenci kontenjan trendleri, bölüm bazlı karşılaştırma.',
+  },
+  {
+    href: '/tezler',
+    emoji: '📜',
+    title: 'Yüksek Lisans & Doktora Tezleri',
+    desc: '14.112 tezin (2006–2025) konu ve bölge analizi; YL–doktora ve merkez–taşra karşılaştırması.',
   },
   {
     href: '/mufredat',

@@ -1,9 +1,6 @@
 'use client';
 import { create } from 'zustand';
 import type { FilterState, Konum, KurumTuru } from '@/lib/types';
-import { YEAR_MIN, YEAR_MAX } from '@/lib/constants';
-
-const ALL_YEARS = Array.from({ length: YEAR_MAX - YEAR_MIN + 1 }, (_, i) => YEAR_MIN + i);
 
 interface FilterActions {
   toggleKonum: (k: Konum) => void;
@@ -61,8 +58,8 @@ export const useFilterStore = create<FilterState & FilterActions>((set) => ({
         next.delete(y);
       } else {
         next.add(y);
-        // Tüm yıllar seçiliyse sıfırla (= filtre yok)
-        if (next.size === ALL_YEARS.length) return { years: new Set<number>() };
+        // Not: Bölümlerin yıl aralıkları farklı (tezler 2006–2025, 20 yıl), bu yüzden
+        // "kaç yıl seçili" sayısına bakıp otomatik sıfırlama yapılmaz.
       }
       return { years: next };
     }),

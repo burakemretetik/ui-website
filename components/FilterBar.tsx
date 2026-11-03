@@ -117,9 +117,9 @@ export default function FilterBar() {
 
           {/* ── Yıl ── */}
           {cfg.year && (
-            <div className="flex items-center gap-2 shrink-0">
+            <div className="flex items-start gap-2 min-w-0">
               <span className="text-xs font-semibold text-slate-400 uppercase tracking-widest whitespace-nowrap">YIL</span>
-              <div className="flex gap-1">
+              <div className="flex flex-wrap gap-1">
                 <button
                   onClick={clearYears}
                   className={`px-2 py-0.5 text-xs rounded font-mono transition-all border

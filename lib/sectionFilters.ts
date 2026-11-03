@@ -8,6 +8,7 @@ export type SectionId =
   | 'mufredat'
   | 'projeler'
   | 'misyon-vizyon'
+  | 'tezler'
   | 'home';
 
 export interface SectionFilterConfig {
@@ -28,4 +29,5 @@ export const SECTION_FILTERS: Record<SectionId, SectionFilterConfig> = {
   mufredat:       { konum: true,  kurum_turu: true,  topic_codes: false, region_codes: false, year: false },
   projeler:       { konum: true,  kurum_turu: true,  topic_codes: true,  region_codes: true,  year: true,  yearMin: 2021, yearMax: 2024 },
   'misyon-vizyon':{ konum: true,  kurum_turu: true,  topic_codes: false, region_codes: false, year: false },
+  tezler:         { konum: true,  kurum_turu: true,  topic_codes: true,  region_codes: true,  year: true,  yearMin: 2006, yearMax: 2025 },
 };
