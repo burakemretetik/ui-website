@@ -51,7 +51,7 @@ export default function FilterBar() {
   };
 
   return (
-    <div className="sticky top-0 z-50 bg-slate-900/95 backdrop-blur border-b border-slate-700 shadow-lg">
+    <div className="bg-slate-900/95 backdrop-blur border-b border-slate-700">
       <div className="max-w-screen-xl mx-auto px-4 py-3">
         <div className="flex flex-wrap items-start gap-x-6 gap-y-2">
 

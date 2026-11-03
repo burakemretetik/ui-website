@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import FilterBar from '@/components/FilterBar';
+import SiteNav from '@/components/SiteNav';
 
 export const metadata: Metadata = {
   title: 'Türkiye Uİ/SBUİ Akademik Haritası',
@@ -19,7 +20,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body className="min-h-screen">
-        <FilterBar />
+        <header className="sticky top-0 z-50 shadow-lg">
+          <SiteNav />
+          <FilterBar />
+        </header>
         <main className="max-w-screen-xl mx-auto px-4 py-10">
           {children}
         </main>
