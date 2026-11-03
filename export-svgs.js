@@ -38,11 +38,14 @@ async function exportChartsSVG() {
     
     // Extract the SVG element's outer HTML
     const svgHtml = await fig.evaluate(el => {
-      const svgEl = el.querySelector('svg');
-      if (!svgEl) return null;
+      // En büyük svg'yi al: figürdeki ilk svg bazen 388 baytlık bir lejant ikonu oluyordu.
+      const svgs = [...el.querySelectorAll('svg')];
+      if (!svgs.length) return null;
+      const area = (s) => { const r = s.getBoundingClientRect(); return r.width * r.height; };
+      const svgEl = svgs.sort((a, b) => area(b) - area(a))[0];
       
       // Inject font-family inline so it looks correct in SVG viewers
-      svgEl.style.fontFamily = 'system-ui, -apple-system, sans-serif';
+      svgEl.style.fontFamily = 'Inter, system-ui, -apple-system, sans-serif';
       svgEl.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
       
       return svgEl.outerHTML;
