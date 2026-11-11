@@ -6,6 +6,31 @@ altındadır ve repoda izlenir (tez verisi hariç, bkz. 2026-11-03).
 
 ---
 
+## 2026-11-11 (öğleden sonra) — Tezlerde boş kalan konum/kurum türü dolduruldu
+
+- **Sorun:** `TEZ_VERISI (YL ve Doktora).xlsx` dosyasında konum (M/YM/T) ve kurum türü,
+  tezdeki üniversite adının `m_ym_t.xlsx` listesindeki adla harfi harfine eşleşmesiyle
+  atanıyordu (Drive › Yedek › `tez_lookup_analizi.py`). Listede kısaltılmış ("Ardahan",
+  "Nevşehir", "Adana alparslan") ya da tezlerde eski adıyla geçen ("Yüzüncü Yıl",
+  "Mustafa Kemal", "Muğla", "Niğde", "Namık Kemal", "Bozok", "Gedik", "İstanbul
+  Kemerburgaz" → Altınbaş) üniversitelerin tezleri sessizce boş kalıyordu.
+- **Çözüm:** `scripts/tez/tez_konum_eslestir.py`. "Üniversitesi" ve "Vakıf" sözcüklerini
+  yok sayıyor, kısaltılmış ve eski adlar için açık bir eşleme tablosu kullanıyor, daha önce
+  dolu değerleri yeniden hesaplayıp eskisiyle karşılaştırıyor (fark: 0) ve listede olup
+  tezle eşleşmeyen ya da listeye benzeyen ama eşleşmeyen adlar için uyarı veriyor (hepsi
+  elle kontrol edildi: Gazi, Fatih, Şehir, İTÜ, Gediz, İstanbul Kent, Cerrahpaşa vb. listede yok).
+- **Etki:** 107 tez (Uşak'ın 1 tezi bilerek dışarıda, listede kategorisi yok).
+  Taşra 1.281 → 1.370, yarı merkez 8.221 → 8.239, bilinmiyor 2.035 → 1.928;
+  devlet 8.740 → 8.840, vakıf 3.337 → 3.344. Konu/bölge etiketleri değişmedi.
+  Ayrıntı: Çankırı Karatekin 35, Nevşehir HBV 26, Muğla 7, Ardahan 6, Niğde 6,
+  Mustafa Kemal 5, FSM Vakıf 5, Yozgat Bozok 4+1, Yüzüncü Yıl 4, Adana ATÜ 3,
+  Namık Kemal 3, Gedik 1, Kemerburgaz 1.
+- `tezler.json` yeniden üretildi. Drive'da TEZ_VERISI'nin yalnızca bu 214 hücresi
+  değişti; tez konu-bölge analizinin raporu ve KONUM tablosu ile "Çıktılar" klasöründeki
+  konum/kurum grafikleri yeniden üretildi.
+
+---
+
 ## 2026-11-11 — Van Yüzüncü Yıl Üniversitesi: taşra → yarı merkez
 
 - **Karar:** Elif Hoca'nın referans listesi ("m/ym/t", kuruluş yılı ve 2006 öncesi/sonrası
