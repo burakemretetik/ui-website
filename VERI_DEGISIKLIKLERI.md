@@ -6,6 +6,28 @@ altındadır ve repoda izlenir (tez verisi hariç, bkz. 2026-11-03).
 
 ---
 
+## 2026-11-11 — Van Yüzüncü Yıl Üniversitesi: taşra → yarı merkez
+
+- **Karar:** Elif Hoca'nın referans listesi ("m/ym/t", kuruluş yılı ve 2006 öncesi/sonrası
+  sütunlu Google E-Tablosu) doğru kaynak kabul edildi. Bu listede Van YYÜ
+  "YARI MERKEZ, DEVLET, 1982, 2006 öncesi"; "Üniversite taşra merkez ayrımı" belgesinde de
+  *Semi-center › Regional Centres* grubunda. Bu yüzden alt kategori "yarı merkez 1"
+  (Akdeniz, Çukurova, İnönü, KTÜ vb. ile aynı grup).
+- Tez analizinde kullanılan `m_ym_t.xlsx` bu referansla satır satır karşılaştırıldı: tek fark
+  referansta kategorisi boş "Uşak Üniversitesi" satırı (olduğu gibi bırakıldı) ve Beykoz'un
+  "VAKIF"/"ÖZEL" yazımı. Akademisyen ve tez verisinde Van zaten yarı merkezdi.
+- **Düzeltilen kaynaklar (`public/data_admin/`):** `universiteler.xlsx` Sayfa1 C115–D115;
+  `misyon_vizyon.xlsx` Sheet1 B112; `mufredat.xlsx` "ders müfredatları" C4531–C4573 ve
+  "ders müfredatı part-3" B1231–B1273; `kontenjanlar.xlsx` Sayfa1 C236. Aynı dosyada
+  Adana ATÜ'nün konumu "-" yazılıydı (C3), "taşra" yapıldı (site verisi zaten taşraydı).
+  Hücreler XML düzeyinde değiştirildi; pivot, biçim ve diğer hücreler aynı.
+- **JSON etkisi:** universiteler taşra 37 → 36, yarı merkez 77 → 78; misyon_vizyon taşra
+  37 → 36; mufredat 43 ders taşra → yarı merkez (taşra 1.468 → 1.425); kontenjanlar 5 kayıt
+  (2021–2025: 50/50/50/55/40). Kontenjan taşra toplamı 2021 2.340, 2025 1.730 (−%26,1);
+  yarı merkez 2021 5.826, 2025 4.696.
+
+---
+
 ## 2026-11-03 (öğleden sonra) — Tez sözlüğü düzeltmesi, COST yılları doğrulandı
 
 ### Tez sözlüğü: AB / EU / BM (Elif Hoca'nın onayıyla)
