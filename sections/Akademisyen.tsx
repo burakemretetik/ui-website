@@ -12,6 +12,7 @@ import EmptyState from '@/components/EmptyState';
 
 // Veriyi JSON'dan yükle (build-time, statik)
 import rawData from '@/public/data/akademisyenler.json';
+import { uniqueCodes } from '@/lib/codes';
 const DATA = rawData as Akademisyen[];
 
 const CINSIYET_COLORS: Record<string, string> = {
@@ -51,8 +52,7 @@ export default function AkademisyenSection() {
   // — Konu kodları (normalize et, çöp/na filtrele, tümü göster)
   const topicData = useMemo(() => {
     const counts: Record<string, number> = {};
-    data.forEach((a) => a.topic_codes?.forEach((raw) => {
-      const k = raw.trim().toUpperCase();
+    data.forEach((a) => uniqueCodes(a.topic_codes).forEach((k) => {
       if (TOPIC_LABELS[k]) counts[k] = (counts[k] ?? 0) + 1;
     }));
     return Object.entries(counts)
@@ -63,8 +63,7 @@ export default function AkademisyenSection() {
   // — Bölge kodları (normalize et, çöp/na filtrele, tümü göster)
   const regionData = useMemo(() => {
     const counts: Record<string, number> = {};
-    data.forEach((a) => a.region_codes?.forEach((raw) => {
-      const b = raw.trim().toUpperCase();
+    data.forEach((a) => uniqueCodes(a.region_codes).forEach((b) => {
       if (REGION_LABELS[b]) counts[b] = (counts[b] ?? 0) + 1;
     }));
     return Object.entries(counts)

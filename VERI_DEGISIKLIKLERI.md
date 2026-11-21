@@ -6,6 +6,21 @@ altındadır ve repoda izlenir (tez verisi hariç, bkz. 2026-11-03).
 
 ---
 
+## 2026-11-22 — Aynı konu/bölge kodu bir kayıtta bir kez sayılıyor
+
+- **Sorun:** 10 akademisyende aynı kod iki kez yazılmıştı (konu: 3 kişi; bölge: 7 kişi). Site
+  bunları iki kez sayıyordu: K13 +2, K12 +1, B16 +4, B3 +2, B4 +1.
+- **Düzeltme:** `akademisyenler.json` içinde bu 10 tekrar kaldırıldı (kaynak Excel aynen duruyor).
+  Ayrıca `lib/codes.ts` → `uniqueCodes()` eklendi; Akademisyen, Projeler ve İngilizce figürler
+  (Figure 3, 4, 9, 10) kodları kayıt başına bir kez sayıyor.
+- **Yeni sayılar:** Türkiye (B16) 947 → 943, Batı Avrupa (B3) 459 → 457, Merkez ve Doğu Avrupa (B4)
+  290 → 289, Kimlik ve Milliyetçilik (K13) 302 → 300, Politik Ekonomi (K12) 159 → 158.
+  Bu hâliyle Pelin Hoca'nın rapordaki bölge yüzdeleri ve Elif Hoca'nın kontrol not defteri
+  birebir tutuyor (ör. merkezde Türkiye 84/123 = %68,3; devlet %61,5; vakıf/özel %81,9).
+  Proje verisinde tekrar yok; proje sayıları değişmedi.
+
+---
+
 ## 2026-11-21 (gece) — Akademisyen konu/bölge kodları büyük harfe çevrildi; kaynak Excel güncellendi
 
 - **Kodlar:** Kaynakta küçük harfle girilmiş 26 konu/bölge kodu (ör. `k17`, `b16`)
