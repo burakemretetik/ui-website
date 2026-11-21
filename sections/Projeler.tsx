@@ -33,6 +33,9 @@ export default function ProjelerSection() {
     });
   }, [data]);
 
+  // Listede olmayan üniversitelerdeki projeler (konum: bilinmiyor) konum grafiğinde yer almaz.
+  const konumsuz = useMemo(() => data.filter((p) => p.konum === 'bilinmiyor').length, [data]);
+
   // Konu kodları (normalize et, çöp/na filtrele, tümü göster)
   const topicData = useMemo(() => {
     const counts: Record<string, number> = {};
@@ -109,6 +112,12 @@ export default function ProjelerSection() {
               ))}
             </BarChart>
           </ResponsiveContainer>
+          {konumsuz > 0 && (
+            <p className="mt-2 text-xs text-slate-500">
+              {konumsuz} proje, çalışma kapsamındaki üniversite listesinde yer almayan üniversitelerde
+              yürütüldüğü için konum grafiğine dahil değildir (diğer grafiklerde sayılır).
+            </p>
+          )}
         </ChartCard>
       </div>
 

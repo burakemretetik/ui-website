@@ -17,7 +17,7 @@ export default function HomePage() {
           </h1>
           <p className="text-slate-400 text-lg leading-relaxed">
             Türkiye&apos;deki tüm Uluslararası İlişkiler ve Siyaset Bilimi &amp; Uluslararası
-            İlişkiler bölümlerinin akademik haritası. 1.707 akademisyen, 707 yayın,
+            İlişkiler bölümlerinin akademik haritası. 1.706 akademisyen, 707 yayın,
             4.797 ders kaydı, 220 proje ve 14.112 lisansüstü tez verisi üzerinden merkez–yarı merkez–taşra
             ekseninde karşılaştırmalı analiz.
           </p>
@@ -33,7 +33,7 @@ export default function HomePage() {
       {/* KPI kartları */}
       <section>
         <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-4">
-          <StatCard value="1.707" label="Akademisyen" sub="Uİ / SBUİ bölümleri" color="text-teal-400" />
+          <StatCard value="1.706" label="Akademisyen" sub="Uİ / SBUİ bölümleri" color="text-teal-400" />
           <StatCard value="435"   label="WoS Makale"  sub="2018–2023" color="text-amber-400" />
           <StatCard value="272"   label="Kitap Bölümü" sub="WoS BKCI-SSH" color="text-amber-400" />
           <StatCard value="4.797" label="Ders Kaydı"  sub="2.450 benzersiz ders" color="text-violet-400" />
