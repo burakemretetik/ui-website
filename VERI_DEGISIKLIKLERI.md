@@ -6,6 +6,21 @@ altındadır ve repoda izlenir (tez verisi hariç, bkz. 2026-11-03).
 
 ---
 
+## 2026-11-21 (gece) — Akademisyen konu/bölge kodları büyük harfe çevrildi; kaynak Excel güncellendi
+
+- **Kodlar:** Kaynakta küçük harfle girilmiş 26 konu/bölge kodu (ör. `k17`, `b16`)
+  `akademisyenler.json` içinde büyük harfe çevrildi. Türkçe Akademisyen sayfası bunları zaten
+  sayıyordu; İngilizce Figure 3 ve 4 ile konu/bölge filtresi saymıyordu. Figure 3/4'te bazı
+  çubuklar 1–4 arttı (ör. K17 252 → 256, B16 943 → 947); artık Türkçe sayfa, İngilizce
+  figürler, Drive'daki akademisyen analizi ve "akademisyen konu-bolge yuzdeleri" dosyası
+  aynı sayıları veriyor. `Export.tsx` de kodları büyük harfe çevirerek sayıyor.
+- **Kaynak Excel:** `data_admin/akademisyenler.xlsx`, Elif Hoca'nın güncel listesiyle
+  değiştirildi: 1.723'lük eski tablodan 267 tez adı ve 577 tez dili aktarıldı, sadece bölge
+  kodu olan 10 kişiye "BÖLGE ÇALIŞIYOR" yazıldı, bir boş satır silindi. Bu alanlar sitede
+  kullanılmadığından başka hiçbir sayı değişmedi (1.706 kişi).
+
+---
+
 ## 2026-11-21 — Akademisyen listesi: unvanı "MA?" olan kişi çıkarıldı; ünvanlar 5 kategori; 5 projenin konumu
 
 - **Akademisyen (Elif Hoca'nın kararı):** İstanbul Bilgi Üniversitesi AB Enstitüsü'nden

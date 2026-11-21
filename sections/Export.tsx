@@ -175,8 +175,9 @@ export default function ExportSection() {
   const acTopicData = useMemo(() => {
     const counts: Record<string, number> = {};
     AKADEMISYEN.forEach((a) =>
-      a.topic_codes?.forEach((k) => {
-        if (k && k !== 'na' && TOPIC_LABEL[k]) counts[k] = (counts[k] ?? 0) + 1;
+      a.topic_codes?.forEach((raw) => {
+        const k = raw?.trim().toUpperCase();
+        if (k && TOPIC_LABEL[k]) counts[k] = (counts[k] ?? 0) + 1;
       })
     );
     return Object.entries(counts)
@@ -188,8 +189,9 @@ export default function ExportSection() {
   const acRegionData = useMemo(() => {
     const counts: Record<string, number> = {};
     AKADEMISYEN.forEach((a) =>
-      a.region_codes?.forEach((b) => {
-        if (b && b !== 'na' && REGION_LABEL[b]) counts[b] = (counts[b] ?? 0) + 1;
+      a.region_codes?.forEach((raw) => {
+        const b = raw?.trim().toUpperCase();
+        if (b && REGION_LABEL[b]) counts[b] = (counts[b] ?? 0) + 1;
       })
     );
     return Object.entries(counts)
