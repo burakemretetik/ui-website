@@ -152,7 +152,7 @@ export default function ExportSection() {
     return Object.entries(counts).map(([name, value]) => ({ name, value }));
   }, []);
 
-  // 2. Title × Location — excluding "Other/Diğer"
+  // 2. Title × Location — five title categories (no "Other")
   const titleData = useMemo(() => {
     const grouped: Record<string, Record<string, number>> = {};
     UNVAN_ORDER.filter((u) => u !== 'Diğer').forEach((u) => {

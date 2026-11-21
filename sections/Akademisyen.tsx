@@ -35,7 +35,7 @@ export default function AkademisyenSection() {
       .map(([name, value]) => ({ name, value }));
   }, [data]);
 
-  // — Unvan dağılımı (‘Diğer’ hariç)
+  // — Unvan dağılımı (5 kategori; veride "Diğer" ünvan yok)
   const unvanData = useMemo(() => {
     const grouped: Record<string, Record<string, number>> = {};
     UNVAN_ORDER.filter((u) => u !== 'Diğer').forEach((u) => { grouped[u] = { merkez: 0, yari_merkez: 0, tasra: 0 }; });

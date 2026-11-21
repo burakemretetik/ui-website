@@ -6,6 +6,26 @@ altındadır ve repoda izlenir (tez verisi hariç, bkz. 2026-11-03).
 
 ---
 
+## 2026-11-21 — Akademisyen listesi: unvanı "MA?" olan kişi çıkarıldı; ünvanlar 5 kategori; 5 projenin konumu
+
+- **Akademisyen (Elif Hoca'nın kararı):** İstanbul Bilgi Üniversitesi AB Enstitüsü'nden
+  elle eklenen, öğretim elemanı unvanı olmayan 1 kişi (unvan "MA?") listeden çıkarıldı.
+  `akademisyenler.xlsx` Sheet1 satır 408 XML düzeyinde silindi (YEDEK sayfası ve diğer
+  hücreler aynı); `akademisyenler.json` 1.707 → 1.706.
+  Etki: kadın 663 → 662, yarı merkez 1.124 → 1.123 (%65,8), taşra %24,5 → %24,6, vakıf
+  490 → 489. Kişinin konu/bölge kodu ve WoS kaydı yoktu; bu analizler değişmedi.
+- **Ünvanlar (Elif Hoca'nın kararı):** Beş kategori: Profesör, Doçent, Dr. Öğr. Üyesi,
+  Araştırma Görevlisi, Öğretim Görevlisi. "Diğer" kategorisi kaldırıldı (`UNVAN_ORDER`).
+  YÖK'te "... (Unvan:Doçent)" yazan 71 kişi Doçent sayılır (site zaten böyle sayıyordu:
+  Doçent 395, Dr. Öğr. Üyesi 472, Öğretim Görevlisi 71).
+- **Projeler:** Kaynakta (EK3) konumu "-" olan, çalışma listesinde bulunmayan
+  üniversitelerdeki 5 proje (Erasmus+ Adıyaman; Jean Monnet İTÜ ve 3 × Anadolu) sitede
+  yanlışlıkla taşra sayılıyordu; `konum: bilinmiyor` yapıldı. Proje Türü × Konum grafiği ve
+  İngilizce Figure 8'de taşra 7 → 2 (Erasmus+ 1, Jean Monnet 1); Projeler sayfasına not eklendi.
+- Ana sayfadaki "1.707" → "1.706". İngilizce figürlerden yalnızca Figure 1 ve 8 değişti.
+
+---
+
 ## 2026-11-11 (öğleden sonra) — Tezlerde boş kalan konum/kurum türü dolduruldu
 
 - **Sorun:** `TEZ_VERISI (YL ve Doktora).xlsx` dosyasında konum (M/YM/T) ve kurum türü,

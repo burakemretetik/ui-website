@@ -87,11 +87,11 @@ export const YEAR_MIN = 2018;
 export const YEAR_MAX = 2025;
 
 // ── Unvan sıralaması (bar chart için) ────────────────────────────────
+// Beş ünvan kategorisi; "Diğer" yok. YÖK'te "... (Unvan:Doçent)" yazanlar Doçent sayılır.
 export const UNVAN_ORDER = [
   'Profesör',
   'Doçent',
   'Dr. Öğr. Üyesi',
   'Araştırma Görevlisi',
   'Öğretim Görevlisi',
-  'Diğer',
 ];
