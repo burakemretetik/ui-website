@@ -14,6 +14,7 @@ import rawKontenjan  from '@/public/data/kontenjanlar.json';
 
 import type { Akademisyen, DersKaydi, Proje, Kontenjan } from '@/lib/types';
 import { UNVAN_ORDER, PROJE_COLORS } from '@/lib/constants';
+import { uniqueCodes } from '@/lib/codes';
 
 const AKADEMISYEN = rawAkademisyen as Akademisyen[];
 const MUFREDAT    = rawMufredat    as DersKaydi[];
@@ -175,9 +176,8 @@ export default function ExportSection() {
   const acTopicData = useMemo(() => {
     const counts: Record<string, number> = {};
     AKADEMISYEN.forEach((a) =>
-      a.topic_codes?.forEach((raw) => {
-        const k = raw?.trim().toUpperCase();
-        if (k && TOPIC_LABEL[k]) counts[k] = (counts[k] ?? 0) + 1;
+      uniqueCodes(a.topic_codes).forEach((k) => {
+        if (TOPIC_LABEL[k]) counts[k] = (counts[k] ?? 0) + 1;
       })
     );
     return Object.entries(counts)
@@ -189,9 +189,8 @@ export default function ExportSection() {
   const acRegionData = useMemo(() => {
     const counts: Record<string, number> = {};
     AKADEMISYEN.forEach((a) =>
-      a.region_codes?.forEach((raw) => {
-        const b = raw?.trim().toUpperCase();
-        if (b && REGION_LABEL[b]) counts[b] = (counts[b] ?? 0) + 1;
+      uniqueCodes(a.region_codes).forEach((b) => {
+        if (REGION_LABEL[b]) counts[b] = (counts[b] ?? 0) + 1;
       })
     );
     return Object.entries(counts)
@@ -259,8 +258,8 @@ export default function ExportSection() {
   const projTopicData = useMemo(() => {
     const counts: Record<string, number> = {};
     PROJELER.forEach((p) =>
-      p.topic_codes?.forEach((k) => {
-        if (k && k !== 'na' && TOPIC_LABEL[k]) counts[k] = (counts[k] ?? 0) + 1;
+      uniqueCodes(p.topic_codes).forEach((k) => {
+        if (TOPIC_LABEL[k]) counts[k] = (counts[k] ?? 0) + 1;
       })
     );
     return Object.entries(counts)
@@ -272,8 +271,8 @@ export default function ExportSection() {
   const projRegionData = useMemo(() => {
     const counts: Record<string, number> = {};
     PROJELER.forEach((p) =>
-      p.region_codes?.forEach((b) => {
-        if (b && b !== 'na' && REGION_LABEL[b]) counts[b] = (counts[b] ?? 0) + 1;
+      uniqueCodes(p.region_codes).forEach((b) => {
+        if (REGION_LABEL[b]) counts[b] = (counts[b] ?? 0) + 1;
       })
     );
     return Object.entries(counts)

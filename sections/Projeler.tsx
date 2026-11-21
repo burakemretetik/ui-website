@@ -7,6 +7,7 @@ import EmptyState from '@/components/EmptyState';
 import { PROJE_COLORS, KONUM_COLORS, KONUM_LABELS, TOPIC_LABELS, REGION_LABELS } from '@/lib/constants';
 import type { Proje } from '@/lib/types';
 import rawData from '@/public/data/projeler.json';
+import { uniqueCodes } from '@/lib/codes';
 const DATA = rawData as Proje[];
 
 export default function ProjelerSection() {
@@ -39,8 +40,7 @@ export default function ProjelerSection() {
   // Konu kodları (normalize et, çöp/na filtrele, tümü göster)
   const topicData = useMemo(() => {
     const counts: Record<string, number> = {};
-    data.forEach((p) => p.topic_codes?.forEach((raw) => {
-      const k = raw.trim().toUpperCase();
+    data.forEach((p) => uniqueCodes(p.topic_codes).forEach((k) => {
       if (TOPIC_LABELS[k]) counts[k] = (counts[k] ?? 0) + 1;
     }));
     return Object.entries(counts)
@@ -51,8 +51,7 @@ export default function ProjelerSection() {
   // Bölge kodları (normalize et, çöp/na filtrele, tümü göster)
   const regionData = useMemo(() => {
     const counts: Record<string, number> = {};
-    data.forEach((p) => p.region_codes?.forEach((raw) => {
-      const b = raw.trim().toUpperCase();
+    data.forEach((p) => uniqueCodes(p.region_codes).forEach((b) => {
       if (REGION_LABELS[b]) counts[b] = (counts[b] ?? 0) + 1;
     }));
     return Object.entries(counts)
