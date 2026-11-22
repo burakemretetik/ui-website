@@ -24,7 +24,7 @@ export interface SectionFilterConfig {
 export const SECTION_FILTERS: Record<SectionId, SectionFilterConfig> = {
   home:           { konum: false, kurum_turu: false, topic_codes: false, region_codes: false, year: false },
   akademisyen:    { konum: true,  kurum_turu: true,  topic_codes: true,  region_codes: true,  year: false },
-  yayin:          { konum: true,  kurum_turu: true,  topic_codes: true,  region_codes: true,  year: true,  yearMin: 2018, yearMax: 2023 },
+  yayin:          { konum: true,  kurum_turu: true,  topic_codes: true,  region_codes: true,  year: true,  yearMin: 2000, yearMax: 2025 },
   kontenjan:      { konum: true,  kurum_turu: true,  topic_codes: false, region_codes: false, year: true,  yearMin: 2021, yearMax: 2025 },
   mufredat:       { konum: true,  kurum_turu: true,  topic_codes: false, region_codes: false, year: false },
   projeler:       { konum: true,  kurum_turu: true,  topic_codes: true,  region_codes: true,  year: true,  yearMin: 2021, yearMax: 2024 },

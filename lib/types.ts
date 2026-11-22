@@ -35,17 +35,7 @@ export interface Akademisyen extends BaseRecord {
 }
 
 // ── Yayın ─────────────────────────────────────────────────────────────
-export interface Yayin extends BaseRecord {
-  pub_type: 'makale' | 'kitap_bolumu';
-  title: string | null;
-  source: string | null;
-  authors: string | null;
-  q_rank: 'Q1' | 'Q2' | 'Q3' | 'Q4' | null;
-  times_cited_wos: number | null;
-  times_cited_all: number | null;
-  wos_index: string | null;
-  language: string | null;
-}
+// Yayın verisi çoklu kurumlu olduğu için BaseRecord'u kullanmaz; tipler ve hesaplar lib/yayin.ts'te.
 
 // ── Kontenjan ─────────────────────────────────────────────────────────
 export interface Kontenjan extends BaseRecord {

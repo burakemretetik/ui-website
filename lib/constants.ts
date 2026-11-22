@@ -74,14 +74,6 @@ export const PROJE_COLORS: Record<string, string> = {
   'Jean Monnet':   '#D97706', // amber-600
 };
 
-// ── Q sıralaması renkleri ─────────────────────────────────────────────
-export const Q_COLORS: Record<string, string> = {
-  Q1: '#065F46',
-  Q2: '#0D9488',
-  Q3: '#D97706',
-  Q4: '#DC2626',
-};
-
 // ── Yıl aralığı ───────────────────────────────────────────────────────
 export const YEAR_MIN = 2018;
 export const YEAR_MAX = 2025;

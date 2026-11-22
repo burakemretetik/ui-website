@@ -17,7 +17,7 @@ export default function HomePage() {
           </h1>
           <p className="text-slate-400 text-lg leading-relaxed">
             Türkiye&apos;deki tüm Uluslararası İlişkiler ve Siyaset Bilimi &amp; Uluslararası
-            İlişkiler bölümlerinin akademik haritası. 1.706 akademisyen, 707 yayın,
+            İlişkiler bölümlerinin akademik haritası. 1.706 akademisyen, 7.240 WoS yayını (2000–2025),
             4.797 ders kaydı, 220 proje ve 14.112 lisansüstü tez verisi üzerinden merkez–yarı merkez–taşra
             ekseninde karşılaştırmalı analiz.
           </p>
@@ -34,8 +34,8 @@ export default function HomePage() {
       <section>
         <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-4">
           <StatCard value="1.706" label="Akademisyen" sub="Uİ / SBUİ bölümleri" color="text-teal-400" />
-          <StatCard value="435"   label="WoS Makale"  sub="2018–2023" color="text-amber-400" />
-          <StatCard value="272"   label="Kitap Bölümü" sub="WoS BKCI-SSH" color="text-amber-400" />
+          <StatCard value="7.240" label="WoS Yayın"   sub="Uİ + Siyaset Bilimi, 2000–2025" color="text-amber-400" />
+          <StatCard value="3.363" label="Uİ Yayını"   sub="International Relations, ESCI dahil" color="text-amber-400" />
           <StatCard value="4.797" label="Ders Kaydı"  sub="2.450 benzersiz ders" color="text-violet-400" />
           <StatCard value="220"   label="Proje"       sub="COST · TÜBİTAK · Erasmus+" color="text-rose-400" />
           <StatCard value="14.112" label="Tez"        sub="YL · Doktora, 2006–2025" color="text-sky-400" />
@@ -82,7 +82,7 @@ const NAV_ITEMS = [
     href: '/yayin',
     emoji: '📄',
     title: 'Yayın & Bibliyometri',
-    desc: 'Q1–Q4 yayın dağılımı, atıf analizi, kitap bölümleri.',
+    desc: 'Web of Science yayınları (2000–2025), dört InCites grubu: kurum konumu ve türü, konu ve bölge, atıf etkisi (CNCI).',
   },
   {
     href: '/kontenjan',
