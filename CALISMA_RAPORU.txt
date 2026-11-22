@@ -16,7 +16,7 @@ Bilimi & Uluslararası İlişkiler (SBUİ) bölümlerine ait akademik verileri t
 interaktif web sitesinde toplayan ve görselleştiren bir analiz platformu
 geliştirildi. Sitenin temel yaklaşımı, tüm verileri merkez – yarı merkez – taşra
 ekseni ile devlet – vakıf ayrımı temelinde karşılaştırmalı olarak sunmaktır.
-Platform yedi ayrı veri seti üzerine kuruludur: 1.707 akademisyen, 707 yayın,
+Platform yedi ayrı veri seti üzerine kuruludur: 1.707 akademisyen, 7.240 yayın,
 4.797 ders kaydı, 1.101 kontenjan kaydı, 220 proje, 117 üniversite vizyon/misyon
 metni ve çalışma kapsamındaki 120 üniversite. Her veri seti, orijinal Excel
 dosyalarından JSON formatına dönüştürülerek siteye işlendi.
@@ -49,15 +49,25 @@ kodlarından (K1–K17), "En Çok Çalışılan Bölgeler" grafiği ise bölge k
 
 YAYIN & BİBLİYOMETRİ SAYFASI
 
-Bu sayfa yayınlar veri setinden (707 kayıt: 435 makale + 272 kitap bölümü)
-üretilir. Üstte makale sayısı, kitap bölümü sayısı ve toplam atıf özet kartları
-bulunur. "Q Sıralaması × Konum" ve "Q Sıralaması × Kurum Türü" grafikleri,
-makalelerin Q1–Q4 sıralamasını sırasıyla konum ve kurum türüne göre yığılmış
-çubukla gösterir; sıralaması bilinmeyen makaleler "Diğer" kategorisinde yer alır.
-"Yıllara Göre Makale Sayısı" grafiği makalelerin yayın yılından, "En Çok Atıf
-Alan 10 Makale" listesi ise WoS atıf sayısından üretilir. Kitap bölümlerinin
-kaynak veride üniversite/konum bilgisi bulunmadığından, bu kayıtlar konum
-filtresinden bağımsız olarak her zaman sayıma dahil edilir.
+(22.11.2026'da yenilendi.) Bu sayfa Web of Science / InCites yayınlarından
+(2000–2025) üretilir. Veri dört gruptan oluşur ve sayfanın üstündeki "Veri grubu"
+menüsünden seçilir: Uluslararası İlişkiler (ESCI dahil 3.363, ESCI hariç 2.895
+yayın) ve Siyaset Bilimi (ESCI dahil 4.936, ESCI hariç 3.179 yayın). Atıf ve CNCI
+değerleri her grubun kendi InCites çıktısından gelir; aynı yayının değeri gruplar
+arasında farklı olabilir. Konu, bölge, kurum konumu ve kurum türü kodları Accession
+Number ile kodlama sayfasından aktarılmıştır.
+
+Özet kartlar yayın sayısını, makale + derleme sayısını, toplam atıfı, CNCI
+ortalamasını (medyanıyla) ve alanında en çok atıf alan %10'a giren yayınların
+payını verir. Grafikler: yıllara göre yayın sayısı; kurum konumu ve kurum türü
+dağılımı; kurum konumunun dönemlere göre payı; konu (K1–K17) ve bölge (B1–B16)
+dağılımı; kurum konumu, kurum türü ve dönemlere göre CNCI; işbirliği türü; en çok
+atıf alan 10 makale/derleme; dört grubun seçili filtrelerle karşılaştırması.
+Sayımlar tüm belge türleriyle, atıf göstergeleri yalnız makale ve derlemeyle
+yapılır. Bir yayının birden çok kurumu olabildiğinden, bir yayın her konum ve
+kurum türü kategorisinde en fazla bir kez sayılır. Konum veya kurum türü filtresi
+daraltıldığında yalnız seçili kategoride kurumu olan yayınlar gösterilir. Sayfadaki
+sayılar Drive'daki "Yayın analizi (2000-2025)" tablolarıyla birebir aynıdır.
 
 
 KONTENJAN ANALİZİ SAYFASI
@@ -133,7 +143,7 @@ Kullanıcı konum, kurum türü, yıl, araştırma konusu ve bölge kodu filtrel
 seçtiğinde, o sayfadaki tüm grafikler anlık olarak yeniden hesaplanır. Her sayfa
 yalnızca kendisiyle ilgili filtreleri gösterir. Yıl filtresi tek tek yıl
 butonlarından oluşur ve "Tümü" seçeneğiyle tüm yıllar görüntülenebilir; ayrıca
-her bölüme özgü yıl aralıkları tanımlanmıştır (yayın 2018–2023, kontenjan
+her bölüme özgü yıl aralıkları tanımlanmıştır (yayın 2000–2025, kontenjan
 2021–2025, projeler 2021–2024).
 
 

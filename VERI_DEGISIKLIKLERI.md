@@ -6,6 +6,31 @@ altındadır ve repoda izlenir (tez verisi hariç, bkz. 2026-11-03).
 
 ---
 
+## 2026-11-22 — Yayın sayfası yenilendi: 2000–2025 InCites verisi, dört veri grubu
+
+- **Eski veri kaldırıldı:** 707 kayıtlık eski `yayinlar.json` (2018–2023, Q sıralamalı makale ve kitap
+  bölümleri) ve kaynağı `public/data_admin/yayinlar.xlsx` silindi; Q grafikleri kaldırıldı.
+- **Yeni veri:** Elif Hoca'nın `2000-2025.xlsx` dosyasındaki son dört sayfa (InCites): Uİ ESCI dahil
+  3.363, Uİ ESCI hariç 2.895, SB ESCI dahil 4.936, SB ESCI hariç 3.179 yayın (toplam 7.240 benzersiz).
+  Konu, bölge, konum ve kurum türü kodları "remove duplicate tümü" sayfasından Accession Number ile
+  aktarıldı. JSON `scripts/yayin/build_yayinlar.py` ile üretilir; kaynak Excel'ler (InCites
+  dışa aktarımı) Drive'da, "Yayın analizi (2000-2025)" klasöründe durur ve repoya konmadı.
+- **Kurallar:** sayımlar tüm belge türleriyle; atıf, CNCI ve en çok atıf alan %10 yalnız Article +
+  Review ile. Bir yayın her konum, kurum türü, konu ve bölge kategorisinde en fazla bir kez sayılır.
+  "-----" ve "—" kodları kodlanmamış sayılır. Ayrıntılar Drive'daki karar notunda.
+- **Filtre:** yayınların birden çok kurumu olduğu için yayın sayfası `useFilteredData` yerine
+  `lib/yayin.ts` → `filtrele()` kullanır. Üç konumun (iki kurum türünün) hepsi seçiliyken filtre
+  uygulanmaz; seçim daraltılınca yalnız seçili kategoride kurumu olan yayınlar kalır. Yıl filtresi
+  2000–2025.
+- **Doğrulama:** `lib/yayin.ts` fonksiyonları Node'da çalıştırılıp Drive'daki tablolarla
+  karşılaştırıldı (dört grup; genel etki, konum, tür, konu, bölge sayıları ve konum/tür/dönem/konu/
+  bölge filtreli etki göstergeleri; 460 kontrol): fark yok. Gösterim yuvarlaması numpy ile aynı
+  (`yuvarla`), bu yüzden sınır değerlerde de tablolarla aynı sayı görünür.
+- **Ana sayfa:** "435 WoS Makale" ve "272 Kitap Bölümü" kartları "7.240 WoS Yayın" ve
+  "3.363 Uİ Yayını" ile değiştirildi.
+
+---
+
 ## 2026-11-22 — Aynı konu/bölge kodu bir kayıtta bir kez sayılıyor
 
 - **Sorun:** 10 akademisyende aynı kod iki kez yazılmıştı (konu: 3 kişi; bölge: 7 kişi). Site
