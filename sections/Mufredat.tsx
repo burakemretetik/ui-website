@@ -6,7 +6,9 @@ import SectionHeader from '@/components/SectionHeader';
 import EmptyState from '@/components/EmptyState';
 import type { DersKaydi, Seviye } from '@/lib/types';
 import rawData from '@/public/data/mufredat.json';
+import { enSikDersler, gorunenAdlar } from '@/lib/dersAdi';
 const DATA = rawData as DersKaydi[];
+const ADLAR = gorunenAdlar(DATA);
 
 const SEVIYE_COLORS: Record<Seviye, string> = {
   'Lisans':        '#0D9488',
@@ -23,28 +25,17 @@ export default function MufredatSection() {
     [data, seviye]
   );
 
-  // En sık geçen dersler
-  const topDersler = useMemo(() => {
-    // aktsCount: AKTS'si dolu kayıt sayısı — ortalama yalnızca bunlar üzerinden hesaplanır,
-    // boş AKTS değerleri ortalamayı düşürmesin diye paydaya katılmaz.
-    const counts: Record<string, { count: number; totalAkts: number; aktsCount: number }> = {};
-    filtered.forEach((d) => {
-      if (!counts[d.ders_adi]) counts[d.ders_adi] = { count: 0, totalAkts: 0, aktsCount: 0 };
-      counts[d.ders_adi].count++;
-      if (d.akts != null) {
-        counts[d.ders_adi].totalAkts += d.akts;
-        counts[d.ders_adi].aktsCount++;
-      }
-    });
-    return Object.entries(counts)
-      .sort((a, b) => b[1].count - a[1].count)
-      .slice(0, 20)
-      .map(([ders, { count, totalAkts, aktsCount }]) => ({
-        ders: ders.length > 45 ? ders.slice(0, 45) + '…' : ders,
-        count,
-        avgAkts: aktsCount > 0 ? +(totalAkts / aktsCount).toFixed(1) : 0,
-      }));
-  }, [filtered]);
+  // En sık geçen dersler: yazım farkları birleştirilir, dersin geçtiği farklı üniversite sayılır
+  // (Drive'daki müfredat analiziyle aynı kural; bkz. lib/dersAdi.ts).
+  const topDersler = useMemo(() =>
+    enSikDersler(filtered, ADLAR, 20).map((d) => ({
+      ders: d.ders.length > 45 ? d.ders.slice(0, 45) + '…' : d.ders,
+      count: d.universite,
+      kayit: d.kayit,
+      avgAkts: d.ortAkts,
+    })),
+    [filtered]
+  );
 
   // Seviye dağılımı
   const seviyeStats = useMemo(() => {
@@ -123,14 +114,20 @@ export default function MufredatSection() {
       </div>
 
       {/* En sık dersler */}
-      <ChartCard title={`En Sık Görülen 20 Ders${seviye !== 'Tümü' ? ` (${seviye})` : ''}`}>
+      <ChartCard
+        title={`En Sık Görülen 20 Ders${seviye !== 'Tümü' ? ` (${seviye})` : ''}`}
+        note="Dersin geçtiği farklı üniversite sayısı. Yalnız yazımı farklı ders adları birleştirildi (ör. TÜRK DILI 1 = Türk Dili I). Ortalama AKTS yalnız AKTS'si girilmiş (0'dan büyük) kayıtlarla."
+      >
         <ResponsiveContainer width="100%" height={520}>
           <BarChart data={topDersler} layout="vertical" margin={{ left: 290, right: 30 }}>
             <XAxis type="number" tick={{ fontSize: 11 }} />
             <YAxis interval={0} type="category" dataKey="ders" width={290} tick={(props: any) => (<text x={props.x - 5} y={props.y} dy={3} textAnchor="end" fill="#94A3B8" fontSize={10}>{props.payload.value}</text>)} />
             <Tooltip
               contentStyle={{ background: '#1E293B', border: '1px solid #334155', borderRadius: 8 }}
-              formatter={(v: unknown, name: unknown) => [v as number, (name as string) === 'count' ? 'Üniversite Sayısı' : 'Ort. AKTS']}
+              formatter={(v: unknown, _n: unknown, item: { payload?: { kayit: number; avgAkts: number | null } }) => [
+                `${v as number} üniversite · ${item.payload?.kayit} kayıt · ort. ${item.payload?.avgAkts != null ? item.payload.avgAkts.toLocaleString('tr-TR', { maximumFractionDigits: 1 }) : '–'} AKTS`,
+                'Yaygınlık',
+              ]}
             />
             <Bar dataKey="count" name="count" fill="#0D9488" radius={[0, 4, 4, 0]}>
               {topDersler.map((_, i) => (
@@ -144,10 +141,11 @@ export default function MufredatSection() {
   );
 }
 
-function ChartCard({ title, children }: { title: string; children: React.ReactNode }) {
+function ChartCard({ title, note, children }: { title: string; note?: string; children: React.ReactNode }) {
   return (
     <div className="bg-slate-800/40 border border-slate-700 rounded-xl p-5">
-      <h3 className="text-sm font-semibold text-slate-300 mb-4">{title}</h3>
+      <h3 className={`text-sm font-semibold text-slate-300 ${note ? 'mb-1' : 'mb-4'}`}>{title}</h3>
+      {note && <p className="text-[11px] text-slate-500 mb-4">{note}</p>}
       {children}
     </div>
   );

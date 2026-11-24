@@ -87,9 +87,14 @@ Bu sayfa müfredat veri setinden (4.797 ders kaydı) üretilir. Sayfanın üstü
 seviye seçici ile veriler Lisans, Yüksek Lisans ve Doktora düzeyinde
 filtrelenebilir. "Ders Seviyesi Dağılımı" grafiği kayıtların seviyeye göre
 sayısını, "Program Türü Dağılımı" grafiği derslerin Uİ veya SBUİ programına ait
-olma durumunu gösterir. "En Sık Görülen 20 Ders" grafiği, ders adlarının kaç
-üniversitede geçtiğini sayar ve her ders için ortalama AKTS değerini verir;
-ortalama AKTS yalnızca değeri girilmiş kayıtlar üzerinden hesaplanır.
+olma durumunu gösterir. "En Sık Görülen 20 Ders" grafiği, her dersin kaç farklı
+üniversitede geçtiğini sayar. Yalnız yazımı farklı ders adları aynı ders sayılır
+(büyük/küçük harf, Türkçe karakter, noktalama ve sondaki 1/I, 2/II farkı; ör.
+"TÜRK DILI 1" ile "Türk Dili I"); adı farklı dersler birleştirilmez. Grafikte
+dersin veride en sık geçen yazımı görünür. Üzerine gelindiğinde kayıt sayısı ve
+ortalama AKTS da görülür; ortalama AKTS yalnızca AKTS'si girilmiş ve 0'dan büyük
+kayıtlarla hesaplanır. Bu kurallar Drive'daki müfredat analiziyle (24.11.2026)
+aynıdır ve sonuçlar o analizin tablolarıyla birebir tutar.
 
 
 PROJELER SAYFASI
