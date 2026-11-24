@@ -6,6 +6,28 @@ altındadır ve repoda izlenir (tez verisi hariç, bkz. 2026-11-03).
 
 ---
 
+## 2026-11-24 — Müfredat: bozuk AKTS hücreleri düzeltildi, en sık dersler üniversite sayısıyla
+
+- **Sorun:** Kaynak Excel'de 41 AKTS hücresi tarih biçimindeydi: "7.5" ve "6.5" yazılan hücreler
+  7 Mayıs / 6 Mayıs tarihine dönmüştü (Excel'de 45784 / 45783 sayısı, hücre biçimi "g.a").
+  Excel'de "7.5" görünüyordu ama kodla okununca 45784 geliyordu; JSON'a da AKTS'siz (null) girmişti.
+- **Düzeltme:** `public/data_admin/mufredat.xlsx` içinde yalnız bu 41 hücre 7,5 (38 hücre) ve 6,5
+  (3 hücre) sayısına çevrildi; başka hücreye dokunulmadı. `public/data/mufredat.json` içinde aynı
+  41 kaydın `akts` alanı güncellendi (`scripts/mufredat/akts_guncelle.py`; kayıtların Excel ile
+  aynı sırada olduğunu satır satır kontrol eder, yalnız AKTS'yi yazar).
+- **En sık dersler (Müfredat sayfası ve İngilizce Figure 6):** artık dersin geçtiği farklı üniversite
+  sayılıyor (önce Müfredat sayfası kayıt sayıyordu). Yalnız yazımı farklı adlar birleşiyor:
+  büyük/küçük harf, Türkçe karakter (I/İ/ı), noktalama, sondaki 1/I … 4/IV (`lib/dersAdi.ts`).
+  Ortalama AKTS yalnız AKTS > 0 kayıtlarla. Kural Drive'daki müfredat analiziyle aynı.
+- **Ana sayfa:** "2.450 benzersiz ders" yazım farklarını ayrı ders sayıyordu; aynı kuralla
+  "1.918 farklı ders" yapıldı.
+- **Doğrulama:** `lib/dersAdi.ts` Node'da çalıştırılıp Drive'daki "Ders sıklığı" tablosuyla
+  karşılaştırıldı (3 düzey × 4 konum, ilk 50 ders; ders adı, üniversite, kayıt, ort. AKTS; 508
+  kontrol): fark yok. Örnek: Lisans'ta Türk Dili I 77, Atatürk İlkeleri ve İnkılap Tarihi I 74
+  üniversite.
+
+---
+
 ## 2026-11-22 — Yayın sayfası yenilendi: 2000–2025 InCites verisi, dört veri grubu
 
 - **Eski veri kaldırıldı:** 707 kayıtlık eski `yayinlar.json` (2018–2023, Q sıralamalı makale ve kitap

@@ -9,6 +9,7 @@ import {
 // ── Data imports ─────────────────────────────────────────────────────────
 import rawAkademisyen from '@/public/data/akademisyenler.json';
 import rawMufredat    from '@/public/data/mufredat.json';
+import { enSikDersler, gorunenAdlar } from '@/lib/dersAdi';
 import rawProjeler   from '@/public/data/projeler.json';
 import rawKontenjan  from '@/public/data/kontenjanlar.json';
 
@@ -110,21 +111,6 @@ const TOOLTIP_STYLE = { background: '#1E293B', border: '1px solid #334155', bord
 const AXIS_TICK  = { fontSize: 11, fill: '#94A3B8' };
 const LABEL_STYLE = { fontSize: 10, fill: '#94A3B8' };
 
-// ── Course name normalization ─────────────────────────────────────────────
-// Groups spelling variants caused by I/İ encoding differences and digit vs.
-// Roman numeral suffixes (e.g. "TÜRK DİLİ I" ≡ "TÜRK DILI 1").
-function normalizeCourse(name: string): string {
-  // Normalize Turkish dotted İ → I before uppercasing so JS locale doesn't matter
-  let s = name.trim().replace(/İ/g, 'I').replace(/ı/g, 'i');
-  s = s.toUpperCase();
-  // Ensure space before a trailing digit run (e.g. "TARIHI1" → "TARIHI 1")
-  s = s.replace(/([A-ZÇĞÖŞÜ])(\d+)\s*$/, '$1 $2');
-  // Normalize trailing Roman numeral II → 2, I → 1 so digit/Roman variants merge
-  s = s.replace(/\s+II\s*$/, ' 2');
-  s = s.replace(/\s+I\s*$/,  ' 1');
-  return s.trim();
-}
-
 // ── Code label helpers — always display T/R prefix regardless of source prefix ──
 // K1→T1, K12→T12 ; B1→R1, B14→R14 ; T1 stays T1 ; R1 stays R1
 function topicLabel(code: string): string {
@@ -212,21 +198,14 @@ export default function ExportSection() {
     return Object.entries(s).map(([name, value]) => ({ name, value }));
   }, []);
 
-  // 6. Top 20 courses — normalized to merge I/İ and digit/Roman variants
-  const topCourses = useMemo(() => {
-    const counts: Record<string, number> = {};
-    MUFREDAT.forEach((d) => {
-      const key = normalizeCourse(d.ders_adi);
-      counts[key] = (counts[key] ?? 0) + 1;
-    });
-    return Object.entries(counts)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 20)
-      .map(([name, value]) => ({
-        name: name.length > 52 ? name.slice(0, 52) + '…' : name,
-        value,
-      }));
-  }, []);
+  // 6. Top 20 courses — number of distinct universities; spelling variants merged
+  //    (same rule as the Drive curriculum analysis, lib/dersAdi.ts)
+  const topCourses = useMemo(() =>
+    enSikDersler(MUFREDAT, gorunenAdlar(MUFREDAT), 20).map((d) => ({
+      name: d.ders.length > 52 ? d.ders.slice(0, 52) + '…' : d.ders,
+      value: d.universite,
+    })),
+  []);
 
   // ════════════════════════════════════════════════════════════════════════
   // PROJELER DATA

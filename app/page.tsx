@@ -36,7 +36,7 @@ export default function HomePage() {
           <StatCard value="1.706" label="Akademisyen" sub="Uİ / SBUİ bölümleri" color="text-teal-400" />
           <StatCard value="7.240" label="WoS Yayın"   sub="Uİ + Siyaset Bilimi, 2000–2025" color="text-amber-400" />
           <StatCard value="3.363" label="Uİ Yayını"   sub="International Relations, ESCI dahil" color="text-amber-400" />
-          <StatCard value="4.797" label="Ders Kaydı"  sub="2.450 benzersiz ders" color="text-violet-400" />
+          <StatCard value="4.797" label="Ders Kaydı"  sub="1.918 farklı ders" color="text-violet-400" />
           <StatCard value="220"   label="Proje"       sub="COST · TÜBİTAK · Erasmus+" color="text-rose-400" />
           <StatCard value="14.112" label="Tez"        sub="YL · Doktora, 2006–2025" color="text-sky-400" />
           <StatCard value="120"   label="Üniversite"  sub="Uİ / SBUİ bölümleri" color="text-blue-400" />
